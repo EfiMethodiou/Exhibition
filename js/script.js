@@ -62,7 +62,7 @@ function gotoLevel2(){
 /*________________LEVEL2_______PAGE____________*/
 /*Go back to main page*/
 function backToMain(){
-    window.location.href = "../main.html";
+    window.location.href = "../index.html";
 }
 
 /*
