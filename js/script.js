@@ -8,11 +8,11 @@
 */
 
 
-/*timer for level_0 to disappear*/
+/*timer for level_0 to disappear
 setTimeout(function () {
     $(".level_0").fadeToggle();
-    window.location.href = "main.html";
-}, 4500);
+    window.location.href = "html/main.html";
+}, 4500);*/
 
 /*________________MAIN_______PAGE__________*/
 /*Open popups from the menu*/
@@ -53,7 +53,7 @@ function closePopCapt(){
 }
 /*Go to level2 page*/
 function gotoLevel2(){
-    window.location.href = "level_2.html";
+    window.location.href = "html/level_2.html";
 }
 
 
@@ -62,7 +62,7 @@ function gotoLevel2(){
 /*________________LEVEL2_______PAGE____________*/
 /*Go back to main page*/
 function backToMain(){
-    window.location.href = "main.html";
+    window.location.href = "../main.html";
 }
 
 /*
