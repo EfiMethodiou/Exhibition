@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+#level_3_joanna_hoffmann_andre_bartetzki {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(12, 11, 11, 1);
+}
+/*_______________________________________________________*/
+.slider_container{
+  /*background-color: rebeccapurple;*/
+  position: absolute;  
+  bottom: 20%;
+  left: 10%;
+  width:75%;
+  height: 12%;
+}
+.slider {
+  /*background-color: rosybrown;*/
+  position: relative;
+  float: left;
+  padding: 5px;
+  width: 90%;
+  height: 100%;  
+  overflow: hidden;
+}
+.slider_items {
+  display: table;
+  top: 20%;
+  padding-left: 7%;
+  margin: 0 auto;
+  position: relative;  
+}
+
+ul {
+  list-style-type: none;
+  display: inline;
+}
+li {
+  display: inline;
+  position: relative;
+  padding-left: 1.5%;
+}
+li #item {
+  width: 8%;
+  padding-right: -1%;
+  padding-bottom: 1%;
+}
+#greenGroup{
+  padding-left: 10%;
+}
+#violetGroup a{
+  background-color: red;
+  border-radius: 50%;
+}
+#violetGroup #item:hover{
+  border: 2px solid #812298;
+}
+
+
+
+
+/*____________________________*/
+.left_arrow{
+  cursor: pointer;
+  width: 4%;
+  float: left;
+  padding-right: 1%;
+  padding-top: 1.1%;
+  
+}
+.right_arrow{
+  opacity: 0.5;
+  cursor: pointer;
+  width: 4%;
+  float: right;
+  padding-right: 1%; 
+  padding-top: 1%; 
+}

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Exhibition</title>
+	<!--Loader scripts-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;400&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/main/level_0.css">
+	<link rel="stylesheet" href="css/main/main.css">
+	<link rel="stylesheet" href="css/main/hamburger.css">
+	<link rel="stylesheet" href="css/main/about_asn.css">
+	<link rel="stylesheet" href="css/main/rhizonet.css">
+	<link rel="stylesheet" href="css/main/popup_capture.css"> 
+
+</head>
+
+<body>
+	<!--
+	<div class="level_0" id="level_0">
+		<img id="Mask_Group_16" src="img/logo.png" srcset="img/logo.png 1x">
+		<h2>
+			<a id="ART__SCIENCE_NODE_presents">ART & SCIENCE NODE presents</a>
+		</h2>
+	</div>-->
+
+	<!--________________________________-->
+	<div id="main">
+		<div id="ASN_RHIZO-NETWORK">
+			<span>ASN RHIZO-NETWORK</span>
+		</div>
+		<div id="menuBackg" onclick="closeMenu()">
+		</div>
+		<div id="menu" class="menu" onclick="closePopCapt(),openMenuBack()">
+			<div id="hamburger">
+				<input id="menuCheck" type="checkbox" />
+				<span></span>
+				<span></span>
+				<span></span>
+				<div id="menu_items">
+					<ul>
+						<li></li>
+						<li><a onclick="openAbout(), closeRhizo(), closeMenu()">ABOUT ASN</a></li>
+						<li><a onclick="openRhizonet(), closeAbout(), closeMenu()">RHIZOSPHERE NETWORK</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--DELETE LATER-->
+		<div id="deletelater" onclick="openPopup(),closeMenu()">
+			<svg class="Ellipse_1">
+				<ellipse id="Ellipse_1" rx="40" ry="40" cx="40" cy="40">
+				</ellipse>
+			</svg>
+			<div id="next">
+				<span>next</span>
+			</div>
+		</div>
+	</div>
+	<!--_________ABOUT__ASN___POPUP_________________-->]
+	<div id="aboutBackg" onclick="closeAbout()">
+	</div>
+	<div id="about" class="About">
+		<div id="ART__SCIENCE_NODE">
+			<span>ART & SCIENCE NODE</span>
+		</div>
+		<div id="ASN_provides_a_platform_for_th">
+			<p>ASN provides a platform for the artistic, scientific and technological milieus. It develops and
+				supports interdisciplinary projects,<br /> organizes international exhibitions, discussion panels
+				and “artists in laboratories” residence programs and interdisciplinary workshops. <br />ASN team,
+				members and partners are professionals – theorists and practitioners from multiple organizations and
+				institutions found all over the world.<br />Public engagement and education are one of the most
+				important challenges for the art and science communities. That is why ASN develops innovative<br />e
+				communication strategies for the benefit of the society of knowledge.<br />ASN provides a platform
+				for the artistic, scientific and technological milieus. It develops and supports interdisciplinary
+				projects,<br /> organizes international exhibitions, discussion panels and “artists in laboratories”
+				residence programs and interdisciplinary workshops. <br />ASN team, members and partners are
+				professionals – theorists and practitioners from multiple organizations and institutions found all
+				over the world.<br />Public engagement and education are one of the most important challenges for
+				the art and science communities. That is why ASN develops innovative<br />e communication strategies
+				for the benefit of the society of knowledge.</p>
+		</div>
+		<div id="Homepage">
+			<span><a href="https://artscience-node.com/" target="_blank">Homepage</a></span>
+		</div>
+		<div id="x" onclick="closeAbout()">
+			<div class="left"></div>
+			<div class="right"></div>
+		</div>
+	</div>
+	<!--_________RHIZOSPHERE__NETWORK___POPUP_________________-->
+	<div id="rhizonetBackg" onclick="closeRhizo()">
+	</div>
+	<div id="rhizonet" class="rhizosphere">
+		<div id="RHIZOSPHERE_NETWORK">
+			<span>RHIZOSPHERE NETWORK</span>
+		</div>
+		<div id="ASN_provides_a_platform_for_th">
+			<span>ASN provides a platform for the artistic, scientific and technological milieus. It develops and
+				supports interdisciplinary projects,<br /> organizes international exhibitions, discussion panels and
+				“artists in laboratories” residence programs and interdisciplinary workshops. <br />ASN team, members
+				and partners are professionals – theorists and practitioners from multiple organizations and
+				institutions found all over the world.<br />
+		</div>
+		<div id="Homepage">
+			<span>Homepage</span>
+		</div>
+		<div id="x" onclick="closeRhizo()">
+			<div class="left"></div>
+			<div class="right"></div>
+		</div>
+	</div>
+	<!--POPUP CAPTURE THE FUTURE-->
+	<div id="popup_captureBackg" onclick="closePopCapt()">
+	</div>
+	<div id="popup_capture" onclick="gotoLevel2()">		
+		<div id="Capture_the_Futures_OUR_BIO-TE">
+			<span>Capture the Future(s):<br/>OUR BIO-TECH PLANET</span>
+		</div>
+		<div id="exhibition">
+			<span>exhibition</span>
+		</div>
+	</div>
+
+	<script src="js/script.js"></script>
+</body>
+
+
+
+</html>

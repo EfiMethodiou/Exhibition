@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+#level_2_projects {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(12, 11, 11, 1);
+  overflow: hidden;
+}
+
+#CAPTURE_THE_FUTURES_OUR_BIO-TE {
+  left: 25%;
+  top: 30px;
+  position: absolute;
+  overflow: visible;
+  width: 233px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: "Titillium Web";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.8vw;
+  color: rgba(248, 246, 246, 1);
+}
+
+
+
+.cirrcle {
+  background-color: rgba(240, 115, 56, 1);
+  position: absolute;
+  border: 1px solid #FF8868;
+  width: 6%;
+  height: auto;
+  left: 50%;
+  padding-top: 6%;
+  top: 50%;
+  overflow: visible;  
+  cursor: pointer;
+  border-radius: 50%;
+  animation: glowUp 4s ease-in-out  1s infinite;  
+}
+@keyframes glowUp{
+    from {box-shadow: 0 0 10px #FFA297;}
+    50% {box-shadow: 0 0 48PX #FF8868;}
+    to {box-shadow: 0 0 29px #F07338; }
+}
+ 
+
+#ENTER {
+  left: 15%;
+  top: 30%;
+  position: absolute;
+  overflow: visible;
+  width: 59px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: "Titillium Web";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.4vw;
+  color: rgba(0, 0, 0, 1);
+}
+
+/*
+
+EXTRA INFORMATION BUTTONS
+*/
+#info_menu_btns {
+  position: absolute;
+  width: 14%;
+  height: 19%;
+  left: 4%;
+  top: 66px;
+  overflow: visible;
+}
+
+#ABOUT_THE_EXHIBITION {
+  left: 0%;
+  top: 0%;
+  position: absolute;
+  overflow: visible;
+  width: 100%;
+  height: 27%;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10% / 45%;
+}
+#ABOUT_THE_EXHIBITION span {
+  left: 7%;
+  top: 15%;
+  position: absolute;
+  overflow: visible;
+  white-space: nowrap;
+  cursor: pointer;
+  text-align: left;
+  font-family: "Titillium Web";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.2vw;
+  color: rgba(10, 10, 10, 1);
+}
+
+#AUGMENTED_REALITY {
+  left: 0%;
+  top: 36%;
+  position: absolute;
+  overflow: visible;
+  width: 100%;
+  height: 27%;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10% / 45%;
+}
+
+#AUGMENTED_REALITY span {
+  left: 7%;
+  top: 15%;
+  position: absolute;
+  overflow: visible;
+  white-space: nowrap;
+  cursor: pointer;
+  text-align: left;
+  font-family: "Titillium Web";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.2vw;
+  color: rgba(10, 10, 10, 1);
+}
+
+#RESEARCH {
+  left: 0%;
+  top: 73%;
+  position: absolute;
+  overflow: visible;
+  width: 100%;
+  height: 27%;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10% / 45%;
+}
+#RESEARCH span {
+  left: 7%;
+  top: 15%;
+  position: absolute;
+  overflow: visible;
+  white-space: nowrap;
+  cursor: pointer;
+  text-align: left;
+  font-family: "Titillium Web";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.2vw;
+  color: rgba(10, 10, 10, 1);
+}
+
+/*GO BACK BUTTON*/
+#x {
+  position: relative;
+  margin: auto;
+  left: 46%;
+  top: 25px;
+  width: 2%;
+  height: 5%;
+  cursor: pointer;
+}
+
+.left {
+  /*left side of x*/
+  height: 6%;
+  width: 100%;
+  top: 40%;
+  position: absolute;
+  background-color: white;
+  border-radius: 2px;
+  transform: rotate(45deg);
+  transition: all 0.3s ease-in;
+}
+.right {
+  /*right side of x*/
+  height: 6%;
+  width: 100%;
+  top: 40%;
+  position: absolute;
+  background-color: white;
+  border-radius: 2px;
+  transform: rotate(-45deg);
+  transition: all 0.3s ease-in;
+}
+
+#x:hover .left {
+  transform: rotate(-45deg);
+  background-color: #f07338;
+}
+#x:hover .right {
+  transform: rotate(45deg);
+  background-color: #f07338;
+}

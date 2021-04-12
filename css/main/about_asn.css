@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+
+#aboutBackg{
+  top: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: none;
+}
+#about {
+  display: none;
+  background-color: rgba(255, 254, 254, 0.7);
+  position: absolute;
+  width: 80%;
+  height: 75%;
+  left: 7%;
+  top: 20%;
+  border-radius: 20px;
+}
+
+#ART__SCIENCE_NODE {
+  left: 3%;
+  top: 27px;
+  position: absolute;
+  overflow: visible;
+  width: 170px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.4vw;
+  color: rgba(0, 0, 0, 1);
+}
+#ASN_provides_a_platform_for_th {
+  /*paragraph*/
+  left: 3%;
+  top: 18%;
+  position: absolute;
+  overflow: visible;
+  text-align: left;
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.2vw;
+  color: rgba(0, 0, 0, 1);
+}
+#Homepage {
+  left: 3%;
+  top: 80%;
+  position: absolute;
+  overflow: visible;
+  width: 75px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.2vw;
+  color: rgba(0, 0, 0, 1);
+  transition: all 0.3s ease-in;
+}
+
+#Homepage a:link {
+  /*link style*/
+  text-decoration: none;
+  color: rgba(0, 0, 0, 1);
+}
+#Homepage a:visited {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 1);
+}
+#Homepage a:hover { 
+  color: #f07338;
+}
+
+#x {
+  position: relative;  
+  margin: auto;
+  left: 45%;
+  top: 25px;
+  width: 2%;
+  height: 5%;
+  cursor: pointer;
+}
+
+.left { /*left side of x*/
+  height: 6%;  
+  width: 100%; 
+  top: 40%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 1);
+  border-radius: 2px;
+  transform: rotate(45deg);
+  transition: all 0.3s ease-in;
+}
+.right { /*right side of x*/
+  height: 6%;
+  width: 100%;
+  top: 40%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 1);
+  border-radius: 2px;
+  transform: rotate(-45deg);
+  transition: all 0.3s ease-in;
+}
+
+#x:hover .left{
+  transform: rotate(-45deg);
+  background-color: #f07338;
+}
+#x:hover .right{
+  transform: rotate(45deg);
+  background-color: #f07338;
+}
+
+
