@@ -14,25 +14,26 @@
 .slider_container{
   /*background-color: rebeccapurple;*/
   position: absolute;  
-  bottom: 20%;
-  left: 10%;
+  bottom: 5%;
+  left: 12%;
   width:75%;
   height: 12%;
 }
 .slider {
-  /*background-color: rosybrown;*/
+ /* border: 1px solid green;*/
   position: relative;
   float: left;
-  padding: 5px;
+  bottom: 5%;
+  padding: 7px;
   width: 90%;
-  height: 100%;  
-  overflow: hidden;
+  height: 110%;  
+  overflow: visible;
 }
 .slider_items {
-  display: table;
-  top: 20%;
-  padding-left: 7%;
-  margin: 0 auto;
+  /*border: 1px solid red;*/
+  width: 100%;
+  display: table;   
+  margin: 0 ;
   position: relative;  
 }
 
@@ -43,22 +44,56 @@ ul {
 li {
   display: inline;
   position: relative;
-  padding-left: 1.5%;
+  padding-left: 2%;
 }
-li #item {
-  width: 8%;
+
+li #item img{
+  align-content: center;
+  width: 4.9vw;  
   padding-right: -1%;
-  padding-bottom: 1%;
+  padding-bottom: 0%;
+  margin-bottom: 2%;
+  cursor: pointer;
 }
+/*screen function for slider's items*/
+@media screen and (max-width: 1000px){
+  li #item img {
+    width: 4.8vw;
+  } 
+}
+@media screen and (max-width: 800px){  
+  li #item img {
+    width: 4.6vw;
+  } 
+}
+@media screen and (max-width: 600px){  
+  li #item img {
+    width: 4.4vw;
+  } 
+}
+@media screen and (max-width: 450px){    
+  li #item img {
+    width: 4vw;
+  } 
+}
+
 #greenGroup{
   padding-left: 10%;
 }
-#violetGroup a{
-  background-color: red;
-  border-radius: 50%;
+#redGroup, #greenGroup, #violetGroup2 {
+  display: none;
 }
-#violetGroup #item:hover{
-  border: 2px solid #812298;
+/*growing effect at the slider images*/
+#node:hover {
+  border: 0.2px thin #F6EBFF;  
+  border-radius: 50%;
+  animation: glowUp 4s ease-in-out  0.2s infinite;
+}
+
+@keyframes glowUp{
+  from {box-shadow: 0 0 3px #D9D7DE;}
+  50% {box-shadow: 0 0 10PX #F6EBFF;}
+  to {box-shadow: 0 0 5px #D9D7DE; }
 }
 
 
@@ -74,10 +109,9 @@ li #item {
   
 }
 .right_arrow{
-  opacity: 0.5;
   cursor: pointer;
   width: 4%;
   float: right;
-  padding-right: 1%; 
+  padding-left: 1%; 
   padding-top: 1%; 
 }
