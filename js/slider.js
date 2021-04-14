@@ -2,28 +2,28 @@
 //POPUP FUNCTIONS FOR THE GROUPS
 function openViolet(){
     document.getElementById("violetPopup").style.display ="block";
-    document.getElementById("popupBackg").style.display ="block";
+    document.getElementById("groupBackg").style.display ="block";
     document.getElementById("infoBackg").style.display = "none";
     document.getElementById("info_popup_M_S").style.display = "none";
 }
 
 function openOrange(){
     document.getElementById("orangePopup").style.display ="block";
-    document.getElementById("popupBackg").style.display ="block";
+    document.getElementById("groupBackg").style.display ="block";
     document.getElementById("infoBackg").style.display = "none";
     document.getElementById("info_popup_M_S").style.display = "none";
 }
 
 function openRed(){
     document.getElementById("redPopup").style.display ="block";
-    document.getElementById("popupBackg").style.display ="block";
+    document.getElementById("groupBackg").style.display ="block";
     document.getElementById("infoBackg").style.display = "none";
     document.getElementById("info_popup_M_S").style.display = "none";
 }
 
 function openGreen(){
     document.getElementById("greenPopup").style.display ="block";
-    document.getElementById("popupBackg").style.display ="block";
+    document.getElementById("groupBackg").style.display ="block";
     document.getElementById("infoBackg").style.display = "none";
     document.getElementById("info_popup_M_S").style.display = "none";
 }
@@ -32,7 +32,7 @@ function closePopup(){
     document.getElementById("orangePopup").style.display ="none";
     document.getElementById("redPopup").style.display ="none";
     document.getElementById("greenPopup").style.display ="none";
-    document.getElementById("popupBackg").style.display ="none";
+    document.getElementById("groupBackg").style.display ="none";
 }
 
 
