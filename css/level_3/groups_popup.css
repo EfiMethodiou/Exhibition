@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+#popupBackg {
+  top: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: none;
+}
+#violetPopup {
+  display: none;
+  position: absolute;
+  overflow: visible;
+  width: 78%;
+  height: 78%;
+  left: 15%;
+  top: 15%;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 20px;
+}
+
+.group_tittle {
+  left: 35%;
+  top: 30%;
+  position: absolute;
+  overflow: visible;
+  width: 367px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: "Titillium Web";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+}
+.group_tittle #violet {
+  color: rgba(129, 34, 152, 1);
+}
+/*__________ORANGE___________*/
+#orangePopupBackg {
+  top: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: none;
+}
+#orangePopup {
+  display: none;
+  position: absolute;
+  overflow: visible;
+  width: 78%;
+  height: 78%;
+  left: 15%;
+  top: 15%;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 20px;
+}
+
+.group_tittle {
+  left: 35%;
+  top: 30%;
+  position: absolute;
+  overflow: visible;
+  width: 367px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: "Titillium Web";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;  
+}
+.group_tittle #orange{
+    text-color: #ee7112;
+}
+/*________RED_____________*/
+#redPopupBackg {
+  top: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: none;
+}
+#redPopup {
+  display: none;
+  position: absolute;
+  overflow: visible;
+  width: 78%;
+  height: 78%;
+  left: 15%;
+  top: 15%;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 20px;
+}
+
+#INFORMATION_ABOUT_THE_RED_G {
+  left: 35%;
+  top: 30%;
+  position: absolute;
+  overflow: visible;
+  width: 367px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: "Titillium Web";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: #ee2912;
+}
+
+/*_____________________________________*/
+#greenPopupBackg {
+  top: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: none;
+}
+#greenPopup {
+  display: none;
+  position: absolute;
+  overflow: visible;
+  width: 78%;
+  height: 78%;
+  left: 15%;
+  top: 15%;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 20px;
+}
+
+#INFORMATION_ABOUT_THE_GREEN_G {
+  left: 35%;
+  top: 30%;
+  position: absolute;
+  overflow: visible;
+  width: 367px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: "Titillium Web";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: #06701b;
+}

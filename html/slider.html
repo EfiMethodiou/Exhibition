@@ -5,7 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Slider</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/level_3/slider.css">
+    <link rel="stylesheet" href="../css/level_3/groups_popup.css">
+    <link rel="stylesheet" href="../css/level_3/popups/violet_popup.css">
+    <link rel="stylesheet" href="../css/level_3/popups/orange_popup.css">
+    <link rel="stylesheet" href="../css/level_3/popups/red_popup.css">
+    <link rel="stylesheet" href="../css/level_3/popups/green_popup.css">
 </head>
 
 <body>
@@ -24,14 +31,14 @@
             <div class="slider" id="slider">
                 <div class="slider_items" id="slider_items">
                     <ul class="group" id="violetGroup">
-                        <li><a id="item"><img id="violetNode" src="../img/slider/Violet.png"></a></li>
+                        <li><a id="item" onclick="openViolet()"><img id="violetNode" src="../img/slider/Violet.png"></a></li>
                         <li><a id="item"><img id="node" src="../img/slider/BrolenLinks.png"></a></li>
                         <li><a id="item"><img id="node" src="../img/slider/RegnumAnimale.png"></a></li>
                         <li><a id="item"><img id="node" src="../img/slider/Virophilia.png"></a></li>
                         <li><a id="item"><img id="node" src="../img/slider/LawofRelat.png"></a></li>
                     </ul>
                     <ul class="group" id="orangeGroup">
-                        <li><a id="item"><img id="orangeNode" src="../img/slider/Orange.png"></a></li>
+                        <li><a id="item" onclick="openOrange()"><img id="orangeNode" src="../img/slider/Orange.png"></a></li>
                         <li><a id="item"><img id="node" src="../img/slider/Morphism.png"></a></li>
                         <li><a id="item"><img id="node" src="../img/slider/AlgorithmicPhot.png"></a></li>
                         <li><a id="item"><img id="node" src="../img/slider/ContaclesRoot.png"></a></li>
@@ -39,20 +46,20 @@
                         <li><a id="item"><img></a></li>
                     </ul>
                     <ul class="group" id="redGroup">
-                        <li><a id="item"><img id="redNode" src="../img/slider/Red.png"></a></li>
+                        <li><a id="item" onclick="openRed()"><img id="redNode" src="../img/slider/Red.png"></a></li>
                         <li><a id="item"><img id="node" src="../img/slider/DriftingPart.png"></a></li>
                         <li><a id="item"><img id="node" src="../img/slider/CallIn.png"></a></li>
                         <li><a id="item"><img id="node" src="../img/slider/Marsquakes.png"></a></li>
                         <li><a id="item"><img></a></li>                       
                     </ul>
                     <ul class="group" id="greenGroup">
-                        <li><a id="item"><img id="greenNode" src="../img/slider/Green.png"></a></li>
+                        <li><a id="item" onclick="openGreen()"><img id="greenNode" src="../img/slider/Green.png"></a></li>
                         <li><a id="item"><img id="node" src="../img/slider/Aftertaste.png"></a></li>
                         <li><a id="item"><img id="node" src="../img/slider/BiotechFromBlue.png"></a></li>
                         <li><a id="item"><img id="node" src="../img/slider/Mikroryzator.png"></a></li>
                     </ul>
                     <ul class="group" id="violetGroup2">
-                        <li><a id="item"><img id="violetNode" src="../img/slider/Violet.png"></a></li>
+                        <li><a id="item" onclick="openViolet()"><img id="violetNode" src="../img/slider/Violet.png"></a></li>
                         <li><a id="item"><img id="node" src="../img/slider/BrolenLinks.png"></a></li>
                         <li><a id="item"><img id="node" src="../img/slider/RegnumAnimale.png"></a></li>
                         <li><a id="item"><img id="node" src="../img/slider/Virophilia.png"></a></li>
@@ -71,9 +78,44 @@
                 </svg>
             </div>
         </div>
-        <script src="../js/level_3.js"></script>
-    </div>
-    
+        <!--
+
+        -->
+        <div id="popupBackg" onclick="closeViolet()">
+        </div>
+        <div id="violetPopup">        
+            <div id="INFORMATION_ABOUT_THE_VIOLET_G">
+                <span>INFORMATION ABOUT THE VIOLET GROUP</span>
+            </div>
+        </div>
+        <!---->
+        <div id="popupBackg" onclick="closeOrange()">
+        </div>
+        <div id="orangePopup">        
+            <div id="INFORMATION_ABOUT_THE_ORANGE_G">
+                <span>INFORMATION ABOUT THE ORANGE GROUP</span>
+            </div>
+        </div>
+        <!---->
+        <div id="popupBackg" onclick="closeRed()">
+        </div>
+        <div id="redPopup">        
+            <div id="INFORMATION_ABOUT_THE_RED_G">
+                <span>INFORMATION ABOUT THE RED GROUP</span>
+            </div>
+        </div>
+        <!---->
+        <div id="popupBackg" onclick="closeGreen()">
+        </div>
+        <div id="greenPopup">        
+            <div id="INFORMATION_ABOUT_THE_GREEN_G">
+                <span>INFORMATION ABOUT THE GREEN GROUP</span>
+            </div>
+        </div>
+
+
+        <script src="../js/slider.js"></script>        
+    </div>  
 
 </body>
 

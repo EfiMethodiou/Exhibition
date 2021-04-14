@@ -2,176 +2,239 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maria Subczynska</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/level_3/maria_subc/maria_subc.css">
-    <link rel="stylesheet" href="../css/level_3/maria_subc/maria_subc_popup.css">
-    <link rel="stylesheet" href="../css/level_3/slider.css"> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maria Subczynska</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/level_3/maria_subc/maria_subc.css">
+  <link rel="stylesheet" href="../css/level_3/maria_subc/maria_subc_popup.css">
+  <link rel="stylesheet" href="../css/level_3/slider.css">
+  <link rel="stylesheet" href="../css/level_3/groups_popup.css">
 </head>
 
 <body>
   <img src="../img/backgrounds/scene_01.jpg" id="bg" alt="">
-    <div id="level_3_maria_sybczynska">
-        <div id="Broken_Links">
-            <span>Broken Links</span>
-        </div>
-        <div id="interactive_installation_Maria">
-            <span>interactive installation<br> Maria Subczynska </span>
-        </div>
-        <div onclick="backToLevel2()" id="x">
-            <div class="left"></div>
-            <div class="right"></div>
-        </div>
-        <!--ARTWORK_IMAGE-->
-        <div id="artwork_image">
-          <span>Broken Links</span>
-        </div>
-        <!--PLAY_BUTTON-->
-        <svg id="play_btn" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
-            <g id="play_btn" transform="translate(-647 -377)">
-              <circle id="Ellipse_18" data-name="Ellipse 18" cx="20" cy="20" r="20" transform="translate(647 377)" fill="#fff"/>
-              <g id="Polygon_1" data-name="Polygon 1" transform="translate(676.5 389.5) rotate(90)">
-                <path d="M 15.16666507720947 14.5 L 0.83333420753479 14.5 L 7.999999523162842 1.062502503395081 L 15.16666507720947 14.5 Z" stroke="none"/>
-                <path d="M 7.999999523162842 2.124996185302734 L 1.666664123535156 14 L 14.33333492279053 14 L 7.999999523162842 2.124996185302734 M 7.999999523162842 0 L 16 15 L -9.5367431640625e-07 15 L 7.999999523162842 0 Z" stroke="none" fill="#090909"/>
-              </g>
-            </g>
-          </svg>
-          <!--INFO_BUTTON-->
-          <svg id="info_btn" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" onclick="openMS_pop()">
-            <g id="info_btn" transform="translate(-647 -422)">
-              <circle id="Ellipse_19" data-name="Ellipse 19" cx="20" cy="20" r="20" transform="translate(647 422)" fill="#fff"/>
-              <g id="Ellipse_20" data-name="Ellipse 20" transform="translate(650 425)" fill="#fff" stroke="#060606" stroke-width="1">
-                <circle cx="17" cy="17" r="17" stroke="none"/>
-                <circle cx="17" cy="17" r="16.5" fill="none"/>
-              </g>
-              <text id="i" transform="translate(664 448)" fill="#070707" font-size="18" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">i</tspan></text>
-            </g>
-          </svg>
-          <!--LEFT_DIRECTION_ARROW-->
-          <svg id="left_direction" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 43.661 22.614">
-            <g id="left_direction" transform="translate(1163.856 503.794) rotate(180)">
-              <g id="right_one" transform="translate(56 -233)">
-                <path id="Path_3" data-name="Path 3" d="M.755.01l18.5.153a.864.864,0,0,1,.755.93.837.837,0,0,1-.745.917L.765,1.857A.864.864,0,0,1,.01.927.837.837,0,0,1,.755.01Z" transform="translate(1090.192 715.166) rotate(30)" fill="#fff"/>
-                <path id="Path_4" data-name="Path 4" d="M.745-.1l18.5-.153A.837.837,0,0,1,19.99.66a.864.864,0,0,1-.755.93l-18.5.153A.837.837,0,0,1-.01.826.864.864,0,0,1,.745-.1Z" transform="translate(1089.673 735.279) rotate(-30)" fill="#fff"/>
-              </g>
-              <g id="right_two" transform="translate(44 -233)">
-                <path id="Path_3-2" data-name="Path 3" d="M.755.01l18.5.153a.864.864,0,0,1,.755.93.837.837,0,0,1-.745.917L.765,1.857A.864.864,0,0,1,.01.927.837.837,0,0,1,.755.01Z" transform="translate(1090.192 715.166) rotate(30)" fill="#fff"/>
-                <path id="Path_4-2" data-name="Path 4" d="M.745-.1l18.5-.153A.837.837,0,0,1,19.99.66a.864.864,0,0,1-.755.93l-18.5.153A.837.837,0,0,1-.01.826.864.864,0,0,1,.745-.1Z" transform="translate(1089.673 735.279) rotate(-30)" fill="#fff"/>
-              </g>
-              <g id="right_three" transform="translate(-25 -1)">
-                <path id="Path_3-3" data-name="Path 3" d="M.755.01l18.5.153a.864.864,0,0,1,.755.93.837.837,0,0,1-.745.917L.765,1.857A.864.864,0,0,1,.01.927.837.837,0,0,1,.755.01Z" transform="translate(1146.192 482.166) rotate(30)" fill="#fff"/>
-                <path id="Path_4-3" data-name="Path 4" d="M.745-.1l18.5-.153A.837.837,0,0,1,19.99.66a.864.864,0,0,1-.755.93l-18.5.153A.837.837,0,0,1-.01.826.864.864,0,0,1,.745-.1Z" transform="translate(1145.673 502.279) rotate(-30)" fill="#fff"/>
-              </g>
-            </g>
-          </svg>
-           <!--RIGHT_DIRECTION_ARROW-->
-          <svg id="right_direction" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 43.661 22.614">
-            <g id="right_direction" transform="translate(-1120.196 -481.18)">
-              <g id="right_one" transform="translate(56 -233)">
-                <path id="Path_3" data-name="Path 3" d="M.755.01l18.5.153a.864.864,0,0,1,.755.93.837.837,0,0,1-.745.917L.765,1.857A.864.864,0,0,1,.01.927.837.837,0,0,1,.755.01Z" transform="translate(1090.192 715.166) rotate(30)" fill="#fff"/>
-                <path id="Path_4" data-name="Path 4" d="M.745-.1l18.5-.153A.837.837,0,0,1,19.99.66a.864.864,0,0,1-.755.93l-18.5.153A.837.837,0,0,1-.01.826.864.864,0,0,1,.745-.1Z" transform="translate(1089.673 735.279) rotate(-30)" fill="#fff"/>
-              </g>
-              <g id="right_two" transform="translate(44 -233)">
-                <path id="Path_3-2" data-name="Path 3" d="M.755.01l18.5.153a.864.864,0,0,1,.755.93.837.837,0,0,1-.745.917L.765,1.857A.864.864,0,0,1,.01.927.837.837,0,0,1,.755.01Z" transform="translate(1090.192 715.166) rotate(30)" fill="#fff"/>
-                <path id="Path_4-2" data-name="Path 4" d="M.745-.1l18.5-.153A.837.837,0,0,1,19.99.66a.864.864,0,0,1-.755.93l-18.5.153A.837.837,0,0,1-.01.826.864.864,0,0,1,.745-.1Z" transform="translate(1089.673 735.279) rotate(-30)" fill="#fff"/>
-              </g>
-              <g id="right_three" transform="translate(-25 -1)">
-                <path id="Path_3-3" data-name="Path 3" d="M.755.01l18.5.153a.864.864,0,0,1,.755.93.837.837,0,0,1-.745.917L.765,1.857A.864.864,0,0,1,.01.927.837.837,0,0,1,.755.01Z" transform="translate(1146.192 482.166) rotate(30)" fill="#fff"/>
-                <path id="Path_4-3" data-name="Path 4" d="M.745-.1l18.5-.153A.837.837,0,0,1,19.99.66a.864.864,0,0,1-.755.93l-18.5.153A.837.837,0,0,1-.01.826.864.864,0,0,1,.745-.1Z" transform="translate(1145.673 502.279) rotate(-30)" fill="#fff"/>
-              </g>
-            </g>
-          </svg>
+  <div id="level_3_maria_sybczynska">
+    <div id="Broken_Links">
+      <span>Broken Links</span>
+    </div>
+    <div id="interactive_installation_Maria">
+      <span>interactive installation<br> Maria Subczynska </span>
+    </div>
+    <div onclick="backToLevel2()" id="x">
+      <div class="left"></div>
+      <div class="right"></div>
+    </div>
+    <!--ARTWORK_IMAGE-->
+    <div id="artwork_image">
+      <span>Broken Links</span>
+    </div>
+    <!--PLAY_BUTTON-->
+    <svg id="play_btn" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+      <g id="play_btn" transform="translate(-647 -377)">
+        <circle id="Ellipse_18" data-name="Ellipse 18" cx="20" cy="20" r="20" transform="translate(647 377)"
+          fill="#fff" />
+        <g id="Polygon_1" data-name="Polygon 1" transform="translate(676.5 389.5) rotate(90)">
+          <path
+            d="M 15.16666507720947 14.5 L 0.83333420753479 14.5 L 7.999999523162842 1.062502503395081 L 15.16666507720947 14.5 Z"
+            stroke="none" />
+          <path
+            d="M 7.999999523162842 2.124996185302734 L 1.666664123535156 14 L 14.33333492279053 14 L 7.999999523162842 2.124996185302734 M 7.999999523162842 0 L 16 15 L -9.5367431640625e-07 15 L 7.999999523162842 0 Z"
+            stroke="none" fill="#090909" />
+        </g>
+      </g>
+    </svg>
+    <!--INFO_BUTTON-->
+    <svg id="info_btn" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" onclick="openMS_pop()">
+      <g id="info_btn" transform="translate(-647 -422)">
+        <circle id="Ellipse_19" data-name="Ellipse 19" cx="20" cy="20" r="20" transform="translate(647 422)"
+          fill="#fff" />
+        <g id="Ellipse_20" data-name="Ellipse 20" transform="translate(650 425)" fill="#fff" stroke="#060606"
+          stroke-width="1">
+          <circle cx="17" cy="17" r="17" stroke="none" />
+          <circle cx="17" cy="17" r="16.5" fill="none" />
+        </g>
+        <text id="i" transform="translate(664 448)" fill="#070707" font-size="18" font-family="SegoeUI-Bold, Segoe UI"
+          font-weight="700">
+          <tspan x="0" y="0">i</tspan>
+        </text>
+      </g>
+    </svg>
+    <!--LEFT_DIRECTION_ARROW-->
+    <svg id="left_direction" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 43.661 22.614">
+      <g id="left_direction" transform="translate(1163.856 503.794) rotate(180)">
+        <g id="right_one" transform="translate(56 -233)">
+          <path id="Path_3" data-name="Path 3"
+            d="M.755.01l18.5.153a.864.864,0,0,1,.755.93.837.837,0,0,1-.745.917L.765,1.857A.864.864,0,0,1,.01.927.837.837,0,0,1,.755.01Z"
+            transform="translate(1090.192 715.166) rotate(30)" fill="#fff" />
+          <path id="Path_4" data-name="Path 4"
+            d="M.745-.1l18.5-.153A.837.837,0,0,1,19.99.66a.864.864,0,0,1-.755.93l-18.5.153A.837.837,0,0,1-.01.826.864.864,0,0,1,.745-.1Z"
+            transform="translate(1089.673 735.279) rotate(-30)" fill="#fff" />
+        </g>
+        <g id="right_two" transform="translate(44 -233)">
+          <path id="Path_3-2" data-name="Path 3"
+            d="M.755.01l18.5.153a.864.864,0,0,1,.755.93.837.837,0,0,1-.745.917L.765,1.857A.864.864,0,0,1,.01.927.837.837,0,0,1,.755.01Z"
+            transform="translate(1090.192 715.166) rotate(30)" fill="#fff" />
+          <path id="Path_4-2" data-name="Path 4"
+            d="M.745-.1l18.5-.153A.837.837,0,0,1,19.99.66a.864.864,0,0,1-.755.93l-18.5.153A.837.837,0,0,1-.01.826.864.864,0,0,1,.745-.1Z"
+            transform="translate(1089.673 735.279) rotate(-30)" fill="#fff" />
+        </g>
+        <g id="right_three" transform="translate(-25 -1)">
+          <path id="Path_3-3" data-name="Path 3"
+            d="M.755.01l18.5.153a.864.864,0,0,1,.755.93.837.837,0,0,1-.745.917L.765,1.857A.864.864,0,0,1,.01.927.837.837,0,0,1,.755.01Z"
+            transform="translate(1146.192 482.166) rotate(30)" fill="#fff" />
+          <path id="Path_4-3" data-name="Path 4"
+            d="M.745-.1l18.5-.153A.837.837,0,0,1,19.99.66a.864.864,0,0,1-.755.93l-18.5.153A.837.837,0,0,1-.01.826.864.864,0,0,1,.745-.1Z"
+            transform="translate(1145.673 502.279) rotate(-30)" fill="#fff" />
+        </g>
+      </g>
+    </svg>
+    <!--RIGHT_DIRECTION_ARROW-->
+    <svg id="right_direction" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 43.661 22.614">
+      <g id="right_direction" transform="translate(-1120.196 -481.18)">
+        <g id="right_one" transform="translate(56 -233)">
+          <path id="Path_3" data-name="Path 3"
+            d="M.755.01l18.5.153a.864.864,0,0,1,.755.93.837.837,0,0,1-.745.917L.765,1.857A.864.864,0,0,1,.01.927.837.837,0,0,1,.755.01Z"
+            transform="translate(1090.192 715.166) rotate(30)" fill="#fff" />
+          <path id="Path_4" data-name="Path 4"
+            d="M.745-.1l18.5-.153A.837.837,0,0,1,19.99.66a.864.864,0,0,1-.755.93l-18.5.153A.837.837,0,0,1-.01.826.864.864,0,0,1,.745-.1Z"
+            transform="translate(1089.673 735.279) rotate(-30)" fill="#fff" />
+        </g>
+        <g id="right_two" transform="translate(44 -233)">
+          <path id="Path_3-2" data-name="Path 3"
+            d="M.755.01l18.5.153a.864.864,0,0,1,.755.93.837.837,0,0,1-.745.917L.765,1.857A.864.864,0,0,1,.01.927.837.837,0,0,1,.755.01Z"
+            transform="translate(1090.192 715.166) rotate(30)" fill="#fff" />
+          <path id="Path_4-2" data-name="Path 4"
+            d="M.745-.1l18.5-.153A.837.837,0,0,1,19.99.66a.864.864,0,0,1-.755.93l-18.5.153A.837.837,0,0,1-.01.826.864.864,0,0,1,.745-.1Z"
+            transform="translate(1089.673 735.279) rotate(-30)" fill="#fff" />
+        </g>
+        <g id="right_three" transform="translate(-25 -1)">
+          <path id="Path_3-3" data-name="Path 3"
+            d="M.755.01l18.5.153a.864.864,0,0,1,.755.93.837.837,0,0,1-.745.917L.765,1.857A.864.864,0,0,1,.01.927.837.837,0,0,1,.755.01Z"
+            transform="translate(1146.192 482.166) rotate(30)" fill="#fff" />
+          <path id="Path_4-3" data-name="Path 4"
+            d="M.745-.1l18.5-.153A.837.837,0,0,1,19.99.66a.864.864,0,0,1-.755.93l-18.5.153A.837.837,0,0,1-.01.826.864.864,0,0,1,.745-.1Z"
+            transform="translate(1145.673 502.279) rotate(-30)" fill="#fff" />
+        </g>
+      </g>
+    </svg>
 
-          <!--POPUP_INFOMATION-->
-          <div id="popupBackg" onclick="closeMS_pop()">
-          </div>
-          <div id="info_popup_M_S" >            
-            <div id="popup_title">
-              <span>Broken Links</span>
-            </div>
-            <div id="interactive_installation_">
-              <span>interactive installation </span>
-            </div>
-            <div id="artist">
-              <span>artist</span>
-            </div>
-            <div id="Maria_Subczynska">
-              <span>Maria Subczynska</span>
-            </div>
-          </div>
-          <!------------------------------------SLIDER
-          -------------------------->
-          <div class="slider_container">
-            <div class="left_arrow" id="left_arrow" onclick="goLeft()">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30.406 55.406">
-                    <g transform="translate(-182.797 -711.297)">
-                        <rect id="Rectangle_22" data-name="Rectangle 22" width="38" height="3" rx="1"
-                            transform="translate(183.211 738.167) rotate(-45)" fill="#fff" />
-                        <rect id="Rectangle_23" data-name="Rectangle 23" width="40" height="3" rx="1.5"
-                            transform="translate(184.918 736.297) rotate(45)" fill="#fff" />
-                    </g>
-                </svg>
-            </div>
-            <div class="slider" id="slider">
-                <div class="slider_items" id="slider_items">
-                    <ul class="group" id="violetGroup">
-                        <li><a id="item"><img id="violetNode" src="../img/slider/Violet.png"></a></li>
-                        <li><a id="item"><img id="node" src="../img/slider/BrolenLinks.png"></a></li>
-                        <li><a id="item"><img id="node" src="../img/slider/RegnumAnimale.png"></a></li>
-                        <li><a id="item"><img id="node" src="../img/slider/Virophilia.png"></a></li>
-                        <li><a id="item"><img id="node" src="../img/slider/LawofRelat.png"></a></li>
-                    </ul>
-                    <ul class="group" id="orangeGroup">
-                        <li><a id="item"><img id="orangeNode" src="../img/slider/Orange.png"></a></li>
-                        <li><a id="item"><img id="node" src="../img/slider/Morphism.png"></a></li>
-                        <li><a id="item"><img id="node" src="../img/slider/AlgorithmicPhot.png"></a></li>
-                        <li><a id="item"><img id="node" src="../img/slider/ContaclesRoot.png"></a></li>
-                        <li><a id="item"><img id="node" src="../img/slider/DefinedNot.png"></a></li>
-                        <li><a id="item"><img></a></li>
-                    </ul>
-                    <ul class="group" id="redGroup">
-                        <li><a id="item"><img id="redNode" src="../img/slider/Red.png"></a></li>
-                        <li><a id="item"><img id="node" src="../img/slider/DriftingPart.png"></a></li>
-                        <li><a id="item"><img id="node" src="../img/slider/CallIn.png"></a></li>
-                        <li><a id="item"><img id="node" src="../img/slider/Marsquakes.png"></a></li>
-                        <li><a id="item"><img></a></li>                       
-                    </ul>
-                    <ul class="group" id="greenGroup">
-                        <li><a id="item"><img id="greenNode" src="../img/slider/Green.png"></a></li>
-                        <li><a id="item"><img id="node" src="../img/slider/Aftertaste.png"></a></li>
-                        <li><a id="item"><img id="node" src="../img/slider/BiotechFromBlue.png"></a></li>
-                        <li><a id="item"><img id="node" src="../img/slider/Mikroryzator.png"></a></li>
-                    </ul>
-                    <ul class="group" id="violetGroup2">
-                        <li><a id="item"><img id="violetNode" src="../img/slider/Violet.png"></a></li>
-                        <li><a id="item"><img id="node" src="../img/slider/BrolenLinks.png"></a></li>
-                        <li><a id="item"><img id="node" src="../img/slider/RegnumAnimale.png"></a></li>
-                        <li><a id="item"><img id="node" src="../img/slider/Virophilia.png"></a></li>
-                        <li><a id="item"><img id="node" src="../img/slider/LawofRelat.png"></a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="right_arrow" id="right_arrow" onclick="goRight()">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30.406 56.406">
-                    <g transform="translate(-1090.797 -711.297)">
-                        <rect id="Rectangle_24" data-name="Rectangle 24" width="40" height="3" rx="1.5"
-                            transform="translate(1092.918 711.297) rotate(45)" fill="#fff" />
-                        <rect id="Rectangle_25" data-name="Rectangle 25" width="40" height="3" rx="1.5"
-                            transform="translate(1090.797 765.581) rotate(-45)" fill="#fff" />
-                    </g>
-                </svg>
-            </div>
+    <!--POPUP_INFOMATION-->
+    <div id="infoBackg" onclick="closeMS_pop()">
+    </div>
+    <div id="info_popup_M_S">
+      <div id="popup_title">
+        <span>Broken Links</span>
+      </div>
+      <div id="interactive_installation_">
+        <span>interactive installation </span>
+      </div>
+      <div id="artist">
+        <span>artist</span>
+      </div>
+      <div id="Maria_Subczynska">
+        <span>Maria Subczynska</span>
+      </div>
+    </div>
+    <!------------------------------------SLIDER -------------------------->
+
+    <div class="slider_container">
+      <div class="left_arrow" id="left_arrow" onclick="goLeft()">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30.406 55.406">
+          <g transform="translate(-182.797 -711.297)">
+            <rect id="Rectangle_22" data-name="Rectangle 22" width="38" height="3" rx="1"
+              transform="translate(183.211 738.167) rotate(-45)" fill="#fff" />
+            <rect id="Rectangle_23" data-name="Rectangle 23" width="40" height="3" rx="1.5"
+              transform="translate(184.918 736.297) rotate(45)" fill="#fff" />
+          </g>
+        </svg>
+      </div>
+      <div class="slider" id="slider">
+        <div class="slider_items" id="slider_items">
+          <ul class="group" id="violetGroup">
+            <li><a id="item" onclick="openViolet()"><img id="violetNode" src="../img/slider/Violet.png"></a></li>
+            <li><a id="item"><img id="node" src="../img/slider/BrolenLinks.png"></a></li>
+            <li><a id="item"><img id="node" src="../img/slider/RegnumAnimale.png"></a></li>
+            <li><a id="item"><img id="node" src="../img/slider/Virophilia.png"></a></li>
+            <li><a id="item"><img id="node" src="../img/slider/LawofRelat.png"></a></li>
+          </ul>
+          <ul class="group" id="orangeGroup">
+            <li><a id="item" onclick="openOrange()"><img id="orangeNode" src="../img/slider/Orange.png"></a></li>
+            <li><a id="item"><img id="node" src="../img/slider/Morphism.png"></a></li>
+            <li><a id="item"><img id="node" src="../img/slider/AlgorithmicPhot.png"></a></li>
+            <li><a id="item"><img id="node" src="../img/slider/ContaclesRoot.png"></a></li>
+            <li><a id="item"><img id="node" src="../img/slider/DefinedNot.png"></a></li>
+            <li><a id="item"><img></a></li>
+          </ul>
+          <ul class="group" id="redGroup">
+            <li><a id="item" onclick="openRed()"><img id="redNode" src="../img/slider/Red.png"></a></li>
+            <li><a id="item"><img id="node" src="../img/slider/DriftingPart.png"></a></li>
+            <li><a id="item"><img id="node" src="../img/slider/CallIn.png"></a></li>
+            <li><a id="item"><img id="node" src="../img/slider/Marsquakes.png"></a></li>
+            <li><a id="item"><img></a></li>
+          </ul>
+          <ul class="group" id="greenGroup">
+            <li><a id="item" onclick="openGreen()"><img id="greenNode" src="../img/slider/Green.png"></a></li>
+            <li><a id="item"><img id="node" src="../img/slider/Aftertaste.png"></a></li>
+            <li><a id="item"><img id="node" src="../img/slider/BiotechFromBlue.png"></a></li>
+            <li><a id="item"><img id="node" src="../img/slider/Mikroryzator.png"></a></li>
+          </ul>
+          <ul class="group" id="violetGroup2">
+            <li><a id="item" onclick="openViolet()"><img id="violetNode" src="../img/slider/Violet.png"></a></li>
+            <li><a id="item"><img id="node" src="../img/slider/BrolenLinks.png"></a></li>
+            <li><a id="item"><img id="node" src="../img/slider/RegnumAnimale.png"></a></li>
+            <li><a id="item"><img id="node" src="../img/slider/Virophilia.png"></a></li>
+            <li><a id="item"><img id="node" src="../img/slider/LawofRelat.png"></a></li>
+          </ul>
         </div>
-          
-          
+      </div>
+      <div class="right_arrow" id="right_arrow" onclick="goRight()">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30.406 56.406">
+          <g transform="translate(-1090.797 -711.297)">
+            <rect id="Rectangle_24" data-name="Rectangle 24" width="40" height="3" rx="1.5"
+              transform="translate(1092.918 711.297) rotate(45)" fill="#fff" />
+            <rect id="Rectangle_25" data-name="Rectangle 25" width="40" height="3" rx="1.5"
+              transform="translate(1090.797 765.581) rotate(-45)" fill="#fff" />
+          </g>
+        </svg>
+      </div>
+    </div>
+    <!---->
+    <div id="popupBackg" onclick="closePopup()">
+    </div>
+    <div id="violetPopup">        
+        <div class="group_tittle" id="violet">
+            <span>INFORMATION ABOUT THE VIOLET GROUP</span>
+        </div>
+    </div>
+    <!---->    
+    <div id="orangePopup">        
+        <div class="group_tittle" id="orange">
+            <span>INFORMATION ABOUT THE ORANGE GROUP</span>
+        </div>
+    </div>
+    <!---->    
+    <div id="redPopup">        
+        <div class="group_tittle" id="red">
+            <span>INFORMATION ABOUT THE RED GROUP</span>
+        </div>
+    </div>
+    <!---->    
+    <div id="greenPopup">        
+        <div class="group_tittle" id="green">
+            <span>INFORMATION ABOUT THE GREEN GROUP</span>
+        </div>
+    </div>
 
 
-        
-    
+
+
+
+
+
     <script src="../js/level_3.js"></script>
+    <script src="../js/slider.js"></script>
 </body>
 
 </html>
