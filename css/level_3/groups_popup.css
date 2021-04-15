@@ -14,14 +14,18 @@
 }
 
 .groupPopup {  
-  top: 10%;
+  top: 17%;
   position: absolute;
   overflow: visible;
-  width: 367px;
   text-align: center;
   font-family: "Titillium Web";
   font-style: normal; 
-  font-size: 18px;    
+  font-size: 18px;   
+  width: 69%;
+  height: 78%;
+  left: 15%;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 20px; 
 }
 .group_tittle {
   font-weight: bold;
@@ -36,55 +40,9 @@
   
 }
 
+#violetPopup, #orangePopup, #redPopup, #greenPopup {
+  display: none;  
+}
 
-
-/*__________VIOLET___________*/
-#violetPopup {
-  display: none;
-  position: absolute;
-  overflow: visible;
-  width: 78%;
-  height: 78%;
-  left: 15%;
-  top: 15%;
-  background-color: rgba(255, 255, 255, 0.9);
-  border-radius: 20px;
-}
-/*__________ORANGE___________*/
-#orangePopup {
-  display: none;
-  position: absolute;
-  overflow: visible;
-  width: 78%;
-  height: 78%;
-  left: 15%;
-  top: 15%;
-  background-color: rgba(255, 255, 255, 0.9);
-  border-radius: 20px;
-}
-/*________RED_____________*/
-#redPopup {
-  display: none;
-  position: absolute;
-  overflow: visible;
-  width: 78%;
-  height: 78%;
-  left: 15%;
-  top: 15%;
-  background-color: rgba(255, 255, 255, 0.9);
-  border-radius: 20px;
-}
-/*__________GREEN_______________*/
-#greenPopup {
-  display: none;
-  position: absolute;
-  overflow: visible;
-  width: 78%;
-  height: 78%;
-  left: 15%;
-  top: 15%;
-  background-color: rgba(255, 255, 255, 0.9);
-  border-radius: 20px;
-}
 
 

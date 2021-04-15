@@ -10,18 +10,17 @@
   height: 100%;
   background-color: rgba(12, 11, 11, 1);
 }
-/*_________________*/
-.titles_container{
+/*________TITLES__________*/
+.titles_container {
   /*border: 1px solid lightblue;*/
   position: absolute;
-  bottom:18%;
-  left: 42%;
+  bottom: 18%;  
   width: 15%;
-  height: auto; 
+  height: auto;
   justify-items: center;
   text-align: center;
 }
-.node_title{  
+.node_title {
   margin: 5%;
   color: white;
   font-family: "Titillium Web";
@@ -29,21 +28,15 @@
   font-style: normal;
   font-weight: normal;
   font-size: 1.2vw;
-  text-shadow: 1px 1px 10px #F6EBFF;
+  text-shadow: 1px 1px 10px #f6ebff;
 }
 
 .titles_container #violet1, #violet2, #violet3, #violet4,
-#orange1, #orange2, #orange3, #orange4, #red1, #red2, #red3,
-#green1, #green2, #green3
-{
+#orange1, #orange2, #orange3, #orange4,
+#red1, #red2, #red3,
+#green1, #green2, #green3 {
   display: none;
 }
-
-
-/*.group #node_v1:hover + div   {
-  border: 1px solid lightblue; 
-}*/
-
 
 /*__________________SLIDER_____________________________*/
 .slider_container{
