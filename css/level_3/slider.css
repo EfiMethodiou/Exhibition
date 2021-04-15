@@ -10,7 +10,42 @@
   height: 100%;
   background-color: rgba(12, 11, 11, 1);
 }
-/*_______________________________________________________*/
+/*_________________*/
+.titles_container{
+  /*border: 1px solid lightblue;*/
+  position: absolute;
+  bottom:18%;
+  left: 42%;
+  width: 15%;
+  height: auto; 
+  justify-items: center;
+  text-align: center;
+}
+.node_title{  
+  margin: 5%;
+  color: white;
+  font-family: "Titillium Web";
+  line-height: normal;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.2vw;
+  text-shadow: 1px 1px 10px #F6EBFF;
+}
+
+.titles_container #violet1, #violet2, #violet3, #violet4,
+#orange1, #orange2, #orange3, #orange4, #red1, #red2, #red3,
+#green1, #green2, #green3
+{
+  display: none;
+}
+
+
+/*.group #node_v1:hover + div   {
+  border: 1px solid lightblue; 
+}*/
+
+
+/*__________________SLIDER_____________________________*/
 .slider_container{
   /*border: 1px solid rebeccapurple;*/
   position: absolute;  
@@ -46,7 +81,7 @@ li {
   padding-left: 2%;
 }
 
-li #item img{
+li .item img{
   align-content: center;
   width: 4.9vw;  
   padding-right: -1%;
@@ -71,22 +106,22 @@ li #item img{
 
 /*screen function for slider's items*/
 @media screen and (max-width: 1000px){
-  li #item img {
+  li .item img {
     width: 4.8vw;
   } 
 }
 @media screen and (max-width: 800px){  
-  li #item img {
+  li .item img {
     width: 4.6vw;
   } 
 }
 @media screen and (max-width: 600px){  
-  li #item img {
+  li .item img {
     width: 4.4vw;
   } 
 }
 @media screen and (max-width: 450px){    
-  li #item img {
+  li .item img {
     width: 4vw;
   } 
 }

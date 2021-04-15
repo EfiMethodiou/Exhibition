@@ -39,7 +39,7 @@ function closePopup(){
 
 
 /*
-    SLIDER FUNCTIONS
+    SLIDER LEFT AND RIGHT FUNCTIONS
 */
 function goLeft(){
     if(document.getElementById("greenGroup").style.display ==="inline" && 
@@ -100,3 +100,157 @@ function goRight(){
         document.getElementById("redGroup").style.display = "none";
     }
 }
+
+//HOVER OVER THE PICTURES TO SHOW TITLES OF ARTWORKS
+const violet1 = document.querySelector("#node_v1");
+violet1.addEventListener("mouseover", event => {
+    document.getElementById("violet1").style.display = "block";
+});
+violet1.addEventListener("mouseout", event => {
+    document.getElementById("violet1").style.display = "none";
+});
+//
+const violet1_1 = document.querySelector("#node_v1_1");
+violet1_1.addEventListener("mouseover", event => {
+    document.getElementById("violet1").style.display = "block";
+});
+violet1_1.addEventListener("mouseout", event => {
+    document.getElementById("violet1").style.display = "none";
+});
+//VIOLET 2
+const violet2 = document.querySelector("#node_v2");
+violet2.addEventListener("mouseover", event => {
+    document.getElementById("violet2").style.display = "block";
+});
+violet2.addEventListener("mouseout", event => {
+    document.getElementById("violet2").style.display = "none";
+});
+//
+const violet2_1 = document.querySelector("#node_v2_1");
+violet2_1.addEventListener("mouseover", event => {
+    document.getElementById("violet2").style.display = "block";
+});
+violet2_1.addEventListener("mouseout", event => {
+    document.getElementById("violet2").style.display = "none";
+});
+//VIOLET 3
+const violet3 = document.querySelector("#node_v3");
+violet3.addEventListener("mouseover", event => {
+    document.getElementById("violet3").style.display = "block";
+});
+violet3.addEventListener("mouseout", event => {
+    document.getElementById("violet3").style.display = "none";
+});
+//
+const violet3_1 = document.querySelector("#node_v3_1");
+violet3_1.addEventListener("mouseover", event => {
+    document.getElementById("violet3").style.display = "block";
+});
+violet3_1.addEventListener("mouseout", event => {
+    document.getElementById("violet3").style.display = "none";
+});
+//VIOLET 4
+const violet4 = document.querySelector("#node_v4");
+violet4.addEventListener("mouseover", event => {
+    document.getElementById("violet4").style.display = "block";
+});
+violet4.addEventListener("mouseout", event => {
+    document.getElementById("violet4").style.display = "none";
+});
+//
+const violet4_1 = document.querySelector("#node_v4_1");
+violet4_1.addEventListener("mouseover", event => {
+    document.getElementById("violet4").style.display = "block";
+});
+violet4_1.addEventListener("mouseout", event => {
+    document.getElementById("violet4").style.display = "none";
+});
+
+/*___________________ORANGE____
+       ORANGE 1 
+*/
+const orange1 = document.querySelector("#node_or1");
+orange1.addEventListener("mouseover", event => {
+    document.getElementById("orange1").style.display = "block";
+});
+orange1.addEventListener("mouseout", event => {
+    document.getElementById("orange1").style.display = "none";
+});
+// ORANGE 2
+const orange2 = document.querySelector("#node_or2");
+orange2.addEventListener("mouseover", event => {
+    document.getElementById("orange2").style.display = "block";
+});
+orange2.addEventListener("mouseout", event => {
+    document.getElementById("orange2").style.display = "none";
+});
+// ORANGE 3
+const orange3 = document.querySelector("#node_or3");
+orange3.addEventListener("mouseover", event => {
+    document.getElementById("orange3").style.display = "block";
+});
+orange3.addEventListener("mouseout", event => {
+    document.getElementById("orange3").style.display = "none";
+});
+// ORANGE 4
+const orange4 = document.querySelector("#node_or4");
+orange4.addEventListener("mouseover", event => {
+    document.getElementById("orange4").style.display = "block";
+});
+orange4.addEventListener("mouseout", event => {
+    document.getElementById("orange4").style.display = "none";
+});
+
+
+/*___________________RED____
+       RED 1 
+*/
+const red1 = document.querySelector("#node_r1");
+red1.addEventListener("mouseover", event => {
+    document.getElementById("red1").style.display = "block";
+});
+red1.addEventListener("mouseout", event => {
+    document.getElementById("red1").style.display = "none";
+});
+// RED 2
+const red2 = document.querySelector("#node_r2");
+red2.addEventListener("mouseover", event => {
+    document.getElementById("red2").style.display = "block";
+});
+red2.addEventListener("mouseout", event => {
+    document.getElementById("red2").style.display = "none";
+});
+//  RED 3
+const red3 = document.querySelector("#node_r3");
+red3.addEventListener("mouseover", event => {
+    document.getElementById("red3").style.display = "block";
+});
+red3.addEventListener("mouseout", event => {
+    document.getElementById("red3").style.display = "none";
+});
+/*___________________GREEN____
+       GREEN 1 
+*/
+const green1 = document.querySelector("#node_gr1");
+green1.addEventListener("mouseover", event => {
+    document.getElementById("green1").style.display = "block";
+});
+green1.addEventListener("mouseout", event => {
+    document.getElementById("green1").style.display = "none";
+});
+//  GREEN 2
+const green2 = document.querySelector("#node_gr2");
+green2.addEventListener("mouseover", event => {
+    document.getElementById("green2").style.display = "block";
+});
+green2.addEventListener("mouseout", event => {
+    document.getElementById("green2").style.display = "none";
+});
+//  GREEN 3
+const green3 = document.querySelector("#node_gr3");
+green3.addEventListener("mouseover", event => {
+    document.getElementById("green3").style.display = "block";
+});
+green3.addEventListener("mouseout", event => {
+    document.getElementById("green3").style.display = "none";
+});
