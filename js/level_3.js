@@ -5,9 +5,9 @@ function backToLevel2(){
 
 function openMS_pop(){    
     document.getElementById("infoBackg").style.display = "block";
-    document.getElementById("info_popup_M_S").style.display = "block";
+    document.getElementById("info_popup").style.display = "block";
 }
 function closeMS_pop(){    
     document.getElementById("infoBackg").style.display = "none";
-    document.getElementById("info_popup_M_S").style.display = "none";
+    document.getElementById("info_popup").style.display = "none";
 }
