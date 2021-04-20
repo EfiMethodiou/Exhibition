@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -21,95 +20,45 @@
   width: 233px;
   white-space: nowrap;
   text-align: left;
-  font-family: 'Titillium Web';
+  font-family: "Titillium Web";
   font-style: normal;
   font-weight: normal;
   font-size: 1.8vw;
   color: rgba(248, 246, 246, 1);
 }
 
-@media screen and (max-width: 750px){
-  #ASN_RHIZO-NETWORK {    
+@media screen and (max-width: 750px) {
+  #ASN_RHIZO-NETWORK {
     font-size: 3vw;
   }
-
 }
-
-
-
-
-
-/*
-#RHIZOSPHERE_NETWORK {
-  left: 0px;
-  top: 32px;
-  position: absolute;
-  overflow: visible;
-  width: 203px;
-  white-space: nowrap;
-  text-align: left;
-  font-family: Segoe UI;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  color: rgba(248, 246, 246, 1);
-}
-#ABOUT_ASN {
-  left: 0px;
-  top: 3px;
-  position: absolute;
-  overflow: visible;
-  width: 98px;
-  white-space: nowrap;
-  text-align: left;
-  font-family: Segoe UI;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  color: rgba(248, 246, 246, 1);
-} */
-
 
 #deletelater {
   position: absolute;
-  width: 80px;
-  height: 80px;
   left: 50%;
-  top: 360px;
+  top: 55%;
   overflow: visible;
   cursor: pointer;
-  --web-animation: fadein 0.3s ease-out;
-  --web-action-type: page;
-  --web-action-target: popup_capture.html;
 }
-@keyframes fadein {
-  0% {
-    opacity: 0;
+#deletelater img {
+  width: 6.2vw;
+}
+
+@media screen and (max-width: 500px) {
+  #deletelater {
+    top: 50%;
+    background-color: red;
   }
-  100% {
-    opacity: 1;
-  }
 }
-#Ellipse_1 {
-  fill: rgba(240, 115, 56, 1);
-}
-.Ellipse_1 {
-  position: absolute;
-  overflow: visible;
-  width: 80px;
-  height: 80px;
-  left: 0px;
-  top: 0px;
-}
+
 #next {
-  left: 23px;
-  top: 24px;
+  padding: 8%;
   position: absolute;
   overflow: visible;
   width: 38px;
   white-space: nowrap;
   text-align: left;
-  font-family: 'Titillium Web';
+  font-family: "Titillium Web";
   font-style: normal;
   font-weight: normal;
   font-size: 20px;

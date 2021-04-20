@@ -33,6 +33,7 @@
   background-color: rgba(240, 115, 56, 1);
   position: absolute;
   border: 1px solid #FF8868;
+  box-shadow: 0 0 10px #FFA297;
   width: 6%;
   height: auto;
   left: 50%;
@@ -41,12 +42,14 @@
   overflow: visible;  
   cursor: pointer;
   border-radius: 50%;
-  animation: glowUp 4s ease-in-out  1s infinite;  
+  animation: glowUp 4s ease-in  0s infinite;  
 }
 @keyframes glowUp{
     from {box-shadow: 0 0 10px #FFA297;}
     50% {box-shadow: 0 0 48PX #FF8868;}
-    to {box-shadow: 0 0 29px #F07338; }
+    80%{box-shadow: 0 0 29px #F07338;}
+    90%{box-shadow: 0 0 19px #F07338;}
+    to {box-shadow: 0 0 10px #F07338; }
 }
  
 
@@ -59,8 +62,7 @@
   white-space: nowrap;
   text-align: left;
   font-family: "Titillium Web";
-  font-style: normal;
-  font-weight: bold;
+  font-style: normal;  
   font-size: 1.4vw;
   color: rgba(0, 0, 0, 1);
 }
@@ -69,7 +71,7 @@
 
 EXTRA INFORMATION BUTTONS
 */
-#info_menu_btns {
+#info_menu_btns {  
   position: absolute;
   width: 14%;
   height: 19%;
@@ -78,81 +80,23 @@ EXTRA INFORMATION BUTTONS
   overflow: visible;
 }
 
-#ABOUT_THE_EXHIBITION {
-  left: 0%;
-  top: 0%;
-  position: absolute;
-  overflow: visible;
-  width: 100%;
-  height: 27%;
-  background-color: rgba(255, 255, 255, 0.8);
-  border-radius: 10% / 45%;
-}
-#ABOUT_THE_EXHIBITION span {
-  left: 7%;
-  top: 15%;
-  position: absolute;
-  overflow: visible;
-  white-space: nowrap;
-  cursor: pointer;
-  text-align: left;
-  font-family: "Titillium Web";
-  font-style: normal;
-  font-weight: bold;
+
+#info_menu_btns li {
+  width: 15vw;
+  list-style-type: none;
+  padding: 2% 0;
   font-size: 1.2vw;
-  color: rgba(10, 10, 10, 1);
+  font-family: 'Titillium Web';
+  cursor: pointer;
+  border-bottom: 1px solid white;
+}
+#info_menu_btns a{
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
 }
 
-#AUGMENTED_REALITY {
-  left: 0%;
-  top: 36%;
-  position: absolute;
-  overflow: visible;
-  width: 100%;
-  height: 27%;
-  background-color: rgba(255, 255, 255, 0.8);
-  border-radius: 10% / 45%;
-}
 
-#AUGMENTED_REALITY span {
-  left: 7%;
-  top: 15%;
-  position: absolute;
-  overflow: visible;
-  white-space: nowrap;
-  cursor: pointer;
-  text-align: left;
-  font-family: "Titillium Web";
-  font-style: normal;
-  font-weight: bold;
-  font-size: 1.2vw;
-  color: rgba(10, 10, 10, 1);
-}
-
-#RESEARCH {
-  left: 0%;
-  top: 73%;
-  position: absolute;
-  overflow: visible;
-  width: 100%;
-  height: 27%;
-  background-color: rgba(255, 255, 255, 0.8);
-  border-radius: 10% / 45%;
-}
-#RESEARCH span {
-  left: 7%;
-  top: 15%;
-  position: absolute;
-  overflow: visible;
-  white-space: nowrap;
-  cursor: pointer;
-  text-align: left;
-  font-family: "Titillium Web";
-  font-style: normal;
-  font-weight: bold;
-  font-size: 1.2vw;
-  color: rgba(10, 10, 10, 1);
-}
 
 /*GO BACK BUTTON*/
 #x {
@@ -160,8 +104,8 @@ EXTRA INFORMATION BUTTONS
   margin: auto;
   left: 46%;
   top: 25px;
-  width: 2%;
-  height: 5%;
+  width: 1.5%;
+  height: 4%;
   cursor: pointer;
 }
 

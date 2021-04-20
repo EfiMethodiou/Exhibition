@@ -14,7 +14,7 @@
   display: none;
 }
 #rhizonet {
-    display: none;
+  display: none;
   background-color: rgba(255, 254, 254, 0.7);
   position: absolute;
   width: 80%;
@@ -40,17 +40,16 @@
   color: rgba(0, 0, 0, 1);
   
 }
-#ASN_provides_a_platform_for_th {
+#paragraph_rhiz {
   /*paragraph*/
-  left: 3%;
-  top: 18%;
+  margin: 8% 5%;
   position: absolute;
   overflow: visible;
   text-align: left;
   font-family: 'Titillium Web';
   font-style: normal;
   font-weight: normal;
-  font-size: 1.2vw;
+  font-size: 1.3vw;
   color: rgba(0, 0, 0, 1);
 }
 #Homepage {
@@ -68,7 +67,6 @@
     color: rgba(0, 0, 0, 1);
     transition: all 0.3s ease-in;
   }
-  
   #Homepage a:link {
     /*link style*/
     text-decoration: none;
@@ -81,7 +79,6 @@
   #Homepage a:hover { 
     color: #f07338;
   }
-  
   #x {
     position: relative;  
     margin: auto;

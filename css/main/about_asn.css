@@ -38,17 +38,16 @@
   font-size: 1.4vw;
   color: rgba(0, 0, 0, 1);
 }
-#ASN_provides_a_platform_for_th {
-  /*paragraph*/
-  left: 3%;
-  top: 18%;
+#paragraph_about {
+  /*paragraph*/  
+  margin: 8% 5%;
   position: absolute;
   overflow: visible;
   text-align: left;
   font-family: 'Titillium Web';
   font-style: normal;
   font-weight: normal;
-  font-size: 1.2vw;
+  font-size: 1.3vw;
   color: rgba(0, 0, 0, 1);
 }
 #Homepage {

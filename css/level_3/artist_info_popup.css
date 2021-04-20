@@ -98,3 +98,16 @@ div::-webkit-scrollbar-thumb {
     text-decoration: none;
     color: rgba(0, 0, 0, 1);
 }
+
+#artist a:link {
+  /*link style*/
+  text-decoration: none;
+  color: rgba(0, 0, 0, 1);
+}
+#Hoartistmepage a:visited {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 1);
+}
+#artist a:hover { 
+  color: #f07338;
+}
