@@ -36,18 +36,17 @@
 #deletelater {
   position: absolute;
   left: 50%;
-  top: 55%;
+  top: 53%;
   overflow: visible;
   cursor: pointer;
 }
 #deletelater img {
-  width: 6.2vw;
+  width: 5vw;
 }
 
 @media screen and (max-width: 500px) {
   #deletelater {
-    top: 50%;
-    background-color: red;
+    top: 50%;    
   }
 }
 

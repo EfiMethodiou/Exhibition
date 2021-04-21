@@ -32,7 +32,7 @@
   font-family: "Titillium Web";
   font-style: normal;
   font-weight: normal;
-  font-size: 2vw;
+  font-size:1.7vw;
   color: rgba(248, 246, 246, 1);
 }
 #interactive_installation_Maria {
@@ -46,7 +46,7 @@
   font-family: "Titillium Web";
   font-style: normal;
   font-weight: normal;
-  font-size: 1.2vw;
+  font-size: 1.1vw;
   color: rgba(255, 255, 255, 1);
 }
 
@@ -65,10 +65,10 @@
   position: absolute;
   margin-top: 12%;
   margin-left: 2%;
-  width: 40%;
-  height: 38%;
+  width: 35%;
+  height: 35%;
   background-color: white;
-  transform: perspective(1000px) rotateY(48deg);
+  transform: perspective(1600px) rotateY(48deg);
 }
 #artwork_image span{
   position: relative;
@@ -127,13 +127,13 @@
   position: absolute;
   margin-top: 23%;
   margin-left: 42%;
-  width: 3%;
+  width: 2.7%;
 }
 #info_btn{
   position: absolute;
   margin-left: 42%;
   margin-top: 27%;
-  width: 3%;
+  width: 2.7%;
   cursor: pointer;
 }
 
@@ -142,12 +142,12 @@
   position: absolute;
   left: 50%;
   margin-top: 32%;
-  width: 3.2%;
+  width: 3%;
 }
 
 #right_direction{
   position: absolute;
   margin-top: 32%;
   left: 85%;
-  width: 3.2%;
+  width: 3%;
 }

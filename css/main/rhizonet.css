@@ -36,7 +36,7 @@
   font-family: 'Titillium Web';
   font-style: normal;
   font-weight: bold;
-  font-size: 1.4vw;
+  font-size: 1.3vw;
   color: rgba(0, 0, 0, 1);
   
 }
@@ -49,7 +49,7 @@
   font-family: 'Titillium Web';
   font-style: normal;
   font-weight: normal;
-  font-size: 1.3vw;
+  font-size: 1.2vw;
   color: rgba(0, 0, 0, 1);
 }
 #Homepage {
@@ -119,3 +119,12 @@
     background-color: #f07338;
   }
   
+  @media screen and (max-width: 700px) { 
+    #paragraph_rhiz {
+      margin: 10% 6%;
+      font-size: 1.4vw;
+    }
+    #Homepage {
+      padding-top: 4%;
+    }
+  }

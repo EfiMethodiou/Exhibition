@@ -37,7 +37,7 @@ function closePopup() {
 /*
     SLIDER LEFT AND RIGHT FUNCTIONS
 */
-function goLeft() {
+function goRight() {
   if (
     document.getElementById("greenGroup").style.display === "inline" &&
     document.getElementById("redGroup").style.display === "inline"
@@ -67,7 +67,7 @@ function goLeft() {
   }
 }
 
-function goRight() {
+function goLeft() {
   if (
     document.getElementById("violetGroup2").style.display === "inline" &&
     document.getElementById("greenGroup").style.display === "inline"

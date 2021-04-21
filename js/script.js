@@ -69,35 +69,29 @@ function backToMain(){
 Open ABOUT THE EXHIBITION popup*/
 function openAbExhib(){
     document.getElementById("about__exhibition").style.display = "block";
-    document.getElementById("about__exhibitionBackg").style.display = "block";
+    document.getElementById("menuPopupBackg").style.display = "block";
 }
-/*Close ABOUT THE EXHIBITION popup*/
-function closeAbExhib(){
-    document.getElementById("about__exhibition").style.display = "none";
-    document.getElementById("about__exhibitionBackg").style.display = "none";
-} 
 /*
 Open AUGMENTED REALITY popup*/
 function openArPop(){
     document.getElementById("augmented_reality").style.display = "block";
-    document.getElementById("augmented_realityBackg").style.display = "block";
+    document.getElementById("menuPopupBackg").style.display = "block";
 }
-/*Close AUGMENTED REALITY popup*/
-function closeArPop(){
-    document.getElementById("augmented_reality").style.display = "none";
-    document.getElementById("augmented_realityBackg").style.display = "none";
-} 
 /*
 Open RESEARCH popup*/
 function openResearPop(){
     document.getElementById("research").style.display = "block";
-    document.getElementById("researchBackg").style.display = "block";
+    document.getElementById("menuPopupBackg").style.display = "block";
 }
-/*Close RESEARCH popup*/
-function closeResearPop(){
-    document.getElementById("research").style.display = "none";
-    document.getElementById("researchBackg").style.display = "none";
+
+/*Close popup Menus*/
+function closePopupMenu(){
+    document.getElementById("about__exhibition").style.display = "none";
+    document.getElementById("augmented_reality").style.display = "none"
+    document.getElementById("research").style.display = "none";;
+    document.getElementById("menuPopupBackg").style.display = "none";
 } 
+
 
 /*
 Go to level2 page*/

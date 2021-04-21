@@ -1,4 +1,4 @@
-#menuBackg{
+#menuBackg {
   top: 0;
   position: absolute;
   width: 100%;
@@ -13,10 +13,10 @@
   height: 419px;
   left: 5%;
   top: 16px;
-  overflow: visible;  
+  overflow: visible;
 }
 
-#hamburger {  
+#hamburger {
   position: relative;
   display: block;
   width: 10%;
@@ -51,7 +51,7 @@
   z-index: 1;
   transform-origin: 4px 0px;
   transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
-  background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
+    background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
 }
 
 #hamburger span:first-child {
@@ -79,54 +79,53 @@
 
 #menu_items {
   position: absolute;
-  width: 300px;
-  margin: -100px -360px;
+  width: 310px;
+  height: 210px;
+  margin: -100px -440px;
   padding: 40px;
-  padding-top: 125px;  
- background: rgba(12, 11, 11, 0.5);  /*transparent background for the popups*/
+  padding-top: 125px;
+  background: rgba(12, 11, 11, 0.5); /*transparent background for the popups*/
   transform: translateX(0);
   transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
 }
 
 #menu_items li {
-  width: 15vw;
+  width: 14vw;
   list-style-type: none;
   color: white;
   padding: 2% 0;
-  font-size: 1.2vw;
-  font-family: 'Titillium Web';
+  font-size: 1.1vw;
+  font-family: "Titillium Web";
   cursor: pointer;
   border-bottom: 1px solid white;
 }
-#menu_items a{
+#menu_items a {
   text-decoration: none;
   color: white;
 }
 
 #hamburger input:checked ~ #menu_items {
-  transform: translateX(360px);
+  transform: translateX(440px);
   transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
 }
 
 
-
-@media screen and (max-width: 500px){
+@media screen and (max-width: 700px) {
   #menu_items li {
     width: 23vw;
     font-size: 2vw;
   }
-  #menu_items{
-    left: -50%;
-
+  #menu_items {
+    left: -80%;
   }
-  #hamburger span {   
+  #hamburger span {
     width: 21px;
     height: 1px;
   }
 }
 
-@media screen and (max-width: 300px){
-  #menu_items  {
+@media screen and (max-width: 300px) {
+  #menu_items {
     top: 30%;
     left: -50%;
   }

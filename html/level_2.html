@@ -8,9 +8,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/level_2/level_2.css">
-    <link rel="stylesheet" href="../css/level_2/ab_exhib_popup.css">
+    <link rel="stylesheet" href="../css/level_2/menuPopups.css">
+    <!--
     <link rel="stylesheet" href="../css/level_2/ar_popup.css">
     <link rel="stylesheet" href="../css/level_2/research_popup.css">
+    -->
 </head>
 
 <body>
@@ -26,9 +28,9 @@
         <div id="info_menu_btns">            
             <u>
                 <li></li>
-                <li><a onclick="openAbExhib(), closeResearPop(), closeArPop()">ABOUT THE EXHIBITION</a></li>
-                <li><a onclick="openArPop(), closeResearPop(), closeAbExhib()">AUGMENTED REALITY</a></li>
-                <li><a onclick="openResearPop(), closeArPop(), closeAbExhib()">RESEARCH</a></li>
+                <li onclick="openAbExhib()">ABOUT THE EXHIBITION</li>
+                <li onclick="openArPop()">AUGMENTED REALITY</li>
+                <li onclick="openResearPop()">RESEARCH</li>
             </u>          
         </div>
         <div onclick="backToMain()" id="x">
@@ -37,37 +39,33 @@
         </div>
     </div>
     <!--ABOUT THE EXHIBITION popup-->
-    <div id="about__exhibitionBackg" onclick="closeAbExhib()">
+    <div id="menuPopupBackg" onclick="closePopupMenu()">
     </div>
-    <div id="about__exhibition">        
-        <div id="exhibition_tittle">
+    <div class="menuPopup" id="about__exhibition">        
+        <div id="title">
             <span>Capture the Future(s): OUR BIO-TECH PLANET<br/>exhibition<br/>date: 27.06 - 01.07.2021<br/> </span>
         </div>
-        <div onclick="closeAbExhib()" id="popup_x">
+        <div onclick="closePopupMenu()" id="popup_x">
             <div class="popup_left"></div>
             <div class="popup_right"></div>            
         </div>
     </div>
-    <!--AUGMENTED REALITY popup-->
-    <div id="augmented_realityBackg" onclick="closeArPop()">
-    </div>
-    <div id="augmented_reality">        
-        <div id="ar_title">
+    <!--AUGMENTED REALITY popup-->    
+    <div class="menuPopup" id="augmented_reality">        
+        <div id="title">
             <span>AUGMENTED REALITY</span>
         </div>
-        <div onclick="closeArPop()" id="popup_x">
+        <div onclick="closePopupMenu()" id="popup_x">
             <div class="popup_left"></div>
             <div class="popup_right"></div>            
         </div>
     </div>
     <!--RESEARCH poppup-->
-    <div id="researchBackg" onclick="closeResearPop()">
-    </div>
-    <div id="research">        
-        <div id="research_title">
+    <div class="menuPopup" id="research">        
+        <div id="title">
             <span>RESEARCH</span>
         </div>
-        <div onclick="closeResearPop()" id="popup_x">
+        <div onclick="closePopupMenu()" id="popup_x">
             <div class="popup_left"></div>
             <div class="popup_right"></div>            
         </div>

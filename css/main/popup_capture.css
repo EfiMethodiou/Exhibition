@@ -28,9 +28,9 @@
 }
 .p_captureInside{
   position: absolute;
-  width: 90%;
+  width: 84%;
   height: 80%;
-  margin: 5%;  
+  margin: 5% 8%;  
 }
 
 #Capture_the_Futures_OUR_BIO-TE {   
@@ -43,7 +43,7 @@
   font-family: "Titillium Web";
   font-style: normal;
   font-weight: bold;
-  font-size: 1.3vw;
+  font-size: 1.2vw;
   color: rgba(12, 11, 11, 1);
 }
 #exhibition {
@@ -57,7 +57,7 @@
   font-family: "Titillium Web";
   font-style: normal;
   font-weight: normal;
-  font-size: 1.2vw;
+  font-size: 1.1vw;
   color: rgba(12, 11, 11, 1);
 }
 

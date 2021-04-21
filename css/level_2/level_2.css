@@ -23,35 +23,41 @@
   font-family: "Titillium Web";
   font-style: normal;
   font-weight: normal;
-  font-size: 1.8vw;
+  font-size: 1.7vw;
   color: rgba(248, 246, 246, 1);
 }
-
-
 
 .circle {
   background-color: rgba(240, 115, 56, 1);
   position: absolute;
-  border: 1px solid #FF8868;
-  box-shadow: 0 0 10px #FFA297;
-  width: 6%;
-  height: auto;
-  left: 50%;
-  padding-top: 6%;
+  border: 1px solid #ff8868;
+  box-shadow: 0 0 10px #ffa297;
+  width: 5%;
+  height: 10%;  
+  left: 50%;  
   top: 50%;
-  overflow: visible;  
+  overflow: visible;
   cursor: pointer;
   border-radius: 50%;
-  animation: glowUp 4s ease-in  0s infinite;  
+  animation: glowUp 4s ease-in 0s infinite;
 }
-@keyframes glowUp{
-    from {box-shadow: 0 0 10px #FFA297;}
-    50% {box-shadow: 0 0 48PX #FF8868;}
-    80%{box-shadow: 0 0 29px #F07338;}
-    90%{box-shadow: 0 0 19px #F07338;}
-    to {box-shadow: 0 0 10px #F07338; }
+@keyframes glowUp {
+  from {
+    box-shadow: 0 0 10px #ffa297;
+  }
+  50% {
+    box-shadow: 0 0 48px #ff8868;
+  }
+  80% {
+    box-shadow: 0 0 29px #f07338;
+  }
+  90% {
+    box-shadow: 0 0 19px #f07338;
+  }
+  to {
+    box-shadow: 0 0 10px #f07338;
+  }
 }
- 
 
 #ENTER {
   left: 15%;
@@ -62,8 +68,8 @@
   white-space: nowrap;
   text-align: left;
   font-family: "Titillium Web";
-  font-style: normal;  
-  font-size: 1.4vw;
+  font-style: normal;
+  font-size: 1.2vw;
   color: rgba(0, 0, 0, 1);
 }
 
@@ -71,31 +77,25 @@
 
 EXTRA INFORMATION BUTTONS
 */
-#info_menu_btns {  
+#info_menu_btns {
   position: absolute;
   width: 14%;
   height: 19%;
   left: 4%;
-  top: 66px;
+  top: 10%;
   overflow: visible;
 }
 
-
 #info_menu_btns li {
-  width: 15vw;
+  width: 13vw;
   list-style-type: none;
+  color: white;
   padding: 2% 0;
-  font-size: 1.2vw;
-  font-family: 'Titillium Web';
+  font-size: 1.1vw;
+  font-family: "Titillium Web";
   cursor: pointer;
   border-bottom: 1px solid white;
 }
-#info_menu_btns a{
-  text-decoration: none;
-  list-style-type: none;
-  color: white;
-}
-
 
 
 /*GO BACK BUTTON*/
@@ -140,3 +140,5 @@ EXTRA INFORMATION BUTTONS
   transform: rotate(45deg);
   background-color: #f07338;
 }
+
+
