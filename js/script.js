@@ -22,7 +22,7 @@ document.getElementById("aboutBackg").style.display = "block";
 }
 function openRhizonet(){
     document.getElementById("rhizonet").style.display = "block";
-    document.getElementById("rhizonetBackg").style.display = "block";
+    document.getElementById("rhizBackg").style.display = "block";
 }
 /*Close about asn*/
 function closeAbout(){
@@ -31,7 +31,7 @@ function closeAbout(){
 }
 function closeRhizo(){
     document.getElementById("rhizonet").style.display ="none";
-    document.getElementById("rhizonetBackg").style.display = "none";
+    document.getElementById("rhizBackg").style.display = "none";
 }
 
 /*Close menu when category is clicked*/
@@ -96,5 +96,5 @@ function closePopupMenu(){
 /*
 Go to level2 page*/
 function gotoMariaSubc(){
-    window.location.href = "maria_subc.html";
+    window.location.href = "artist/maria_subc.html";
 }

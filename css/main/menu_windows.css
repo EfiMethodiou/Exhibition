@@ -13,7 +13,15 @@
   overflow: hidden;
   display: none;
 }
-#about {
+#rhizBackg {
+  top: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: none;
+}
+.menuwindow {
   display: none;
   background-color: rgba(255, 254, 254, 0.7);
   position: absolute;
@@ -24,7 +32,8 @@
   border-radius: 20px;
 }
 
-#ART__SCIENCE_NODE {
+
+#title {
   left: 3%;
   top: 27px;
   position: absolute;
@@ -38,7 +47,7 @@
   font-size: 1.3vw;
   color: rgba(0, 0, 0, 1);
 }
-#paragraph_about {
+#paragraph {
   /*paragraph*/
   margin: 8% 5%;
   position: absolute;
@@ -50,7 +59,7 @@
   font-size: 1.2vw;
   color: rgba(0, 0, 0, 1);
 }
-#Homepage {
+#thelink {
   left: 3%;
   top: 80%;
   position: absolute;
@@ -66,16 +75,16 @@
   transition: all 0.3s ease-in;
 }
 
-#Homepage a:link {
+#thelink a:link {
   /*link style*/
   text-decoration: none;
   color: rgba(0, 0, 0, 1);
 }
-#Homepage a:visited {
+#thelink a:visited {
   text-decoration: none;
   color: rgba(0, 0, 0, 1);
 }
-#Homepage a:hover {
+#thelink a:hover {
   color: #f07338;
 }
 
@@ -123,11 +132,11 @@
 
 @media screen and (max-width: 700px) {
  
-  #paragraph_about {
+  #paragraph {
     margin: 10% 6%;
     font-size: 1.4vw;
   }
-  #Homepage {
+  #thelink {
     padding-top: 4%;
   }
 }

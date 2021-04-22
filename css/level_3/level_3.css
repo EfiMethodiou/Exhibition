@@ -14,14 +14,14 @@
   height: 100%;
 
 }
-#level_3_maria_sybczynska {
+#level_3 {
   position: absolute;
   width: 100%;
   height: 100%;
   overflow: hidden;
 }
 
-#Broken_Links {
+#artworkTitle {
   margin-left: 5%;
   top: 30px;
   position: absolute;
@@ -35,7 +35,7 @@
   font-size:1.7vw;
   color: rgba(248, 246, 246, 1);
 }
-#interactive_installation_Maria {
+#interact_install {
   margin-left: 5%;
   top: 74px;
   position: absolute;
@@ -139,6 +139,7 @@
 
 
 #left_direction{
+  cursor: pointer;
   position: absolute;
   left: 50%;
   margin-top: 32%;
@@ -146,6 +147,7 @@
 }
 
 #right_direction{
+  cursor: pointer;
   position: absolute;
   margin-top: 32%;
   left: 85%;

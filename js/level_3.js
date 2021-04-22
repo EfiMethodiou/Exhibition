@@ -1,6 +1,6 @@
 /*Go back to level_2 page*/
 function backToLevel2(){
-    window.location.href = "level_2.html";
+    window.location.href = "../level_2.html";
 }
 
 function openMS_pop(){    
@@ -10,4 +10,15 @@ function openMS_pop(){
 function closeMS_pop(){    
     document.getElementById("infoBackg").style.display = "none";
     document.getElementById("info_popup").style.display = "none";
+}
+
+
+//Node glowing 
+
+//Navigation functions
+function gotoRegnumAnimale(){
+    window.location.href = "larys_lub.html";
+}
+function gotoBrokenLinks(){
+    window.location.href = "maria_subc.html";
 }
