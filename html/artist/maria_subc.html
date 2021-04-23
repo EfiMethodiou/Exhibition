@@ -11,11 +11,14 @@
   <link rel="stylesheet" href="../../css/level_3/artist_info_popup.css">
   <link rel="stylesheet" href="../../css/level_3/slider.css">
   <link rel="stylesheet" href="../../css/level_3/groups_popup.css">
-  
+  <!---->
+  <link rel="stylesheet" href="../../css/level_3/experiment.css">
+
 </head>
 
 <body>
   <img src="../../img/backgrounds/scene_01.jpg" id="bg" alt="">
+  <div class="ripple-open" id="ripple-open"></div>
   <div id="level_3">
     <div id="artworkTitle">
       <span>Broken Links</span>
@@ -95,34 +98,35 @@
     <!--RIGHT_DIRECTION_ARROW-->
     <a>
       <svg id="right_direction" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 43.661 22.614" transform="rotate(-10)"
-      onclick="gotoRegnumAnimale()">
-      <g id="right_direction" transform="translate(-1120.196 -481.18)">
-        <g id="right_one" transform="translate(56 -233)">
-          <path id="Path_3" data-name="Path 3"
-            d="M.755.01l18.5.153a.864.864,0,0,1,.755.93.837.837,0,0,1-.745.917L.765,1.857A.864.864,0,0,1,.01.927.837.837,0,0,1,.755.01Z"
-            transform="translate(1090.192 715.166) rotate(30)" fill="#fff" />
-          <path id="Path_4" data-name="Path 4"
-            d="M.745-.1l18.5-.153A.837.837,0,0,1,19.99.66a.864.864,0,0,1-.755.93l-18.5.153A.837.837,0,0,1-.01.826.864.864,0,0,1,.745-.1Z"
-            transform="translate(1089.673 735.279) rotate(-30)" fill="#fff" />
+        onclick="gotoRegnumAnimale()">
+        <!---->
+        <g id="right_direction" transform="translate(-1120.196 -481.18)">
+          <g id="right_one" transform="translate(56 -233)">
+            <path id="Path_3" data-name="Path 3"
+              d="M.755.01l18.5.153a.864.864,0,0,1,.755.93.837.837,0,0,1-.745.917L.765,1.857A.864.864,0,0,1,.01.927.837.837,0,0,1,.755.01Z"
+              transform="translate(1090.192 715.166) rotate(30)" fill="#fff" />
+            <path id="Path_4" data-name="Path 4"
+              d="M.745-.1l18.5-.153A.837.837,0,0,1,19.99.66a.864.864,0,0,1-.755.93l-18.5.153A.837.837,0,0,1-.01.826.864.864,0,0,1,.745-.1Z"
+              transform="translate(1089.673 735.279) rotate(-30)" fill="#fff" />
+          </g>
+          <g id="right_two" transform="translate(44 -233)">
+            <path id="Path_3-2" data-name="Path 3"
+              d="M.755.01l18.5.153a.864.864,0,0,1,.755.93.837.837,0,0,1-.745.917L.765,1.857A.864.864,0,0,1,.01.927.837.837,0,0,1,.755.01Z"
+              transform="translate(1090.192 715.166) rotate(30)" fill="#fff" />
+            <path id="Path_4-2" data-name="Path 4"
+              d="M.745-.1l18.5-.153A.837.837,0,0,1,19.99.66a.864.864,0,0,1-.755.93l-18.5.153A.837.837,0,0,1-.01.826.864.864,0,0,1,.745-.1Z"
+              transform="translate(1089.673 735.279) rotate(-30)" fill="#fff" />
+          </g>
+          <g id="right_three" transform="translate(-25 -1)">
+            <path id="Path_3-3" data-name="Path 3"
+              d="M.755.01l18.5.153a.864.864,0,0,1,.755.93.837.837,0,0,1-.745.917L.765,1.857A.864.864,0,0,1,.01.927.837.837,0,0,1,.755.01Z"
+              transform="translate(1146.192 482.166) rotate(30)" fill="#fff" />
+            <path id="Path_4-3" data-name="Path 4"
+              d="M.745-.1l18.5-.153A.837.837,0,0,1,19.99.66a.864.864,0,0,1-.755.93l-18.5.153A.837.837,0,0,1-.01.826.864.864,0,0,1,.745-.1Z"
+              transform="translate(1145.673 502.279) rotate(-30)" fill="#fff" />
+          </g>
         </g>
-        <g id="right_two" transform="translate(44 -233)">
-          <path id="Path_3-2" data-name="Path 3"
-            d="M.755.01l18.5.153a.864.864,0,0,1,.755.93.837.837,0,0,1-.745.917L.765,1.857A.864.864,0,0,1,.01.927.837.837,0,0,1,.755.01Z"
-            transform="translate(1090.192 715.166) rotate(30)" fill="#fff" />
-          <path id="Path_4-2" data-name="Path 4"
-            d="M.745-.1l18.5-.153A.837.837,0,0,1,19.99.66a.864.864,0,0,1-.755.93l-18.5.153A.837.837,0,0,1-.01.826.864.864,0,0,1,.745-.1Z"
-            transform="translate(1089.673 735.279) rotate(-30)" fill="#fff" />
-        </g>
-        <g id="right_three" transform="translate(-25 -1)">
-          <path id="Path_3-3" data-name="Path 3"
-            d="M.755.01l18.5.153a.864.864,0,0,1,.755.93.837.837,0,0,1-.745.917L.765,1.857A.864.864,0,0,1,.01.927.837.837,0,0,1,.755.01Z"
-            transform="translate(1146.192 482.166) rotate(30)" fill="#fff" />
-          <path id="Path_4-3" data-name="Path 4"
-            d="M.745-.1l18.5-.153A.837.837,0,0,1,19.99.66a.864.864,0,0,1-.755.93l-18.5.153A.837.837,0,0,1-.01.826.864.864,0,0,1,.745-.1Z"
-            transform="translate(1145.673 502.279) rotate(-30)" fill="#fff" />
-        </g>
-      </g>
-    </svg>
+      </svg>
     </a>
 
     <!--POPUP_INFOMATION-->
@@ -299,11 +303,12 @@
       </div>
     </div>
 
+  </div>
 
-    
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+  <script src="../../js/level_3.js"></script>
+  <script src="../../js/slider.js"></script>
 
-    <script src="../../js/level_3.js"></script>
-    <script src="../../js/slider.js"></script>
 </body>
 
 </html>
