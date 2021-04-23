@@ -16,13 +16,18 @@ function closeMS_pop() {
 
 //Navigation functions
 function gotoRegnumAnimale() {
-    setTimeout(function () {
-        window.location.href = "larys_lub.html";
-      }, 2100);
-  // window.location.href = "larys_lub.html";
+  setTimeout(function () {
+    window.location.href = "larys_lub.html";
+  }, 2200);
   document.getElementsByClassName("ripple-open");
   $(".ripple-open").toggleClass("ripple-open-active");
 }
+setTimeout(function () {
+  document.getElementsByClassName("ripple-close");
+  $(".ripple-close").toggleClass("ripple-close-active");
+  console.log("it");
+}, 2400);
+
 function gotoBrokenLinks() {
   window.location.href = "maria_subc.html";
 }
