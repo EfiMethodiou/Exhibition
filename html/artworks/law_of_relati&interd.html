@@ -17,8 +17,8 @@
         </div>
         <div class="artworks">
             <div id="pictures">
-                <img onclick="enlargeImg(this)" src="../../img/artworks/law_of_relationship2.jpg">
-                <img onclick="enlargeImg(this)" src="../../img/artworks/law_of_relationship1.jpg">
+                <img onclick="enlargeImg1()" id="first" src="../../img/artworks/law_of_relationship2.jpg">
+                <img onclick="enlargeImg2()" id="second" src="../../img/artworks/law_of_relationship1.jpg">
             </div>
         </div>
 
@@ -28,39 +28,74 @@
             position: absolute;
             margin: 5% 10%;
             width: 80%;
-            height: 80%;           
+            height: 80%;
         }
-        #pictures{
+
+        #pictures {
             margin: 5% 15%;
             width: 70%;
             height: 80%;
-           /* border: 2px solid rosybrown;*/
+            /* border: 2px solid rosybrown;*/
         }
 
         .artworks img {
             left: 20%;
-            display: inline; 
-            margin-left: 5%;           
+            display: inline;
+            margin-left: 5%;
             width: 40%;
         }
     </style>
 
     <script>
-        function enlargeImg(img) {
-            if(img.style.transform != "scale(1.7)"){
-                img.style.transform = "scale(1.7)";
-                img.style.transition =
-                  "transform 0.25s ease";
+        var img1 = document.getElementById("first");
+        var img2 = document.getElementById("second");
+        img1.style.transform = "scale(1)";
+        img2.style.transform = "scale(1)";
+        function enlargeImg1() {
+            if (img1.style.transform != "scale(1.2)" && img2.style.transform === "scale(1)") {
+                img1.style.transform = "scale(1.2)";
+                img1.style.position = "absolute";
+                img1.style.zIndex = 10;
+                img1.style.top = "-7%";
+                img1.style.left = "28%";
+                img1.style.width = "36%";
+                img2.style.display ="none";
+                img1.style.transition =
+                    "transform 0.25s ease";
+            }      
+            else {
+                img1.style.transform = "scale(1)";
+                img1.style.position = "";
+                img1.style.zIndex = 0;
+                img1.style.width = "40%";
+                img2.style.display ="inline";
+                img1.style.transition =
+                    "transform 0.25s ease";
             }
-            else{
-                img.style.transform = "scale(1)";
-                img.style.transition =
-                  "transform 0.25s ease";
-            }
-                   
-
         }
-     
+        function enlargeImg2() {
+            if (img2.style.transform != "scale(1.2)" && img1.style.transform === "scale(1)") {
+                img2.style.transform = "scale(1.2)";
+                img2.style.position = "absolute";
+                img2.style.zIndex = 10;
+                img2.style.top = "-7%";
+                img2.style.left = "28%";
+                img2.style.width = "36%";
+                img1.style.display ="none";
+                img2.style.transition =
+                    "transform 0.25s ease";
+            }
+            else {
+                img2.style.transform = "scale(1)";
+                img2.style.position = "";
+                img2.style.zIndex = 0;
+                img2.style.width = "40%";
+                img1.style.display ="inline";
+                img2.style.transition =
+                    "transform 0.25s ease";
+            }
+        }
+
 
         document.addEventListener("contextmenu", function (e) {
             e.preventDefault();
