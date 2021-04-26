@@ -15,6 +15,7 @@
 }
 
 .menuPopup {
+  -webkit-user-select: none;
   display: none;
   position: absolute;
   overflow: visible;

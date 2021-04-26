@@ -90,11 +90,17 @@ li .item img{
   border-radius: 50%;
   animation: glowUp 4s ease-in-out  0.2s infinite;
 }
-
 @keyframes glowUp{
   from {box-shadow: 0 0 7px #D9D7DE;}
   50% {box-shadow: 0 0 15PX #F6EBFF;}
   to {box-shadow: 0 0 10px #D9D7DE; }
+}
+
+#glow {
+  border: 0.2px thin #F6EBFF;  
+  border-radius: 50%;
+  animation: glowUp 4s ease-in-out  0.2s infinite;  
+  
 }
 
 

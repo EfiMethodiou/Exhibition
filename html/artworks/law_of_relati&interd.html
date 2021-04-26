@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Law of Relationship & Interdependence</title>
+    <link rel="icon" href="../../img/slider/LawofRelat.png">
+    <link rel="stylesheet" href="../../css/level_3/artworks_page.css">
+</head>
+
+<body>
+    <div class="artwork_page">
+        <div onclick="closeLawofRel()" id="x">
+            <div class="left"></div>
+            <div class="right"></div>
+        </div>
+        <div class="artworks">
+            <div id="pictures">
+                <img onclick="enlargeImg(this)" src="../../img/artworks/law_of_relationship2.jpg">
+                <img onclick="enlargeImg(this)" src="../../img/artworks/law_of_relationship1.jpg">
+            </div>
+        </div>
+
+    </div>
+    <style>
+        .artworks {
+            position: absolute;
+            margin: 5% 10%;
+            width: 80%;
+            height: 80%;           
+        }
+        #pictures{
+            margin: 5% 15%;
+            width: 70%;
+            height: 80%;
+           /* border: 2px solid rosybrown;*/
+        }
+
+        .artworks img {
+            left: 20%;
+            display: inline; 
+            margin-left: 5%;           
+            width: 40%;
+        }
+    </style>
+
+    <script>
+        function enlargeImg(img) {
+            if(img.style.transform != "scale(1.7)"){
+                img.style.transform = "scale(1.7)";
+                img.style.transition =
+                  "transform 0.25s ease";
+            }
+            else{
+                img.style.transform = "scale(1)";
+                img.style.transition =
+                  "transform 0.25s ease";
+            }
+                   
+
+        }
+     
+
+        document.addEventListener("contextmenu", function (e) {
+            e.preventDefault();
+        }, false);    
+    </script>
+    <script src="../../js/level_3.js"></script>
+
+</body>
+
+</html>

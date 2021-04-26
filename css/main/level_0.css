@@ -6,6 +6,7 @@
   border: none;
 }
 .level_0 {
+  -webkit-user-select: none;
   display: block;
   position: fixed;
   z-index: 999999;
