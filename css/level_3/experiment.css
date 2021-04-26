@@ -58,6 +58,6 @@
   }
 }
 .ripple-close-active{
-  -webkit-animation: getsmall 2s forwards;
+  -webkit-animation: getsmall 4s forwards;
   display: none;
 }
