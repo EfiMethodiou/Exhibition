@@ -12,7 +12,14 @@ function closeMS_pop() {
   document.getElementById("info_popup").style.display = "none";
 }
 
-//Node glowing
+//OPEN AND CLOSE ARTWORK PAGES
+function openBrokenLinks(){
+  window.location.href = "../artworks/broken_links.html"
+}
+function closeBrokenLinks(){
+  window.location.href = "../artist/maria_subc.html";
+}
+
 
 //Navigation functions
 function gotoRegnumAnimale() {

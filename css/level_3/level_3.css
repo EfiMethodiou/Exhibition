@@ -128,6 +128,7 @@
   margin-top: 23%;
   margin-left: 42%;
   width: 2.7%;
+  cursor: pointer;
 }
 #info_btn{
   position: absolute;
