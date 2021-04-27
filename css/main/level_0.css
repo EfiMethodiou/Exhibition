@@ -5,9 +5,9 @@
   box-sizing: border-box;
   border: none;
 }
-.level_0 {
+#level_0 {
   -webkit-user-select: none;
-  display: block;
+  display: none;  /*  <-- none*/
   position: fixed;
   z-index: 999999;
   width: 100%;
@@ -35,16 +35,17 @@
 
 #ART__SCIENCE_NODE_presents {
   top: 72%;
-  left: 32%;
+  margin-left: 34%;
   position: absolute;
   overflow: visible;  
   text-align: center;
   font-family: 'Titillium Web';
   font-style: normal;
   font-weight: bold;
-  font-size: 2.4vw;
+  font-size: 2.3vw;
   color: rgba(20, 67, 95, 1);
   opacity: 0;
+  text-shadow: 0px 10px 10px rgba(0, 0, 0, 0.7);
   animation: appear2 3s normal 2s forwards ;
 }
 @keyframes appear2 {
