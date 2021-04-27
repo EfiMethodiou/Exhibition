@@ -10,7 +10,6 @@
 //the loader will appear only the first time that the user opens the page
 function firstLoad() {
   if (localStorage.getItem("hasCodeRunBefore") === null) {
-    console.log("it runs");
     document.getElementById("level_0").style.display = "block";
     setTimeout(function () {
       $(".level_0").fadeToggle();
@@ -20,6 +19,12 @@ function firstLoad() {
 }
 window.onload = firstLoad();
 
+//
+
+if(window.screen.width === "400px"){
+    console.log("it runs");
+    window.screen.lockOrientation('landscape');
+}
 
 /*________________MAIN_______PAGE__________*/
 /*Open popups from the menu*/
