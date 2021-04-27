@@ -19,12 +19,13 @@ function firstLoad() {
 }
 window.onload = firstLoad();
 
-//
-
-if(window.screen.width === "400px"){
-    console.log("it runs");
-    window.screen.lockOrientation('landscape');
-}
+/* landspace mode
+var orientation = (screen.orientation || {}).type || screen.mozOrientation || screen.msOrientation;
+if(window.matchMedia("(max-width: 700px)")){
+    console.log("it runs ");
+    orientation = "landscape-primary";
+   
+} */
 
 /*________________MAIN_______PAGE__________*/
 /*Open popups from the menu*/

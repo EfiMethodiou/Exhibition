@@ -26,7 +26,7 @@
             <span>Regnum animale</span>
         </div>
         <div id="interact_install">
-            <span>interactive installation<br> Larys Lubowicki </span>
+            <span>photographic series 2020<br> Larys Lubowicki </span>
         </div>
         <div onclick="backToLevel2()" id="x">
             <div class="left"></div>
@@ -136,9 +136,38 @@
                     <span>Regnum animale</span>
                 </div>
                 <div id="interactive_installation">
-                    <span>Interactive installation </span>
+                    <span>photographic series 2020 </span>
                     <p>
-                        Paragraph about artwork here.
+                        A series of photographs depicting terrariums and museum dioramas poses a question about the
+                        definition of “natural environment” in the modern world. Naturalness remains an idea that
+                        arouses longing. At the same time, it is an unreachable longing. Did we not condemn ourselves to
+                        a post natural age? For a life in fact limited by the glass of the terrarium, filled with
+                        objects and ideas that only resemble a lost paradise. <br>
+
+                        The series was a part of an exhibition originally prepared for the location of a meadow and a
+                        forest in Poland (2020). Exhibition place: 52°42'48"N 23°09'23"E.<br> <br>
+
+
+                        List of photos: <br><br>
+
+                        <b>Regnum vitae #1 + Regnum vitae #1 – exhibition view</b>
+                        scientific collection of the specimen<br>
+
+                        <b>Regnum vitae #2 + Regnum vitae #2 – exhibition view</b>
+                        dissecting room, didactic specimen<br>
+
+                        <b>Regnum vitae #3 + Regnum vitae #3 – exhibition view</b>
+                        dissecting room, didactic specimen<br>
+
+                        <b>Regnum vitrum #1 + Regnum vitrum #1 – exhibition view</b>
+                        tropical animals and plants breeding farms<br>
+
+                        <b>Regnum vitrum #2 + Regnum vitrum #2 – exhibition view</b>
+                        Laboratory mice breeding farms<br>
+
+                        <b>Regnum iuventutis #1 + Regnum iuventutis #1 – exhibition view</b>
+                        experimental tadpoles’ breeding farms<br>
+
                     </p>
                 </div>
                 <div id="artist">
@@ -201,15 +230,19 @@
                     <ul class="group" id="violetGroup">
                         <li><a class="item" onclick="openViolet()"><img id="violetNode"
                                     src="../../img/slider/Violet.png"></a></li>
-                        <li><a id="node_v1" class="item"><img id="node" onclick="gotoMaria_Subc()" src="../../img/slider/BrolenLinks.png"></a></li>
-                        <li><a id="node_v2" class="item"><img id="glow" src="../../img/slider/RegnumAnimale.png"></a></li>
-                        <li><a id="node_v3" class="item"><img id="node" onclick="gotoPei_YL()" src="../../img/slider/Virophilia.png"></a></li>
-                        <li><a id="node_v4" class="item"><img id="node" onclick="gotoMalgo_Kaczm()" src="../../img/slider/LawofRelat.png"></a></li>
+                        <li><a id="node_v1" class="item"><img id="node" onclick="gotoMaria_Subc()"
+                                    src="../../img/slider/BrolenLinks.png"></a></li>
+                        <li><a id="node_v2" class="item"><img id="glow" src="../../img/slider/RegnumAnimale.png"></a>
+                        </li>
+                        <li><a id="node_v3" class="item"><img id="node" onclick="gotoPei_YL()"
+                                    src="../../img/slider/Virophilia.png"></a></li>
+                        <li><a id="node_v4" class="item"><img id="node" onclick="gotoMalgo_Kaczm()"
+                                    src="../../img/slider/LawofRelat.png"></a></li>
                     </ul>
                     <ul class="group" id="orangeGroup">
                         <li><a class="item" onclick="openOrange()"><img id="orangeNode"
                                     src="../../img/slider/Orange.png"></a></li>
-                        <li><a id="node_or1" class="item"><img id="node" src="../../img/slider/Morphism.png"></a></li>
+                        <li><a id="node_or1" class="item"><img id="node" onclick="gotoMarta_Baczyk()" src="../../img/slider/Morphism.png"></a></li>
                         <li><a id="node_or2" class="item"><img id="node" src="../../img/slider/AlgorithmicPhot.png"></a>
                         </li>
                         <li><a id="node_or3" class="item"><img id="node" src="../../img/slider/ContaclesRoot.png"></a>
@@ -239,13 +272,16 @@
                     <ul class="group" id="violetGroup2">
                         <li><a class="item" onclick="openViolet()"><img id="violetNode"
                                     src="../../img/slider/Violet.png"></a></li>
-                        <li><a id="node_v1_1" class="item"><img id="node" onclick="gotoMaria_Subc()" src="../../img/slider/BrolenLinks.png"></a>
+                        <li><a id="node_v1_1" class="item"><img id="node" onclick="gotoMaria_Subc()"
+                                    src="../../img/slider/BrolenLinks.png"></a>
                         </li>
                         <li><a id="node_v2_1" class="item"><img id="glow" src="../../img/slider/RegnumAnimale.png"></a>
                         </li>
-                        <li><a id="node_v3_1" class="item"><img id="node" onclick="gotoPei_YL()" src="../../img/slider/Virophilia.png"></a>
+                        <li><a id="node_v3_1" class="item"><img id="node" onclick="gotoPei_YL()"
+                                    src="../../img/slider/Virophilia.png"></a>
                         </li>
-                        <li><a id="node_v4_1" class="item"><img id="node" onclick="gotoMalgo_Kaczm()" src="../../img/slider/LawofRelat.png"></a>
+                        <li><a id="node_v4_1" class="item"><img id="node" onclick="gotoMalgo_Kaczm()"
+                                    src="../../img/slider/LawofRelat.png"></a>
                         </li>
                     </ul>
                 </div>
@@ -312,9 +348,9 @@
 
     <script>
         document.addEventListener("contextmenu", function (e) {
-          e.preventDefault();
+            e.preventDefault();
         }, false);    
-      </script>
+    </script>
     <script src="../../js/level_3.js"></script>
     <script src="../../js/slider.js"></script>
 </body>

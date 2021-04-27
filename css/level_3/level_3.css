@@ -156,15 +156,3 @@
   width: 3%;
 }
 
-@media screen and (max-width: 500px) and (orientation: landscape) {
-  html {
-    transform: rotate(-90deg);
-    transform-origin: left top;
-    width: 100vh;
-    height: 100vh;
-    overflow-x: hidden;
-    position: absolute;
-    top: 100%;
-    left: 0;
-  }
-}

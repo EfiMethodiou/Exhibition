@@ -37,6 +37,18 @@ function openLawofRel(){
 }
 function closeLawofRel(){
   window.location.href = "../artist/małgo_kaczm.html";
+}
+function openMorphism(){
+  window.location.href = "../artworks/morphism.html"
+}
+function closeMorphism(){
+  window.location.href = "../artist/marta_baczyk.html";
+}
+function openAlgoPhot(){
+  window.location.href = "../artworks/algo_photogr.html"
+}
+function closeAlgoPhot(){
+  window.locatopenAlgoPhotion.href = "../artist/alex_may.html";
 
 }
 
@@ -70,6 +82,23 @@ function gotoMalgo_Kaczm() {
   document.getElementsByClassName("ripple-open");
   $(".ripple-open").toggleClass("ripple-open-active");
 }
+function gotoMarta_Baczyk() {
+  setTimeout(function () {
+    window.location.href = "marta_baczyk.html";
+  }, 2200);
+  document.getElementsByClassName("ripple-open");
+  $(".ripple-open").toggleClass("ripple-open-active");
+}
+
+function gotoAlex_May() {
+  setTimeout(function () {
+    window.location.href = "alex_may.html";
+  }, 2200);
+  document.getElementsByClassName("ripple-open");
+  $(".ripple-open").toggleClass("ripple-open-active");
+}
+
+
 setTimeout(function () {
   document.getElementsByClassName("ripple-close");
   $(".ripple-close").toggleClass("ripple-close-active");
