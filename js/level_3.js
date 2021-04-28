@@ -47,8 +47,8 @@ function closeMorphism(){
 function openAlgoPhot(){
   window.location.href = "../artworks/algo_photogr.html"
 }
-function closeAlgoPhot(){
-  window.locatopenAlgoPhotion.href = "../artist/alex_may.html";
+function closeAlgoPhot(){ 
+  window.location.href = "../artist/alex_may.html";
 
 }
 
