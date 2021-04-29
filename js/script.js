@@ -13,7 +13,7 @@ function firstLoad() {
     document.getElementById("level_0").style.display = "block";
     setTimeout(function () {
       $(".level_0").fadeToggle();
-    }, 4500);
+    }, 7000);
     localStorage.setItem("hasCodeRunBefore", true);
   }
 }
@@ -66,7 +66,7 @@ function closePopCapt() {
 }
 /*Go to level2 page*/
 function gotoLevel2() {
-  window.location.href = "html/level_2.html";
+  window.location.href = "exhibition/our_bio_tech_planet.html";
 }
 
 /*________________LEVEL2_______PAGE____________*/

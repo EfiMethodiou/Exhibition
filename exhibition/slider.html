@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slider</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/level_3/slider.css">
+  <link rel="stylesheet" href="../css/level_3/groups_popup.css">
+</head>
+
+<body>
+  <div id="level_3_joanna_hoffmann_andre_bartetzki">
+    <div class="titles_container" id="titles_container">
+      <span class="node_title" id="violet1">Broken Links</span>
+      <span class="node_title" id="violet2">Regnum animale</span>
+      <span class="node_title" id="violet3">Virophilia</span>
+      <span class="node_title" id="violet4">Law of Relationship & Interdependence</span>
+      <span class="node_title" id="orange1">Morphism</span>
+      <span class="node_title" id="orange2">Algorithmic Photography</span>
+      <span class="node_title" id="orange3">Contacles Root Interface</span>
+      <span class="node_title" id="orange4">dedined_not</span>
+      <span class="node_title" id="red1">Drifting Particles</span>
+      <span class="node_title" id="red2">Call IN</span>
+      <span class="node_title" id="red3">Marsquakes</span>
+      <span class="node_title" id="green1">Aftertaste</span>
+      <span class="node_title" id="green2">Biotechnology from the Blue Flower</span>
+      <span class="node_title" id="green3">Rhizone: PapiLLa</span>
+    </div>
+
+    <div class="slider_container">
+      <div class="left_arrow" id="left_arrow" onclick="goLeft()">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30.406 55.406">
+          <g transform="translate(-182.797 -711.297)">
+            <rect id="Rectangle_22" data-name="Rectangle 22" width="38" height="3" rx="1"
+              transform="translate(183.211 738.167) rotate(-45)" fill="#fff" />
+            <rect id="Rectangle_23" data-name="Rectangle 23" width="40" height="3" rx="1.5"
+              transform="translate(184.918 736.297) rotate(45)" fill="#fff" />
+          </g>
+        </svg>
+      </div>
+      <div class="slider" id="slider">
+        <div class="slider_items" id="slider_items">
+          <ul class="group" id="violetGroup">
+            <li><a class="item" onclick="openViolet()"><img id="violetNode" src="../img/slider/Violet.png"></a></li>
+            <li><a id="node_v1" class="item"><img id="node" src="../img/slider/BrolenLinks.png"></a></li>
+            <li><a id="node_v2" class="item"><img id="node" src="../img/slider/RegnumAnimale.png"></a></li>
+            <li><a id="node_v3" class="item"><img id="node" src="../img/slider/Virophilia.png"></a></li>
+            <li><a id="node_v4" class="item"><img id="node" src="../img/slider/LawofRelat.png"></a></li>
+          </ul>
+          <ul class="group" id="orangeGroup">
+            <li><a class="item" onclick="openOrange()"><img id="orangeNode" src="../img/slider/Orange.png"></a></li>
+            <li><a id="node_or1" class="item"><img id="node" src="../img/slider/Morphism.png"></a></li>
+            <li><a id="node_or2" class="item"><img id="node" src="../img/slider/AlgorithmicPhot.png"></a></li>
+            <li><a id="node_or3" class="item"><img id="node" src="../img/slider/ContaclesRoot.png"></a></li>
+            <li><a id="node_or4" class="item"><img id="node" src="../img/slider/DefinedNot.png"></a></li>
+            <li><a class="item"><img></a></li>
+          </ul>
+          <ul class="group" id="redGroup">
+            <li><a class="item" onclick="openRed()"><img id="redNode" src="../img/slider/Red.png"></a></li>
+            <li><a id="node_r1" class="item"><img id="node" src="../img/slider/DriftingPart.png"></a></li>
+            <li><a id="node_r2" class="item"><img id="node" src="../img/slider/CallIn.png"></a></li>
+            <li><a id="node_r3" class="item"><img id="node" src="../img/slider/Marsquakes.png"></a></li>
+            <li><a class="item"><img></a></li>
+          </ul>
+          <ul class="group" id="greenGroup">
+            <li><a class="item" onclick="openGreen()"><img id="greenNode" src="../img/slider/Green.png"></a></li>
+            <li><a id="node_gr1" class="item"><img id="node" src="../img/slider/Aftertaste.png"></a></li>
+            <li><a id="node_gr2" class="item"><img id="node" src="../img/slider/BiotechFromBlue.png"></a></li>
+            <li><a id="node_gr3" class="item"><img id="node" src="../img/slider/Mikroryzator.png"></a></li>
+          </ul>
+          <ul class="group" id="violetGroup2">
+            <li><a class="item" onclick="openViolet()"><img id="violetNode" src="../img/slider/Violet.png"></a></li>
+            <li><a id="node_v1_1" class="item"><img id="node" src="../img/slider/BrolenLinks.png"></a></li>
+            <li><a id="node_v2_1" class="item"><img id="node" src="../img/slider/RegnumAnimale.png"></a></li>
+            <li><a id="node_v3_1" class="item"><img id="node" src="../img/slider/Virophilia.png"></a></li>
+            <li><a id="node_v4_1" class="item"><img id="node" src="../img/slider/LawofRelat.png"></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="right_arrow" id="right_arrow" onclick="goRight()">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30.406 56.406">
+          <g transform="translate(-1090.797 -711.297)">
+            <rect id="Rectangle_24" data-name="Rectangle 24" width="40" height="3" rx="1.5"
+              transform="translate(1092.918 711.297) rotate(45)" fill="#fff" />
+            <rect id="Rectangle_25" data-name="Rectangle 25" width="40" height="3" rx="1.5"
+              transform="translate(1090.797 765.581) rotate(-45)" fill="#fff" />
+          </g>
+        </svg>
+      </div>
+    </div>
+    <!---->
+    <div id="groupBackg" onclick="closePopup()">
+    </div>
+    <div class="groupPopup" id="violetPopup">
+      <div class="group_tittle" id="violet">
+        <span style="color: rgba(129, 34, 152, 1)">INFORMATION ABOUT THE VIOLET GROUP</span>
+      </div>
+      <div class="paragraph">
+        <p>Ludwig van Beethoven was a German composer and pianist. Beethoven remains one of the most admired composers
+          in the history of Western music; his works rank amongst the most performed of the classical music
+          repertoire. His works span the transition from the classical period to the romantic era in classical music.
+        </p>
+      </div>
+    </div>
+    <!---->
+    <div class="groupPopup" id="orangePopup">
+      <div class="group_tittle" id="orange">
+        <span style="color: #ee7112">INFORMATION ABOUT THE ORANGE GROUP</span>
+        <div class="paragraph">
+          <p>Wolfgang Amadeus Mozart, baptised as Johannes Chrysostomus Wolfgangus Theophilus Mozart, was a prolific and
+            influential composer of the Classical period. Born in Salzburg, in the Holy Roman Empire, Mozart showed
+            prodigious ability from his earliest childhood.
+          </p>
+        </div>
+      </div>
+      <div class></div>
+    </div>
+    <!---->
+    <div class="groupPopup" id="redPopup">
+      <div class="group_tittle" id="red">
+        <span style="color: #ee2912">INFORMATION ABOUT THE RED GROUP</span>
+        <div class="paragraph">
+          <p>Johann Sebastian Bach was a German composer and musician of the Baroque period. He is known for
+            instrumental compositions such as the Brandenburg Concertos and the Goldberg Variations, and for vocal music
+            such as the St Matthew Passion and the Mass in B minor.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!---->
+    <div class="groupPopup" id="greenPopup">
+      <div class="group_tittle" id="green">
+        <span style="color: #06701b">INFORMATION ABOUT THE GREEN GROUP</span>
+        <div class="paragraph">
+          <p>Frédéric François Chopin, born Fryderyk Franciszek Chopin, was a Polish composer and virtuoso pianist of
+            the Romantic era who wrote primarily for solo piano.
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="../js/slider.js"></script>
+  </div>
+
+</body>
+
+</html>

@@ -22,7 +22,7 @@
   top: 20%;
   left: 30%;
   overflow: visible;  
-  animation: appear1 3s normal 0.8s forwards ; 
+  animation: appear1 5.5s normal 0.8s forwards ; 
 }
 @keyframes appear1 {
     from {

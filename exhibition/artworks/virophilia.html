@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virophilia</title>
+    <link rel="icon" href="../../img/slider/Virophilia.png">
+    <link rel="stylesheet" href="../../css/level_3/artworks_page.css">
+</head>
+
+<body>
+    <div class="artwork_page">
+        <div onclick="closeVirophilia()" id="x">
+            <div class="left"></div>
+            <div class="right"></div>
+        </div>       
+        <embed src="../../pdf/Virophilia_whole_s.pdf#toolbar=0" type="application/pdf" width="80%" height="95%"
+                style="margin-left: 10%; position: absolute; pointer-events: none;"/>
+        <div class="thepdf"></div>
+
+
+    </div>
+
+    <script>
+        document.addEventListener("contextmenu", function (e) {
+            e.preventDefault();
+        }, false);    
+    </script>
+    <script src="../../js/level_3.js"></script>
+
+    <style>       
+        .thepdf{                    
+            top:0;    
+            pointer-events: none;       
+            border: 2px solid cyan;            
+            position: relative;
+            -webkit-user-select: none;
+            margin-left: 10%;
+            width: 80%;
+            height: 95%;
+        }
+    </style>
+
+</body>
+
+</html>

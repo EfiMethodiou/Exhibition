@@ -15,7 +15,7 @@
   /*border: 1px solid lightblue;*/
   position: absolute;
   bottom: 16%;  
-  width: 15%;
+  width: 12%;
   height: auto;
   justify-items: center;
   text-align: center;
@@ -24,7 +24,7 @@
   margin: 5%;
   color: white;
   font-family: "Titillium Web";
-  line-height: normal;
+  line-height: 100%;
   font-style: normal;
   font-weight: normal;
   font-size: 1.2vw;

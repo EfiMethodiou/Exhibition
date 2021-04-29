@@ -1,6 +1,6 @@
 /*Go back to level_2 page*/
 function backToLevel2() {
-  window.location.href = "../level_2.html";
+  window.location.href = "../our_bio_tech_planet.html";
 }
 
 

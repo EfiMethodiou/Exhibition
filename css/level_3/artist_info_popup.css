@@ -58,7 +58,7 @@ div::-webkit-scrollbar-thumb {
   font-size: 1.3vw;
   color: rgba(7, 7, 7, 1);
 }
-#interactive_installation {
+#popup_subtitle {
   padding-top: 2%;
   font-family: "Titillium Web";
   font-style: normal;
@@ -66,11 +66,12 @@ div::-webkit-scrollbar-thumb {
   font-size: 1.2vw;
   color: rgba(7, 7, 7, 1);
 }
-#interactive_installation span{
+#popup_subtitle span{
   font-size: 1.1vw;
 }
-#interactive_installation p {  
-  padding: 2%;
+#popup_subtitle p {  
+  padding-top: 2%;
+  padding-right: 1%;
   font-size: 1.1vw;
 }
 #artist {

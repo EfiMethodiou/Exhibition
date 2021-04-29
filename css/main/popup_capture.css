@@ -38,7 +38,7 @@
   position: absolute;
   overflow: visible;
   width: 80%;
-  left: 2%;
+  margin-left: 2%;
   white-space: nowrap;
   text-align: center;
   font-family: "Titillium Web";
@@ -48,7 +48,7 @@
   color: rgba(12, 11, 11, 1);
 }
 #exhibition {
-  left: 12%;
+  margin-left: 2%;
   bottom: 0%;
   position: absolute;
   overflow: visible;

@@ -35,7 +35,7 @@
 
 
 #title {
-  left: 3%;
+  margin-left: 5%;
   top: 27px;
   position: absolute;
   overflow: visible;
@@ -61,7 +61,7 @@
   color: rgba(0, 0, 0, 1);
 }
 #thelink {
-  left: 3%;
+  margin-left: 5%;
   top: 80%;
   position: absolute;
   overflow: visible;
