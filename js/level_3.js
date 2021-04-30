@@ -49,8 +49,46 @@ function openAlgoPhot(){
 }
 function closeAlgoPhot(){ 
   window.location.href = "../artist/alex_may.html";
-
 }
+function openContRootInt(){
+  window.location.href = "../artworks/contac_root_inter.html"
+}
+function closeContRootInt(){ 
+  window.location.href = "../artist/piotr_slomc.html";
+}
+function openDefined_not(){
+  window.location.href = "../artworks/defined_not.html"
+}
+function closeDefined_not(){ 
+  window.location.href = "../artist/diana_taukin.html";
+}
+function openDrifPart(){
+  window.location.href = "../artworks/drifring_particles.html";
+}
+function closeDrifPart(){ 
+  window.location.href = "../artist/jadwiga_subc_drif.html";
+}
+function openCallIn(){
+  window.location.href = "../artworks/callIn.html";
+}
+function closeCallIn(){ 
+  window.location.href = "../artist/paulina_misiak.html";
+}
+function openMarsquakes(){
+  window.location.href = "../artworks/marsquakes.html";
+}
+function closeMarsquakes(){ 
+  window.location.href = "../artist/jadwiga_subc_mars.html";
+}
+function openVitruvWom(){
+  window.location.href = "../artworks/vitruvian_woman.html";
+}
+function closeVitruvWom(){ 
+  window.location.href = "../artist/joanna_hoffmann.html";
+}
+
+
+
 
 
 //Navigation functions
@@ -97,13 +135,50 @@ function gotoAlex_May() {
   document.getElementsByClassName("ripple-open");
   $(".ripple-open").toggleClass("ripple-open-active");
 }
-function gotoAlex_May() {
+function gotoPiotr_Slomc() {
   setTimeout(function () {
-    window.location.href = "piotr_słomc.html";
+    window.location.href = "piotr_slomc.html";
   }, 2200);
   document.getElementsByClassName("ripple-open");
   $(".ripple-open").toggleClass("ripple-open-active");
 }
+function gotoDiana_Taukin() {
+  setTimeout(function () {
+    window.location.href = "diana_taukin.html";
+  }, 2200);
+  document.getElementsByClassName("ripple-open");
+  $(".ripple-open").toggleClass("ripple-open-active");
+}
+function gotoJadwSubc_Drif() {
+  setTimeout(function () {
+    window.location.href = "jadwiga_subc_drif.html";
+  }, 2200);
+  document.getElementsByClassName("ripple-open");
+  $(".ripple-open").toggleClass("ripple-open-active");
+}
+function gotoPaulin_Misial() {
+  setTimeout(function () {
+    window.location.href = "paulina_misiak.html";
+  }, 2200);
+  document.getElementsByClassName("ripple-open");
+  $(".ripple-open").toggleClass("ripple-open-active");
+}
+function gotoJoan_Hoffm() {
+  setTimeout(function () {
+    window.location.href = "joanna_hoffmann.html";
+  }, 2200);
+  document.getElementsByClassName("ripple-open");
+  $(".ripple-open").toggleClass("ripple-open-active");
+}
+function gotoJadwSubc_Mars() {
+  setTimeout(function () {
+    window.location.href = "jadwiga_subc_mars.html";
+  }, 2200);
+  document.getElementsByClassName("ripple-open");
+  $(".ripple-open").toggleClass("ripple-open-active");
+}
+
+
 
 
 setTimeout(function () {

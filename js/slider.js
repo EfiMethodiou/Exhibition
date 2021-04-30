@@ -242,7 +242,7 @@ red1.addEventListener("mouseover", (event) => {
   if (document.getElementById("orangeGroup").style.display === "none") {
     document.getElementById("title_border").style.left = "5.5vw";
   } else {
-    document.getElementById("title_border").style.left = "37vw";
+    document.getElementById("title_border").style.left = "32vw";
   }
 });
 red1.addEventListener("mouseout", (event) => {
@@ -255,7 +255,7 @@ red2.addEventListener("mouseover", (event) => {
   if (document.getElementById("orangeGroup").style.display === "none") {
     document.getElementById("title_border").style.left = "10.5vw";
   } else {
-    document.getElementById("title_border").style.left = "42vw";
+    document.getElementById("title_border").style.left = "37vw";
   }
 });
 red2.addEventListener("mouseout", (event) => {
@@ -268,11 +268,24 @@ red3.addEventListener("mouseover", (event) => {
   if (document.getElementById("orangeGroup").style.display === "none") {
     document.getElementById("title_border").style.left = "16vw";
   } else {
-    document.getElementById("title_border").style.left = "47.5vw";
+    document.getElementById("title_border").style.left = "42.5vw";
   }
 });
 red3.addEventListener("mouseout", (event) => {
   document.getElementById("red3").style.display = "none";
+});
+// RED 4
+const red4 = document.querySelector("#node_r4");
+red4.addEventListener("mouseover", (event) => {
+  document.getElementById("red4").style.display = "block";
+  if (document.getElementById("orangeGroup").style.display === "none") {
+    document.getElementById("title_border").style.left = "22vw";
+  } else {
+    document.getElementById("title_border").style.left = "48vw";
+  }
+});
+red4.addEventListener("mouseout", (event) => {
+  document.getElementById("red4").style.display = "none";
 });
 
 //___________________GREEN____
