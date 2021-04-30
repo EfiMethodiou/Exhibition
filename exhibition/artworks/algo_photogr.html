@@ -17,8 +17,11 @@
         </div>
         <div class="artworks">
             <div id="pictures">
-                <img onclick="enlargeImg1()" id="first" src="">
-                <img onclick="enlargeImg2()" id="second" src="">
+                <img onclick="enlargeImg1()" id="img1" src="../../img/artworks/algor_photogr_1.jpg">
+                <img onclick="enlargeImg2()" id="img2" src="../../img/artworks/algor_photogr_2.jpg">
+                <img onclick="enlargeImg3()" id="img3" src="../../img/artworks/algor_photogr_3.jpg">
+                <img onclick="enlargeImg4()" id="img4" src="../../img/artworks/algor_photogr_4.jpg">
+
             </div>
         </div>
 
@@ -32,9 +35,9 @@
         }
 
         #pictures {
-            margin: 5% 15%;
-            width: 70%;
-            height: 80%;
+            margin: 0;
+            width: 100%;
+            height: 100%;
             /* border: 2px solid rosybrown;*/
         }
 
@@ -42,24 +45,33 @@
             left: 20%;
             display: inline;
             margin-left: 5%;
-            width: 40%;
+            padding-top: 2%;
+            width: 42%;
         }
     </style>
 
     <script>
-        var img1 = document.getElementById("first");
-        var img2 = document.getElementById("second");
+        var img1 = document.getElementById("img1");
+        var img2 = document.getElementById("img2");
+        var img3 = document.getElementById("img3");
+        var img4 = document.getElementById("img4");
+        
         img1.style.transform = "scale(1)";
         img2.style.transform = "scale(1)";
+        img3.style.transform = "scale(1)";
+        img4.style.transform = "scale(1)";
         function enlargeImg1() {
-            if (img1.style.transform != "scale(1.2)" && img2.style.transform === "scale(1)") {
-                img1.style.transform = "scale(1.2)";
+            if (img1.style.transform != "scale(3)" && img2.style.transform === "scale(1)" 
+            && img3.style.transform === "scale(1)" && img4.style.transform === "scale(1)") {
+                img1.style.transform = "scale(3)";
                 img1.style.position = "absolute";
                 img1.style.zIndex = 10;
-                img1.style.top = "-7%";
+                img1.style.marginTop = "10%";
                 img1.style.left = "28%";
                 img1.style.width = "36%";
                 img2.style.display ="none";
+                img3.style.display ="none";
+                img4.style.display ="none";
                 img1.style.transition =
                     "transform 0.25s ease";
             }      
@@ -67,39 +79,103 @@
                 img1.style.transform = "scale(1)";
                 img1.style.position = "";
                 img1.style.zIndex = 0;
+                img1.style.marginTop = "0";
                 img1.style.width = "40%";
                 img2.style.display ="inline";
+                img3.style.display ="inline";
+                img4.style.display ="inline";
                 img1.style.transition =
                     "transform 0.25s ease";
             }
         }
         function enlargeImg2() {
-            if (img2.style.transform != "scale(1.2)" && img1.style.transform === "scale(1)") {
-                img2.style.transform = "scale(1.2)";
+            if (img2.style.transform != "scale(3)" && img1.style.transform === "scale(1)" 
+            && img3.style.transform === "scale(1)" && img4.style.transform === "scale(1)") {
+                img2.style.transform = "scale(3)";
                 img2.style.position = "absolute";
                 img2.style.zIndex = 10;
-                img2.style.top = "-7%";
+                img2.style.marginTop = "10%";
                 img2.style.left = "28%";
                 img2.style.width = "36%";
                 img1.style.display ="none";
+                img3.style.display ="none";
+                img4.style.display ="none";
                 img2.style.transition =
                     "transform 0.25s ease";
-            }
+            }      
             else {
                 img2.style.transform = "scale(1)";
                 img2.style.position = "";
                 img2.style.zIndex = 0;
+                img2.style.marginTop = "0";
                 img2.style.width = "40%";
                 img1.style.display ="inline";
+                img3.style.display ="inline";
+                img4.style.display ="inline";
                 img2.style.transition =
                     "transform 0.25s ease";
             }
         }
-
-
-        /*document.addEventListener("contextmenu", function (e) {
+        function enlargeImg3() {
+            if (img3.style.transform != "scale(3)" && img2.style.transform === "scale(1)" 
+            && img1.style.transform === "scale(1)" && img4.style.transform === "scale(1)") {
+                img3.style.transform = "scale(3)";
+                img3.style.position = "absolute";
+                img3.style.zIndex = 10;
+                img3.style.marginTop = "10%";
+                img3.style.left = "28%";
+                img3.style.width = "36%";
+                img2.style.display ="none";
+                img1.style.display ="none";
+                img4.style.display ="none";
+                img3.style.transition =
+                    "transform 0.25s ease";
+            }      
+            else {
+                img3.style.transform = "scale(1)";
+                img3.style.position = "";
+                img3.style.zIndex = 0;
+                img3.style.marginTop = "0";
+                img3.style.width = "40%";
+                img2.style.display ="inline";
+                img1.style.display ="inline";
+                img4.style.display ="inline";
+                img3.style.transition =
+                    "transform 0.25s ease";
+            }
+        }
+        function enlargeImg4() {
+            if (img4.style.transform != "scale(3)" && img2.style.transform === "scale(1)" 
+            && img3.style.transform === "scale(1)" && img1.style.transform === "scale(1)") {
+                img4.style.transform = "scale(3)";
+                img4.style.position = "absolute";
+                img4.style.zIndex = 10;
+                img4.style.marginTop = "10%";
+                img4.style.left = "28%";
+                img4.style.width = "36%";
+                img2.style.display ="none";
+                img3.style.display ="none";
+                img1.style.display ="none";
+                img4.style.transition =
+                    "transform 0.25s ease";
+            }      
+            else {
+                img4.style.transform = "scale(1)";
+                img4.style.position = "";
+                img4.style.zIndex = 0;
+                img4.style.marginTop = "0";
+                img4.style.width = "40%";
+                img2.style.display ="inline";
+                img3.style.display ="inline";
+                img1.style.display ="inline";
+                img4.style.transition =
+                    "transform 0.25s ease";
+            }
+        }
+        
+        document.addEventListener("contextmenu", function (e) {
             e.preventDefault();
-        }, false);  */  
+        }, false);    
     </script>
     <script src="../../js/level_3.js"></script>
 

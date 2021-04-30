@@ -97,6 +97,13 @@ function gotoAlex_May() {
   document.getElementsByClassName("ripple-open");
   $(".ripple-open").toggleClass("ripple-open-active");
 }
+function gotoAlex_May() {
+  setTimeout(function () {
+    window.location.href = "piotr_słomc.html";
+  }, 2200);
+  document.getElementsByClassName("ripple-open");
+  $(".ripple-open").toggleClass("ripple-open-active");
+}
 
 
 setTimeout(function () {
