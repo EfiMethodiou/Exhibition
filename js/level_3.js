@@ -86,6 +86,18 @@ function openVitruvWom(){
 function closeVitruvWom(){ 
   window.location.href = "../artist/joanna_hoffmann.html";
 }
+function openAftertaste(){
+  window.location.href = "../artworks/aftertaste.html";
+}
+function closeAftertaste(){ 
+  window.location.href = "../artist/jill_sc_maril_hah.html";
+}
+function openBiotechnology(){
+  window.location.href = "../artworks/biotechnology.html";
+}
+function closeBiotechnology(){ 
+  window.location.href = "../artist/anna_dum_alex_may.html";
+}
 
 
 
@@ -173,6 +185,20 @@ function gotoJoan_Hoffm() {
 function gotoJadwSubc_Mars() {
   setTimeout(function () {
     window.location.href = "jadwiga_subc_mars.html";
+  }, 2200);
+  document.getElementsByClassName("ripple-open");
+  $(".ripple-open").toggleClass("ripple-open-active");
+}
+function gotoJill_Sc_Maril_Hah() {
+  setTimeout(function () {
+    window.location.href = "jill_sc_maril_hah.html";
+  }, 2200);
+  document.getElementsByClassName("ripple-open");
+  $(".ripple-open").toggleClass("ripple-open-active");
+}
+function gotoAnna_Dum_Alex_May() {
+  setTimeout(function () {
+    window.location.href = "anna_dum_alex_may.html";
   }, 2200);
   document.getElementsByClassName("ripple-open");
   $(".ripple-open").toggleClass("ripple-open-active");
