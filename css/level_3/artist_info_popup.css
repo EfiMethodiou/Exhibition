@@ -116,3 +116,20 @@ div::-webkit-scrollbar-thumb {
 #artist a:hover {
   color: #f07338;
 }
+#popup_subtitle a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 1);
+}
+
+#popup_subtitle a:link {
+  /*link style*/
+  text-decoration: none;
+  color: rgba(0, 0, 0, 1);
+}
+#popup_subtitle a:visited {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 1);
+}
+#popup_subtitle a:hover {
+  color: #f07338;
+}

@@ -98,6 +98,12 @@ function openBiotechnology(){
 function closeBiotechnology(){ 
   window.location.href = "../artist/anna_dum_alex_may.html";
 }
+function openPapilla(){
+  window.location.href = "../artworks/rhizone_papilla.html";
+}
+function closeopenPapilla(){ 
+  window.location.href = "../artist/joan_hof_andr_bart.html";
+}
 
 
 
@@ -203,6 +209,14 @@ function gotoAnna_Dum_Alex_May() {
   document.getElementsByClassName("ripple-open");
   $(".ripple-open").toggleClass("ripple-open-active");
 }
+function gotoJoan_Hof_Andr_Bart() {
+  setTimeout(function () {
+    window.location.href = "joan_hof_andr_bart.html";
+  }, 2200);
+  document.getElementsByClassName("ripple-open");
+  $(".ripple-open").toggleClass("ripple-open-active");
+}
+
 
 
 
