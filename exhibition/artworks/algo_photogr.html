@@ -38,6 +38,7 @@
             margin: 0;
             width: 100%;
             height: 100%;
+            cursor: pointer;
             /* border: 2px solid rosybrown;*/
         }
 
@@ -55,6 +56,7 @@
         var img2 = document.getElementById("img2");
         var img3 = document.getElementById("img3");
         var img4 = document.getElementById("img4");
+        var x = document.getElementById("x");
         
         img1.style.transform = "scale(1)";
         img2.style.transform = "scale(1)";
@@ -72,6 +74,7 @@
                 img2.style.display ="none";
                 img3.style.display ="none";
                 img4.style.display ="none";
+                x.style.display = "none";
                 img1.style.transition =
                     "transform 0.25s ease";
             }      
@@ -84,6 +87,7 @@
                 img2.style.display ="inline";
                 img3.style.display ="inline";
                 img4.style.display ="inline";
+                x.style.display = "block";
                 img1.style.transition =
                     "transform 0.25s ease";
             }
@@ -100,6 +104,7 @@
                 img1.style.display ="none";
                 img3.style.display ="none";
                 img4.style.display ="none";
+                x.style.display = "none";
                 img2.style.transition =
                     "transform 0.25s ease";
             }      
@@ -112,6 +117,7 @@
                 img1.style.display ="inline";
                 img3.style.display ="inline";
                 img4.style.display ="inline";
+                x.style.display = "block";
                 img2.style.transition =
                     "transform 0.25s ease";
             }
@@ -128,6 +134,7 @@
                 img2.style.display ="none";
                 img1.style.display ="none";
                 img4.style.display ="none";
+                x.style.display = "none";
                 img3.style.transition =
                     "transform 0.25s ease";
             }      
@@ -140,6 +147,7 @@
                 img2.style.display ="inline";
                 img1.style.display ="inline";
                 img4.style.display ="inline";
+                x.style.display = "block";
                 img3.style.transition =
                     "transform 0.25s ease";
             }
@@ -156,6 +164,7 @@
                 img2.style.display ="none";
                 img3.style.display ="none";
                 img1.style.display ="none";
+                x.style.display = "none";
                 img4.style.transition =
                     "transform 0.25s ease";
             }      
@@ -168,6 +177,7 @@
                 img2.style.display ="inline";
                 img3.style.display ="inline";
                 img1.style.display ="inline";
+                x.style.display = "block";
                 img4.style.transition =
                     "transform 0.25s ease";
             }

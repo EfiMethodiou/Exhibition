@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,24 +8,374 @@
     <link rel="icon" href="../../img/slider/CallIn.png">
     <link rel="stylesheet" href="../../css/level_3/artworks_page.css">
 </head>
+
 <body>
     <div class="artwork_page" onmousedown="return false">
         <div onclick="closeCallIn()" id="x">
             <div class="left"></div>
             <div class="right"></div>
         </div>
-        <h1 style="color: aqua; font-size: 2vw; margin-top: 25%; margin-left: 35%;">
-            Call In 
-        </h1>
-       
+        <div class="thecontainer">
+            <div class="containermed">
+                <!--
+                <div class="mySlidesmed">
+                    <div class="numbertext">Thinkers</div>
+                    <img src="../../img/artworks/calI_in/1med.jpg" 
+                    style="width:55%; margin-top:5%; margin-left: 25%;">
+                </div>-->
+
+                <div class="mySlidesmed">
+                    <div class="numbertext">The birth of Venus</div>
+                    <img src="../../img/artworks/calI_in/2med.jpg"
+                        style="width:70%; margin-top:2.5%; margin-left: 15%;">
+                </div>
+
+                <div class="mySlidesmed">
+                    <div class="numbertext">The observatory</div>
+                    <img src="../../img/artworks/calI_in/3med.jpg"
+                        style="width:70%; margin-top:2.5%; margin-left: 15%;">
+                </div>
+
+                <div class="mySlidesmed">
+                    <div class="numbertext">In the garden</div>
+                    <img src="../../img/artworks/calI_in/4med.jpg"
+                        style="width:70%; margin-top:2.5%; margin-left: 15%;">
+                </div>
+
+                <div class="mySlidesmed">
+                    <div class="numbertext">Friendship</div>
+                    <img src="../../img/artworks/calI_in/5med.jpg"
+                        style="width:70%; margin-top:2.5%; margin-left: 15%;">
+                </div>
+
+                <div class="mySlidesmed">
+                    <div class="numbertext">Balance</div>
+                    <img src="../../img/artworks/calI_in/6med.jpg"
+                        style="width:70%; margin-top:2.5%; margin-left: 15%;">
+                </div>
+
+                <a class="prev" id="prev" onclick="plusSlidesmed(-1)">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30.406 55.406">
+                        <g transform="translate(-182.797 -711.297)">
+                            <rect id="Rectangle_22" data-name="Rectangle 22" width="38" height="3" rx="1"
+                                transform="translate(183.211 738.167) rotate(-45)" fill="#fff" />
+                            <rect id="Rectangle_23" data-name="Rectangle 23" width="40" height="3" rx="1.5"
+                                transform="translate(184.918 736.297) rotate(45)" fill="#fff" />
+                        </g>
+                    </svg>
+                </a>
+                <a class="next" id="next" onclick="plusSlidesmed(1)">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30.406 56.406">
+                        <g transform="translate(-1090.797 -711.297)">
+                            <rect id="Rectangle_24" data-name="Rectangle 24" width="40" height="3" rx="1.5"
+                                transform="translate(1092.918 711.297) rotate(45)" fill="#fff" />
+                            <rect id="Rectangle_25" data-name="Rectangle 25" width="40" height="3" rx="1.5"
+                                transform="translate(1090.797 765.581) rotate(-45)" fill="#fff" />
+                        </g>
+                    </svg>
+                </a>
+                <a class="fullsc" id="fullsc" onclick="enlargemed()">
+                    <i id="expand" class="fas fa-expand-alt"></i>
+                    <i id="compress" class="fas fa-compress-alt"></i>
+                </a>
+            </div>
+            <div class="containertech">
+
+                <div class="mySlidestech">
+                    <div class="numbertext">The altar</div>
+                    <img src="../../img/artworks/calI_in/7tech.jpg" style="width:40%; margin-left: 30%;">
+                </div>
+                <div class="mySlidestech">
+                    <div class="numbertext">The funeral</div>
+                    <img src="../../img/artworks/calI_in/8tech.jpg"
+                        style="width:70%; margin-top:2.5%; margin-left: 15%;">
+                </div>
+                <div class="mySlidestech">
+                    <div class="numbertext">Windows</div>
+                    <img src="../../img/artworks/calI_in/9tech.jpg"
+                        style="width:75%; margin-top:2.5%; margin-left: 13%;">
+                </div>
+                <div class="mySlidestech">
+                    <div class="numbertext">The sunspot</div>
+                    <img src="../../img/artworks/calI_in/10tech.jpg"
+                        style="width:70%; margin-top:2.5%; margin-left: 15%;">
+                </div>
+                <div class="mySlidestech">
+                    <div class="numbertext">Awakening</div>
+                    <img src="../../img/artworks/calI_in/11tech.jpg"
+                        style="width:72%; margin-top:2.5%; margin-left: 15%;">
+                </div>
+                <div class="mySlidestech">
+                    <div class="numbertext">The well</div>
+                    <img src="../../img/artworks/calI_in/12tech.jpg"
+                        style="width:70%; margin-top:2.5%; margin-left: 15%;">
+                </div>
+                <a class="prev" id="prev" onclick="plusSlidestech(-1)">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30.406 55.406">
+                        <g transform="translate(-182.797 -711.297)">
+                            <rect id="Rectangle_22" data-name="Rectangle 22" width="38" height="3" rx="1"
+                                transform="translate(183.211 738.167) rotate(-45)" fill="#fff" />
+                            <rect id="Rectangle_23" data-name="Rectangle 23" width="40" height="3" rx="1.5"
+                                transform="translate(184.918 736.297) rotate(45)" fill="#fff" />
+                        </g>
+                    </svg>
+                </a>
+                <a class="next" id="next" onclick="plusSlidestech(1)">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30.406 56.406">
+                        <g transform="translate(-1090.797 -711.297)">
+                            <rect id="Rectangle_24" data-name="Rectangle 24" width="40" height="3" rx="1.5"
+                                transform="translate(1092.918 711.297) rotate(45)" fill="#fff" />
+                            <rect id="Rectangle_25" data-name="Rectangle 25" width="40" height="3" rx="1.5"
+                                transform="translate(1090.797 765.581) rotate(-45)" fill="#fff" />
+                        </g>
+                    </svg>
+                </a>
+
+            </div>
+            <div class="containernat">
+                <div class="mySlidesnat">
+                    <div class="numbertext">without title</div>
+                    <img src="../../img/artworks/calI_in/13nat.jpg"
+                        style="width:70%; margin-top:2.5%; margin-left: 15%;">
+                </div>
+                <div class="mySlidesnat">
+                    <div class="numbertext">The origin</div>
+                    <img src="../../img/artworks/calI_in/14nat.jpg"
+                        style="width:70%; margin-top:2.5%; margin-left: 15%;">
+                </div>
+                <div class="mySlidesnat">
+                    <div class="numbertext">Through the forest</div>
+                    <img src="../../img/artworks/calI_in/15nat.jpg"
+                        style="width:70%; margin-top:2.5%; margin-left: 15%;">
+                </div>
+                <div class="mySlidesnat">
+                    <div class="numbertext">Adam and Eve</div>
+                    <img src="../../img/artworks/calI_in/16nat.jpg"
+                        style="width:70%; margin-top:2.5%; margin-left: 15%;">
+                </div>
+                <div class="mySlidesnat">
+                    <div class="numbertext">This way</div>
+                    <img src="../../img/artworks/calI_in/17nat.jpg"
+                        style="width:70%; margin-top:2.5%; margin-left: 15%;">
+                </div>
+                <div class="mySlidesnat">
+                    <div class="numbertext">It's time for spring spraying</div>
+                    <img src="../../img/artworks/calI_in/18nat.jpg"
+                        style="width:70%; margin-top:2.5%; margin-left: 15%;">
+                </div>
+                <a class="prev" id="prev" onclick="plusSlidesnat(-1)">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30.406 55.406">
+                        <g transform="translate(-182.797 -711.297)">
+                            <rect id="Rectangle_22" data-name="Rectangle 22" width="38" height="3" rx="1"
+                                transform="translate(183.211 738.167) rotate(-45)" fill="#fff" />
+                            <rect id="Rectangle_23" data-name="Rectangle 23" width="40" height="3" rx="1.5"
+                                transform="translate(184.918 736.297) rotate(45)" fill="#fff" />
+                        </g>
+                    </svg>
+                </a>
+                <a class="next" id="next" onclick="plusSlidesnat(1)">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30.406 56.406">
+                        <g transform="translate(-1090.797 -711.297)">
+                            <rect id="Rectangle_24" data-name="Rectangle 24" width="40" height="3" rx="1.5"
+                                transform="translate(1092.918 711.297) rotate(45)" fill="#fff" />
+                            <rect id="Rectangle_25" data-name="Rectangle 25" width="40" height="3" rx="1.5"
+                                transform="translate(1090.797 765.581) rotate(-45)" fill="#fff" />
+                        </g>
+                    </svg>
+                </a>
+            </div>
+        </div>
+
     </div>
+    <style>
+        .thecontainer {
+            position: absolute;
+            margin: 2% 2%;
+            width: 95%;
+            height: 90%;
+            border: 2px solid coral;
+
+        }
+
+        .containermed {
+            position: absolute;
+            display: inline;
+            margin: 15% 0%;
+            width: 30%;
+            height: 40%;
+            border: 2px solid cyan;
+        }
+
+        .containertech {
+            position: absolute;
+            display: inline;
+            margin: 15% 35%;
+            width: 30%;
+            height: 40%;
+            border: 2px solid cyan;
+        }
+
+        .containernat {
+            position: absolute;
+            display: inline;
+            margin: 15% 70%;
+            width: 30%;
+            height: 40%;
+            border: 2px solid cyan;
+        }
+
+        /* Hide the images by default */
+        .mySlidesmed {
+            display: none;
+        }
+
+        .mySlidestech {
+            display: none;
+        }
+
+        .mySlidesnat {
+            display: none;
+        }
+
+        .cursor {
+            cursor: pointer;
+        }
+
+        /* Next & previous buttons */
+        .prev,
+        .next {
+            cursor: pointer;
+            position: absolute;
+            top: 46%;
+            width: 3%;
+            margin-top: 3%;
+            color: white;
+            font-weight: bold;
+            user-select: none;
+            -webkit-user-select: none;
+        }
+
+        /* Position the "next button" to the right */
+        .next {
+            right: 0;
+        }
+
+        /* Number text (1/3 etc) */
+        .numbertext {
+            color: #f2f2f2;
+            font-size: 1vw;
+            padding: 8px 12px;
+            position: absolute;
+            top: 0;
+            font-family: "Titillium Web";
+        }
+
+        .fullsc {
+            cursor: pointer;
+            position: absolute;
+            top: 90%;
+            right: 0;
+            width: auto;
+            padding: 16px;
+            margin-top: 3%;
+            color: white;
+            font-size: 1.1vw;
+        }
+
+        #compress {
+            display: none;
+        }
+    </style>
 
     <script>
         document.addEventListener("contextmenu", function (e) {
-          e.preventDefault();
-        }, false);    
-      </script>
+            e.preventDefault();
+        }, false);
+
+        var slideIndexmed = 1;
+        showSlidesmed(slideIndexmed);
+
+        function plusSlidesmed(n) {
+            showSlidesmed(slideIndexmed += n);
+        }
+
+        function currentSlide(n) {
+            showSlidesmed(slideIndexmed = n);
+        }
+
+        function showSlidesmed(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlidesmed");
+            var dots = document.getElementsByClassName("demo");
+            var captionText = document.getElementById("caption");
+            if (n > slides.length) { slideIndexmed = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndexmed - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            captionText.innerHTML = dots[slideIndex - 1].alt;
+        }
+        //
+        var contmed = document.getElementById("containermed");
+        var conttech = document.getElementById("containertech");
+        var contnat = document.getElementById("containernat");
+        var prev = document.getElementById("prev");
+        var next = document.getElementById("next");
+        var fullsc = document.getElementById("fullsc");
+        var compress = document.getElementById("compress");
+        var expand = document.getElementById("expand");
+        var x = document.getElementById("x");
+        contmed.style.transform = "scale(1)";
+        function enlargemed() {
+            if (contmed.style.transform != "scale(2.7)") {
+                contmed.style.transform = "scale(2.7)";
+                contmed.style.position = "absolute";
+                contmed.style.zIndex = 10;
+                contmed.style.marginTop = "18%";
+                contmed.style.marginLeft = "32%";
+                contmed.style.width = "36%";
+                conttech.style.display = "none";
+                contnat.style.display = "none";
+                x.style.display = "none";
+                next.style.width = "1%";
+                prev.style.width = "1%";
+                fullsc.style.fontSize = "0.5vw";
+                fullsc.style.top = "77%";
+                compress.style.display = "block";
+                expand.style.display = "none";
+                contmed.style.transition =
+                    "transform 0.25s ease";
+            }
+            else {
+                contmed.style.transform = "scale(1)";
+                contmed.style.position = "";
+                contmed.style.zIndex = 0;
+                contmed.style.width = "40%";
+                contmed.style.marginTop = "15%";
+                contmed.style.marginLeft = "52%";
+                conttech.style.display = "block";
+                contnat.style.display = "block";
+                x.style.display = "block";
+                next.style.width = "2%";
+                prev.style.width = "2%";
+                fullsc.style.fontSize = "1.2vw";
+                fullsc.style.top = "90%";
+                compress.style.display = "none";
+                expand.style.display = "block";
+                contmed.style.transition =
+                    "transform 0.25s ease";
+            }
+        }
+
+    </script>
     <script src="../../js/level_3.js"></script>
-    
+    <script src="https://kit.fontawesome.com/54d0b8d849.js" crossorigin="anonymous"></script>
+
 </body>
+
 </html>

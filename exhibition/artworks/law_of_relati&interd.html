@@ -35,6 +35,7 @@
             margin: 5% 15%;
             width: 70%;
             height: 80%;
+            cursor: pointer;
             /* border: 2px solid rosybrown;*/
         }
 
@@ -49,6 +50,7 @@
     <script>
         var img1 = document.getElementById("first");
         var img2 = document.getElementById("second");
+        var x = document.getElementById("x");
         img1.style.transform = "scale(1)";
         img2.style.transform = "scale(1)";
         function enlargeImg1() {
@@ -60,6 +62,7 @@
                 img1.style.left = "28%";
                 img1.style.width = "36%";
                 img2.style.display ="none";
+                x.style.display = "none";
                 img1.style.transition =
                     "transform 0.25s ease";
             }      
@@ -69,6 +72,7 @@
                 img1.style.zIndex = 0;
                 img1.style.width = "40%";
                 img2.style.display ="inline";
+                x.style.display = "block";
                 img1.style.transition =
                     "transform 0.25s ease";
             }
@@ -82,6 +86,7 @@
                 img2.style.left = "28%";
                 img2.style.width = "36%";
                 img1.style.display ="none";
+                x.style.display = "none";
                 img2.style.transition =
                     "transform 0.25s ease";
             }
@@ -91,6 +96,7 @@
                 img2.style.zIndex = 0;
                 img2.style.width = "40%";
                 img1.style.display ="inline";
+                x.style.display = "block";
                 img2.style.transition =
                     "transform 0.25s ease";
             }

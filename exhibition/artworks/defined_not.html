@@ -16,11 +16,11 @@
             <div class="right"></div>
         </div>
         <div class="artworks">
-            <img onclick="enlarge1()" id="first" src="../../img/artworks/definet_not.jpg">
+            <img onclick="enlarge()" id="first" src="../../img/artworks/definet_not.jpg">
             <iframe id="second"
-                src="https://player.vimeo.com/video/544498143?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                src="https://player.vimeo.com/video/544498143?autoplay=1&amp;fullscreen=1&amp;loop=1&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
                 frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
-                style="position:absolute;margin-top:8%;right:0;width:50%;height:70%;"
+                style="position:absolute;margin-top:5%;right:0;width:50%;height:100%;"
                 title="defined_not by Diana Taukin"></iframe>
 
         </div>
@@ -31,13 +31,15 @@
             position: absolute;
             margin: 5% 5%;
             width: 90%;
-            height: 80%;          
+            height: 60%;          
         }   
         .artworks img {
             left: 20%;
             margin-top: 8%;
             display: inline;            
             width: 45%;
+            height: 83%;
+            cursor: pointer;
         }
     </style>
 
@@ -48,8 +50,9 @@
 
         var art1 = document.getElementById("first");
         var art2 = document.getElementById("second");
+        var x  = document.getElementById("x");
         art1.style.transform = "scale(1)";      
-        function enlarge1() {
+        function enlarge() {
             if (art1.style.transform != "scale(2)") {
                 art1.style.transform = "scale(2)";
                 art1.style.position = "absolute";
@@ -58,6 +61,7 @@
                 art1.style.left = "30%";
                 art1.style.width = "36%";
                 art2.style.display = "none";
+                x.style.display = "none";
                 art1.style.transition =
                     "transform 0.25s ease";
             }
@@ -67,6 +71,7 @@
                 art1.style.zIndex = 0;
                 art1.style.width = "45%";
                 art2.style.display = "inline";
+                x.style.display = "block";
                 art1.style.transition =
                     "transform 0.25s ease";
             }

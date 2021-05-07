@@ -218,16 +218,14 @@
             width: 2%;
             margin-top: 3%;
             color: white;
-            font-weight: bold;
-            border-radius: 0 3px 3px 0;
+            font-weight: bold;           
             user-select: none;
             -webkit-user-select: none;
         }
 
         /* Position the "next button" to the right */
         .next {
-            right: 0;
-            border-radius: 3px 0 0 3px;
+            right: 0;            
         }
 
         .fullsc {
@@ -263,8 +261,8 @@
         var x = document.getElementById("x");
         cont.style.transform = "scale(1)";
         function enlarge() {
-            if (cont.style.transform != "scale(2.2)") {
-                cont.style.transform = "scale(2.2)";
+            if (cont.style.transform != "scale(2.7)") {
+                cont.style.transform = "scale(2.7)";
                 cont.style.position = "absolute";
                 cont.style.zIndex = 10;
                 cont.style.marginTop = "18%";
@@ -275,7 +273,7 @@
                 next.style.width = "1%";
                 prev.style.width = "1%";
                 fullsc.style.fontSize = "0.5vw";
-                fullsc.style.top = "85%";
+                fullsc.style.top = "77%";
                 compress.style.display = "block";
                 expand.style.display = "none";
                 cont.style.transition =
