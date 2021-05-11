@@ -5,6 +5,20 @@
   border: none;
 }
 
+/*Scrollbar*/
+div::-webkit-scrollbar {
+  width: 0.5vw;
+}
+/*Track*/
+div::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+/*Handle*/
+div::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(120deg, #f6ebff, #aaa8ae, #f6ebff);
+  border-radius: 30px;
+}
+
 #aboutBackg {
   top: 0;
   position: absolute;
@@ -33,11 +47,21 @@
   border-radius: 20px;
 }
 
+.scrolPar{
+  -webkit-user-select: none;  
+  position: absolute;
+  max-width: 90%;
+  height: 90%;
+  margin: 2%;
+  overflow: visible;
+  justify-items: center;
+  overflow-y: scroll;
+}
 
 #title {
   margin-left: 5%;
   top: 27px;
-  position: absolute;
+  
   overflow: visible;
   width: 170px;
   white-space: nowrap;
@@ -50,8 +74,7 @@
 }
 #paragraph {
   /*paragraph*/
-  margin: 8% 5%;
-  position: absolute;
+  margin: 8% 5%;  
   overflow: visible;
   text-align: left;
   font-family: "Titillium Web";
@@ -60,10 +83,17 @@
   font-size: 1.2vw;
   color: rgba(0, 0, 0, 1);
 }
+#paragraph img{
+  float: left;
+  margin-left: -1%;
+  margin-right: 1%;
+  padding-top: 0%;
+  width: 30%;
+}
+
 #thelink {
   margin-left: 5%;
-  top: 80%;
-  position: absolute;
+  top: 80%; 
   overflow: visible;
   width: 75px;
   white-space: nowrap;
@@ -76,23 +106,24 @@
   transition: all 0.3s ease-in;
 }
 
+
 #thelink a:link {
   /*link style*/
   text-decoration: none;
   color: rgba(0, 0, 0, 1);
 }
-#thelink a:visited {
+#thelink a:visited, #paragraph a:visited  {
   text-decoration: none;
   color: rgba(0, 0, 0, 1);
 }
-#thelink a:hover {
+#thelink a:hover  {
   color: #f07338;
 }
 
 #x {
   position: relative;
   margin: auto;
-  left: 45%;
+  left: 46%;
   top: 25px;
   width: 2%;
   height: 5%;
@@ -134,7 +165,7 @@
 @media screen and (max-width: 700px) {
  
   #paragraph {
-    margin: 10% 6%;
+    margin: 10% 5%;
     font-size: 1.4vw;
   }
   #thelink {
