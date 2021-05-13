@@ -2,14 +2,16 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: none;
+  border: none;  
 }
+
+
 #main {
   -webkit-user-select: none;
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: rgba(12, 11, 11, 1);
+  background-color: rgba(12, 11, 11, 1); /* background-color: rgba(0, 0, 0, 1);*/
   overflow: hidden;
 }
 
@@ -33,6 +35,25 @@
     font-size: 3vw;
   }
 }
+
+.model {
+  position: absolute;  
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: -1%;
+  padding: 0;  
+}
+
+#renderCanvas {
+  width: 101%;
+  height: 101%;
+  touch-action: none;  
+  overflow: hidden;
+  /*border: 2px solid coral; */     
+}
+
 
 #deletelater {
   position: absolute;
@@ -65,15 +86,3 @@
   color: rgba(0, 0, 0, 1);
 }
 
-/*landscape mode
-@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
-  html {
-    transform: rotate(-90deg);
-    transform-origin: left top;
-    width: 100vh;
-    overflow-x: hidden;
-    position: absolute;
-    top: 100%;
-    left: 0;
-  }
-}*/
