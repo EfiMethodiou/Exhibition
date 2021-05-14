@@ -106,16 +106,14 @@ div::-webkit-scrollbar-thumb {
 
 #artist a:link {
   /*link style*/
-  text-decoration: none;
-  color: rgba(0, 0, 0, 1);
+  text-decoration: underline;
+  color: #f07338;
 }
 #artist a:visited {
   text-decoration: none;
-  color: rgba(0, 0, 0, 1);
+  color:#f07338;
 }
-#artist a:hover {
-  color: #f07338;
-}
+
 #popup_subtitle a {
   text-decoration: none;
   color: rgba(0, 0, 0, 1);
@@ -124,12 +122,10 @@ div::-webkit-scrollbar-thumb {
 #popup_subtitle a:link {
   /*link style*/
   text-decoration: none;
-  color: rgba(0, 0, 0, 1);
+  color: #f07338;
 }
 #popup_subtitle a:visited {
   text-decoration: none;
-  color: rgba(0, 0, 0, 1);
-}
-#popup_subtitle a:hover {
   color: #f07338;
 }
+

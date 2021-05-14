@@ -223,8 +223,7 @@ function gotoJoan_Hof_Andr_Bart() {
 
 setTimeout(function () {
   document.getElementsByClassName("ripple-close");
-  $(".ripple-close").toggleClass("ripple-close-active");
-  console.log("it");
+  $(".ripple-close").toggleClass("ripple-close-active");  
 }, 2400);
 
 
