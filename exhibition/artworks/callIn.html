@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Call In</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;1,200&display=swap" rel="stylesheet">
     <link rel="icon" href="../../img/slider/CallIn.png">
     <link rel="stylesheet" href="../../css/level_3/artworks_page.css">
 </head>
@@ -17,37 +19,40 @@
             <div class="left"></div>
             <div class="right"></div>
         </div>
+        <div>
+            <a onclick="enlargemed()">
+                <i id="compressmed" class="fas fa-compress-alt"></i>
+            </a>
+            <a onclick="enlargetech()">
+                <i id="compresstech" class="fas fa-compress-alt"></i>
+            </a>
+            <a onclick="enlargenat()">
+                <i id="compressnat" class="fas fa-compress-alt"></i>
+            </a>
+        </div>
         <div class="thecontainer">
-            <div class="containermed" id="containermed">
-                <h4>MediCALL IN</h4>
-
+            <div class="containermed" id="containermed">    
                 <div class="mySlidesmed">
-                    <div id="numbertext">Thinkers</div>
-                    <img src="../../img/artworks/calI_in/1med.jpg" style="width:55%; margin-top:12%; margin-left: 25%;">
+                    <img src="../../img/artworks/calI_in/1med.jpg">
                 </div>
                 <div class="mySlidesmed">
-                    <div id="numbertext">The birth of Venus</div>
-                    <img src="../../img/artworks/calI_in/2med.jpg" style="width:55%; margin-top:12%; margin-left: 25%;">
+                    <img src="../../img/artworks/calI_in/2med.jpg">
                 </div>
 
                 <div class="mySlidesmed">
-                    <div id="numbertext">The observatory</div>
-                    <img src="../../img/artworks/calI_in/3med.jpg" style="width:55%; margin-top:12%; margin-left: 25%;">
+                    <img src="../../img/artworks/calI_in/3med.jpg">
                 </div>
 
                 <div class="mySlidesmed">
-                    <div id="numbertext">In the garden</div>
-                    <img src="../../img/artworks/calI_in/4med.jpg" style="width:55%; margin-top:12%; margin-left: 25%;">
+                    <img src="../../img/artworks/calI_in/4med.jpg">
                 </div>
 
                 <div class="mySlidesmed">
-                    <div id="numbertext">Friendship</div>
-                    <img src="../../img/artworks/calI_in/5med.jpg" style="width:55%; margin-top:12%; margin-left: 25%;">
+                    <img src="../../img/artworks/calI_in/5med.jpg">
                 </div>
 
                 <div class="mySlidesmed">
-                    <div id="numbertext">Balance</div>
-                    <img src="../../img/artworks/calI_in/6med.jpg" style="width:55%; margin-top:12%; margin-left: 25%;">
+                    <img src="../../img/artworks/calI_in/6med.jpg">
                 </div>
 
                 <a class="prev" id="prevmed" onclick="plusSlidesmed(-1)">
@@ -72,40 +77,31 @@
                 </a>
                 <a class="fullsc" id="fullmed" onclick="enlargemed()">
                     <i id="expandmed" class="fas fa-expand-alt"></i>
-                    <i id="compressmed" class="fas fa-compress-alt"></i>
                 </a>
+                <div id="groupmed">
+                    <h4>MediCALL IN</h4>
+                </div>
+                
             </div>
             <div class="containertech" id="containertech">
-                <h4>TechniCALL IN</h4>
+                
                 <div class="mySlidestech" style="display: block;">
-                    <div id="numbertext">The altar</div>
-                    <img src="../../img/artworks/calI_in/7tech.jpg"
-                        style="width:55%; margin-top:12%; margin-left: 25%;">
+                    <img src="../../img/artworks/calI_in/7tech.jpg">
                 </div>
                 <div class="mySlidestech">
-                    <div id="numbertext">The funeral</div>
-                    <img src="../../img/artworks/calI_in/8tech.jpg"
-                        style="width:55%; margin-top:12%; margin-left: 25%;">
+                    <img src="../../img/artworks/calI_in/8tech.jpg">
                 </div>
                 <div class="mySlidestech">
-                    <div id="numbertext">Windows</div>
-                    <img src="../../img/artworks/calI_in/9tech.jpg"
-                        style="width:55%; margin-top:12%; margin-left: 25%;">
+                    <img src="../../img/artworks/calI_in/9tech.jpg">
                 </div>
                 <div class="mySlidestech">
-                    <div id="numbertext">The sunspot</div>
-                    <img src="../../img/artworks/calI_in/10tech.jpg"
-                        style="width:55%; margin-top:12%; margin-left: 25%;">
+                    <img src="../../img/artworks/calI_in/10tech.jpg">
                 </div>
                 <div class="mySlidestech">
-                    <div id="numbertext">Awakening</div>
-                    <img src="../../img/artworks/calI_in/11tech.jpg"
-                        style="width:55%; margin-top:12%; margin-left: 25%;">
+                    <img src="../../img/artworks/calI_in/11tech.jpg">
                 </div>
                 <div class="mySlidestech">
-                    <div id="numbertext">The well</div>
-                    <img src="../../img/artworks/calI_in/12tech.jpg"
-                        style="width:55%; margin-top:12%; margin-left: 25%;">
+                    <img src="../../img/artworks/calI_in/12tech.jpg">
                 </div>
                 <a class="prev" id="prevtech" onclick="plusSlidestech(-1)">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30.406 55.406">
@@ -128,44 +124,40 @@
                     </svg>
                 </a>
                 <a class="fullsc" id="fulltech" onclick="enlargetech()">
-                    <i id="expandtech" class="fas fa-expand-alt"></i>
-                    <i id="compresstech" class="fas fa-compress-alt"></i>
+                    <i id="expandtech" class="fas fa-expand-alt"></i>                    
                 </a>
-
+                <div id="grouptech">
+                    <h4>TechniCALL IN</h4>
+                </div>
+                
             </div>
             <div class="containernat" id="containernat">
-                <h4>NaturALL IN</h4>
+               
                 <div class="mySlidesnat" style="display: block;">
-                    <div id="numbertext">without title</div>
                     <img src="../../img/artworks/calI_in/13nat.jpg"
-                        style="width:60%; margin-top:20%; margin-left: 23%;">
+                        style="width:70%; margin-top:15%; margin-left: 18%;">
                 </div>
                 <div class="mySlidesnat">
-                    <div id="numbertext">The origin</div>
                     <img src="../../img/artworks/calI_in/14nat.jpg"
-                        style="width:60%; margin-top:20%; margin-left: 23%;">
+                    style="width:70%; margin-top:15%; margin-left: 18%;">
                 </div>
                 <div class="mySlidesnat">
-                    <div id="numbertext">Through the forest</div>
                     <img src="../../img/artworks/calI_in/15nat.jpg"
-                        style="width:60%; margin-top:20%; margin-left: 23%;">
+                    style="width:70%; margin-top:15%; margin-left: 18%;">
                 </div>
                 <div class="mySlidesnat">
-                    <div id="numbertext">Adam and Eve</div>
                     <img src="../../img/artworks/calI_in/16nat.jpg"
-                        style="width:60%; margin-top:20%; margin-left: 23%;">
+                    style="width:70%; margin-top:15%; margin-left: 18%;">
                 </div>
                 <div class="mySlidesnat">
-                    <div id="numbertext">This way</div>
                     <img src="../../img/artworks/calI_in/17nat.jpg"
-                        style="width:60%; margin-top:20%; margin-left: 23%;">
+                    style="width:70%; margin-top:15%; margin-left: 18%;">
                 </div>
                 <div class="mySlidesnat">
-                    <div id="numbertext">It's time for spring spraying</div>
                     <img src="../../img/artworks/calI_in/18nat.jpg"
-                        style="width:60%; margin-top:20%; margin-left: 23%;">
+                    style="width:70%; margin-top:15%; margin-left: 18%;">
                 </div>
-                <a class="prev" id="prevnat" onclick="plusSlidesnat(-1)">
+                <a class="prev" id="prevnat" onclick="plusSlidesnat(-1)" style=" margin: -25% 10%;">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30.406 55.406">
                         <g transform="translate(-182.797 -711.297)">
                             <rect id="Rectangle_22" data-name="Rectangle 22" width="38" height="3" rx="1"
@@ -175,7 +167,7 @@
                         </g>
                     </svg>
                 </a>
-                <a class="next" id="nextnat" onclick="plusSlidesnat(1)">
+                <a class="next" id="nextnat" onclick="plusSlidesnat(1)" style=" margin: -25% 20%;">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30.406 56.406">
                         <g transform="translate(-1090.797 -711.297)">
                             <rect id="Rectangle_24" data-name="Rectangle 24" width="40" height="3" rx="1.5"
@@ -185,11 +177,13 @@
                         </g>
                     </svg>
                 </a>
-                <a class="fullsc" id="fullnat" onclick="enlargenat()">
-                    <i id="expandnat" class="fas fa-expand-alt"></i>
-                    <i id="compressnat" class="fas fa-compress-alt"></i>
+                <a class="fullsc" id="fullnat" onclick="enlargenat()" style=" margin-top: 6%;">
+                    <i id="expandnat" class="fas fa-expand-alt"></i>                   
                 </a>
-
+                <div id="groupnat">
+                     <h4 style="margin-top: 12%;">NaturALL IN</h4>
+                </div>
+               
             </div>
         </div>
 
@@ -206,9 +200,10 @@
         h4 {
             font-family: "Titillium Web";
             color: #f2f2f2;
-            margin-top: -10%;
-            margin-left: 40%;
-        }
+            margin-top: 3%;
+            margin-left: 47%;
+            opacity: 0.3;
+        }       
 
         @media screen and (max-width: 1000px) {
             h4 {
@@ -219,26 +214,29 @@
         .containermed {
             position: absolute;
             display: inline;
-            margin: 15% 0%;
-            width: 30%;
-            height: 40%;
-            /*border: 2px solid cyan;*/
+            margin: 10% -5%;
+            width: 35%;
+            height: 50%;           
         }
 
         .containertech {
             position: absolute;
             display: inline;
-            margin: 15% 35%;
-            width: 30%;
-            height: 40%;
+            margin: 10% 29.5%;
+            width: 35%;
+            height: 50%;               
         }
 
         .containernat {
             position: absolute;
             display: inline;
-            margin: 15% 70%;
-            width: 30%;
-            height: 40%;
+            margin: 10% 66%;
+            width: 35%;
+            height: 50%;             
+        }
+
+        img {
+            width:60%; margin-top:12%; margin-left: 25%;
         }
 
         /* Hide the images by default */
@@ -262,10 +260,9 @@
         .prev,
         .next {
             cursor: pointer;
-            position: absolute;
-            top: 46%;
+            position: absolute;           
             width: 3%;
-            margin: 3% 15%;
+            margin: -35% 15%;
             color: white;
             font-weight: bold;
             user-select: none;
@@ -290,29 +287,43 @@
 
         .fullsc {
             cursor: pointer;
-            position: absolute;
-            top: 85%;
+            position: absolute;            
             right: 0;
             left: 85%;
             width: auto;
             padding: 16px;
-            margin-top: 3%;
+            margin-top: -2%;
             color: white;
+            opacity: 0.3;
             font-size: 1.1vw;
+        }
+        .fullsc:hover{
+            opacity: 1;
         }
 
         #compressmed,
         #compresstech,
         #compressnat {
-            display: none;
+            position: relative;
+            font-size: 1.1vw;
+            color: white;            
+            margin-left: 95%;           
+            cursor: pointer;
+            opacity: 0.7;
+            display: none;            
+        }
+        #compressmed:hover,
+        #compresstech:hover,
+        #compressnat:hover{
+            opacity: 1;
         }
     </style>
 
     <script>
-        /*
+        
         document.addEventListener("contextmenu", function (e) {
             e.preventDefault();
-        }, false);*/
+        }, false);
         //slider functions for medical in
         var slideIndex = 1;
         showSlidesmed(slideIndex);
@@ -396,7 +407,8 @@
         var nextmed = document.getElementById("nextmed");
         var fullmed = document.getElementById("fullmed");
         var compressmed = document.getElementById("compressmed");
-        var expandmed = document.getElementById("expandmed");
+        var expandmed = document.getElementById("expandmed"); 
+        var groupmed = document.getElementById("groupmed");       
         var x = document.getElementById("x");
         //
         var prevtech = document.getElementById("prevtech");
@@ -404,37 +416,38 @@
         var fulltech = document.getElementById("fulltech");
         var comprestech = document.getElementById("compresstech");
         var expandtech = document.getElementById("expandtech");
+        var grouptech = document.getElementById("grouptech");
         //
         var prevnat = document.getElementById("prevnat");
         var nextnat = document.getElementById("nextnat");
         var fullnat = document.getElementById("fullnat");
         var compressnat = document.getElementById("compressnat");
         var expandnat = document.getElementById("expandnat");
+        var groupnat = document.getElementById("groupnat");
         contmed.style.transform = "scale(1)";
         conttech.style.transform = "scale(1)";
         contnat.style.transform = "scale(1)";
 
         //medical in    
-        function enlargemed() {
-            console.log("this runs");
+        function enlargemed() {           
             if (contmed.style.transform != "scale(2.2)") {
                 contmed.style.transform = "scale(2.2)";
                 contmed.style.position = "absolute";
                 contmed.style.zIndex = 10;
-                contmed.style.marginTop = "10%";
+                contmed.style.marginTop = "8%";               
                 contmed.style.marginLeft = "32%";
                 contmed.style.width = "36%";
                 conttech.style.display = "none";
                 contnat.style.display = "none";
                 x.style.display = "none";
                 nextmed.style.width = "1%";
-                nextmed.style.top = "55%";
+                nextmed.style.marginTop = "-30%";
                 prevmed.style.width = "1%";
-                prevmed.style.top = "55%";
-                fullmed.style.fontSize = "0.5vw";
-                fullmed.style.top = "95%";
+                prevmed.style.marginTop = "-30%";
+                compressmed.style.top = "30px";                
                 compressmed.style.display = "block";
-                expandmed.style.display = "none";
+                expandmed.style.display = "none";   
+                groupmed.style.display = "none";              
                 contmed.style.transition =
                     "transform 0.25s ease";
             }
@@ -442,20 +455,21 @@
                 contmed.style.transform = "scale(1)";
                 contmed.style.position = "";
                 contmed.style.zIndex = 0;
-                contmed.style.width = "30%";
-                contmed.style.marginTop = "15%";
-                contmed.style.marginLeft = "0%";
+                contmed.style.width = "35%";
+                contmed.style.marginTop = "10%";
+                contmed.style.marginLeft = "-5%";
                 conttech.style.display = "block";
                 contnat.style.display = "block";
                 x.style.display = "block";
                 nextmed.style.width = "3%";
-                nextmed.style.top = "46%";
+                nextmed.style.marginTop = "-35%";
                 prevmed.style.width = "3%";
-                prevmed.style.top = "46%";
+                prevmed.style.marginTop = "-35%";
                 fullmed.style.fontSize = "1.1vw";
-                fullmed.style.top = "90%";
+                fullmed.style.marginTop = "-2%";
                 compressmed.style.display = "none";
                 expandmed.style.display = "block";
+                groupmed.style.display = "block"; 
                 contmed.style.transition =
                     "transform 0.25s ease";
             }
@@ -468,20 +482,20 @@
                 conttech.style.transform = "scale(2.2)";
                 conttech.style.position = "absolute";
                 conttech.style.zIndex = 10;
-                conttech.style.marginTop = "10%";
+                conttech.style.marginTop = "8%";
                 conttech.style.marginLeft = "32%";
                 conttech.style.width = "36%";
                 contmed.style.display = "none";
                 contnat.style.display = "none";
                 x.style.display = "none";
                 nexttech.style.width = "1%";
-                nexttech.style.top = "55%";
+                nexttech.style.marginTop = "-30%";
                 prevtech.style.width = "1%";
-                prevtech.style.top = "55%";
-                fulltech.style.fontSize = "0.5vw";
-                fulltech.style.top = "95%";
+                prevtech.style.marginTop = "-30%";
+                compresstech.style.top = "30px";
                 compresstech.style.display = "block";
                 expandtech.style.display = "none";
+                grouptech.style.display = "none"; 
                 conttech.style.transition =
                     "transform 0.25s ease";
             }
@@ -489,20 +503,21 @@
                 conttech.style.transform = "scale(1)";
                 conttech.style.position = "";
                 conttech.style.zIndex = 0;
-                conttech.style.width = "30%";
-                conttech.style.marginTop = "15%";
-                conttech.style.marginLeft = "35%";
+                conttech.style.width = "35%";
+                conttech.style.marginTop = "10%";
+                conttech.style.marginLeft = "29.5%";
                 contmed.style.display = "block";
                 contnat.style.display = "block";
                 x.style.display = "block";
                 nexttech.style.width = "3%";
-                nexttech.style.top = "46%";
+                nexttech.style.marginTop = "-35%";
                 prevtech.style.width = "3%";
-                prevtech.style.top = "46%";
+                prevtech.style.marginTop = "-35%";
                 fulltech.style.fontSize = "1.1vw";
-                fulltech.style.top = "90%";
+                fulltech.style.marginTop = "-2%";
                 compresstech.style.display = "none";
                 expandtech.style.display = "block";
+                grouptech.style.display = "block"; 
                 conttech.style.transition =
                     "transform 0.25s ease";
             }
@@ -515,20 +530,20 @@
                 contnat.style.transform = "scale(2.2)";
                 contnat.style.position = "absolute";
                 contnat.style.zIndex = 10;
-                contnat.style.marginTop = "10%";
+                contnat.style.marginTop = "8%";
                 contnat.style.marginLeft = "32%";
                 contnat.style.width = "36%";
                 contmed.style.display = "none";
                 conttech.style.display = "none";
                 x.style.display = "none";
                 nextnat.style.width = "1%";
-                nextnat.style.top = "55%";
+                nextnat.style.marginTop = "-25%";
                 prevnat.style.width = "1%";
-                prevnat.style.top = "55%";
-                fullnat.style.fontSize = "0.5vw";
-                fullnat.style.top = "95%";
+                prevnat.style.marginTop = "-25%";
+                compressnat.style.top = "30px";
                 compressnat.style.display = "block";
                 expandnat.style.display = "none";
+                groupnat.style.display = "none"; 
                 contnat.style.transition =
                     "transform 0.25s ease";
             }
@@ -536,20 +551,21 @@
                 contnat.style.transform = "scale(1)";
                 contnat.style.position = "";
                 contnat.style.zIndex = 0;
-                contnat.style.width = "30%";
-                contnat.style.marginTop = "15%";
-                contnat.style.marginLeft = "70%";
+                contnat.style.width = "35%";
+                contnat.style.marginTop = "10%";
+                contnat.style.marginLeft = "66%";
                 contmed.style.display = "block";
                 conttech.style.display = "block";
                 x.style.display = "block";
                 nextnat.style.width = "3%";
-                nextnat.style.top = "46%";
+                nextnat.style.marginTop = "-25";
                 prevnat.style.width = "3%";
-                prevnat.style.top = "46%";
+                prevnat.style.marginTop = "-25%";
                 fullnat.style.fontSize = "1.1vw";
                 fullnat.style.top = "90%";
                 compressnat.style.display = "none";
                 expandnat.style.display = "block";
+                groupnat.style.display = "block"; 
                 contnat.style.transition =
                     "transform 0.25s ease";
             }
