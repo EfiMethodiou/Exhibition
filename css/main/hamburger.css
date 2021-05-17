@@ -4,14 +4,14 @@
   width: 100%;
   height: 100%;
   overflow: hidden;
-  display: none;
+  display: none; 
 }
 
 #menu {
   position: relative;
   width: 296px;
   height: 419px;
-  left: 5%;
+  margin-left: 5%;
   top: 16px;
   overflow: visible;
 }
@@ -81,7 +81,7 @@
   position: absolute;
   width: 310px;
   height: 210px;
-  margin: -100px -440px;
+  margin: -100px -1000px;
   padding: 40px;
   padding-top: 125px;
   background: rgba(12, 11, 11, 0.5); /*transparent background for the popups*/
@@ -105,7 +105,7 @@
 }
 
 #hamburger input:checked ~ #menu_items {
-  transform: translateX(440px);
+  transform: translateX(1000px);
   transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
 }
 
