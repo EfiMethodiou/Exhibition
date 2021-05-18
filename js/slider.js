@@ -329,3 +329,23 @@ green3.addEventListener("mouseover", (event) => {
 green3.addEventListener("mouseout", (event) => {
   document.getElementById("green3").style.display = "none";
 });
+
+
+/*Open slider to right part depended on artist*/
+console.log(document.title);
+//red group artists
+if(document.title === "Jadwiga Subczyńska" || document.title === "Paulina Misiak" 
+|| document.title === "Joanna Hoffmann"){   
+    document.getElementById("violetGroup").style.display = "none";
+    document.getElementById("redGroup").style.display = "inline";
+    console.log("yes");
+}
+//green group artists
+if(document.title === "Jill Scott   Marille Hahne" || document.title === "Anna Dumitriu   Alex May" 
+|| document.title === "Joanna Hoffmann   Andre Bartetzki"){   
+    document.getElementById("violetGroup").style.display = "none";
+    document.getElementById("orangeGroup").style.display = "none";
+    document.getElementById("redGroup").style.display = "inline";
+    document.getElementById("greenGroup").style.display = "inline";
+    console.log("yes");
+}

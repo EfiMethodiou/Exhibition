@@ -1,7 +1,7 @@
 
 /*________TITLES__________*/
 .titles_container{
- /* border: 1px solid coral;*/
+  /*border: 1px solid coral;*/
   position: absolute;  
   margin-top: 39%;
   margin-left: 20%;
@@ -38,7 +38,7 @@
 
 /*__________________SLIDER_____________________________*/
 .slider_container{
-/*border: 1px solid rebeccapurple;*/
+  /*border: 1px solid rebeccapurple;*/
   position: absolute;  
   margin-top: 42%;
   margin-left: 20%;
@@ -114,18 +114,18 @@ li .item img{
   
 }
 @media screen and (max-width: 1500px){
-  .titles_container{   
+  .titles_container{     
     margin-left: 21%;   
   }
 }
 
 @media screen and (max-width: 1000px){
-  .slider_container{   
+  .slider_container{    
     margin-left: 12%;
     width: 75%;
   }
-  .titles_container{    
-    margin-left: 12%;
+  .titles_container{       
+    margin-left: 14%;
     width: 75%;
   }
   
@@ -141,17 +141,21 @@ li .item img{
 @media screen and (max-width: 600px){  
   .slider_container{
     width: 78%;
+    margin-top: 38%;    
   }
-  .titles_container{  
+  .titles_container{ 
+    margin-top: 37%;   
     width: 78%;
+  }
+  .slider{    
+    bottom: 70%;
   }
   li .item img {
     width: 4.4vw;
   } 
  
 }
-@media screen and (max-width: 450px){  
-    
+@media screen and (max-width: 450px){     
   li .item img {
     width: 4vw;
   } 
