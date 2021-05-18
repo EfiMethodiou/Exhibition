@@ -1,23 +1,12 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  border: none;
-}
-#level_3_joanna_hoffmann_andre_bartetzki {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(12, 11, 11, 1);
-}
+
 /*________TITLES__________*/
 .titles_container{
  /* border: 1px solid coral;*/
   position: absolute;  
-  margin-top: 40%;
+  margin-top: 39%;
   margin-left: 20%;
   width:60%;
-  height: 5%;
+  height: 2.5vw;
 
 }
 .title_border {  
@@ -29,7 +18,8 @@
   text-align: center;
 }
 .node_title {
-  margin:  2% 5%;
+  margin-left: 0;
+  margin-bottom: 2%;
   color: white;
   font-family: "Titillium Web";
   line-height: 100%;
@@ -48,12 +38,12 @@
 
 /*__________________SLIDER_____________________________*/
 .slider_container{
- /* border: 1px solid rebeccapurple;*/
+/*border: 1px solid rebeccapurple;*/
   position: absolute;  
-  margin-top: 44%;
+  margin-top: 42%;
   margin-left: 20%;
   width:60%;
-  height: 12%;
+  height: 6.2vw;
 }
 .slider {
   position: relative;
@@ -61,8 +51,8 @@
   bottom: 55%;
   padding: 7px;
   width: 90%;
-  height: 110%;  
-  overflow: visible;
+  height: 6.3vw;
+  overflow: visible; 
 }
 .slider_items {
   /*border: 1px solid red;*/

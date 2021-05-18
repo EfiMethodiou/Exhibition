@@ -31,9 +31,9 @@ div::-webkit-scrollbar-thumb {
   position: absolute;
   display: none;
   left: 49%;
-  top: 14%;
+  margin-top: 4%;
   width: 45%;
-  height: 70%;
+  height: 36vw;
   overflow: hidden;  
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 20px;

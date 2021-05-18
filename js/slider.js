@@ -109,7 +109,7 @@ var screenSize = window.innerWidth;
 const violet1 = document.querySelector("#node_v1");
 violet1.addEventListener("mouseover", (event) => {
   document.getElementById("violet1").style.display = "block";
-  document.getElementById("title_border").style.left = "5.5vw";
+  document.getElementById("title_border").style.marginLeft = "5.5vw";
 });
 violet1.addEventListener("mouseout", (event) => {
   document.getElementById("violet1").style.display = "none";
@@ -118,7 +118,7 @@ violet1.addEventListener("mouseout", (event) => {
 const violet1_1 = document.querySelector("#node_v1_1");
 violet1_1.addEventListener("mouseover", (event) => {
   document.getElementById("violet1").style.display = "block";
-  document.getElementById("title_border").style.left = "32vw";
+  document.getElementById("title_border").style.marginLeft = "32vw";
 });
 violet1_1.addEventListener("mouseout", (event) => {
   document.getElementById("violet1").style.display = "none";
@@ -127,7 +127,7 @@ violet1_1.addEventListener("mouseout", (event) => {
 const violet2 = document.querySelector("#node_v2");
 violet2.addEventListener("mouseover", (event) => {
   document.getElementById("violet2").style.display = "block";
-  document.getElementById("title_border").style.left = "11vw";
+  document.getElementById("title_border").style.marginLeft = "11vw";
 });
 violet2.addEventListener("mouseout", (event) => {
   document.getElementById("violet2").style.display = "none";
@@ -136,7 +136,7 @@ violet2.addEventListener("mouseout", (event) => {
 const violet2_1 = document.querySelector("#node_v2_1");
 violet2_1.addEventListener("mouseover", (event) => {
   document.getElementById("violet2").style.display = "block";
-  document.getElementById("title_border").style.left = "37vw";
+  document.getElementById("title_border").style.marginLeft = "37vw";
 });
 violet2_1.addEventListener("mouseout", (event) => {
   document.getElementById("violet2").style.display = "none";
@@ -145,7 +145,7 @@ violet2_1.addEventListener("mouseout", (event) => {
 const violet3 = document.querySelector("#node_v3");
 violet3.addEventListener("mouseover", (event) => {
   document.getElementById("violet3").style.display = "block";
-  document.getElementById("title_border").style.left = "16vw";
+  document.getElementById("title_border").style.marginLeft = "16vw";
 });
 violet3.addEventListener("mouseout", (event) => {
   document.getElementById("violet3").style.display = "none";
@@ -154,7 +154,7 @@ violet3.addEventListener("mouseout", (event) => {
 const violet3_1 = document.querySelector("#node_v3_1");
 violet3_1.addEventListener("mouseover", (event) => {
   document.getElementById("violet3").style.display = "block";
-  document.getElementById("title_border").style.left = "42.5vw";
+  document.getElementById("title_border").style.marginLeft = "42.5vw";
 });
 violet3_1.addEventListener("mouseout", (event) => {
   document.getElementById("violet3").style.display = "none";
@@ -163,7 +163,7 @@ violet3_1.addEventListener("mouseout", (event) => {
 const violet4 = document.querySelector("#node_v4");
 violet4.addEventListener("mouseover", (event) => {
   document.getElementById("violet4").style.display = "block";
-  document.getElementById("title_border").style.left = "22vw";
+  document.getElementById("title_border").style.marginLeft = "22vw";
 });
 violet4.addEventListener("mouseout", (event) => {
   document.getElementById("violet4").style.display = "none";
@@ -172,7 +172,7 @@ violet4.addEventListener("mouseout", (event) => {
 const violet4_1 = document.querySelector("#node_v4_1");
 violet4_1.addEventListener("mouseover", (event) => {
   document.getElementById("violet4").style.display = "block";
-  document.getElementById("title_border").style.left = "48vw";
+  document.getElementById("title_border").style.marginLeft = "48vw";
 });
 violet4_1.addEventListener("mouseout", (event) => {
   document.getElementById("violet4").style.display = "none";
@@ -185,9 +185,9 @@ const orange1 = document.querySelector("#node_or1");
 orange1.addEventListener("mouseover", (event) => {
   document.getElementById("orange1").style.display = "block";
   if (document.getElementById("violetGroup").style.display === "none") {
-    document.getElementById("title_border").style.left = "5.5vw";
+    document.getElementById("title_border").style.marginLeft = "5.5vw";
   } else {
-    document.getElementById("title_border").style.left = "32vw";
+    document.getElementById("title_border").style.marginLeft = "32vw";
   }
 });
 orange1.addEventListener("mouseout", (event) => {
@@ -198,9 +198,9 @@ const orange2 = document.querySelector("#node_or2");
 orange2.addEventListener("mouseover", (event) => {
   document.getElementById("orange2").style.display = "block";
   if (document.getElementById("violetGroup").style.display === "none") {
-    document.getElementById("title_border").style.left = "11vw";
+    document.getElementById("title_border").style.marginLeft = "11vw";
   } else {
-    document.getElementById("title_border").style.left = "37vw";
+    document.getElementById("title_border").style.marginLeft = "37vw";
   }
 });
 orange2.addEventListener("mouseout", (event) => {
@@ -211,9 +211,9 @@ const orange3 = document.querySelector("#node_or3");
 orange3.addEventListener("mouseover", (event) => {
   document.getElementById("orange3").style.display = "block";
   if (document.getElementById("violetGroup").style.display === "none") {
-    document.getElementById("title_border").style.left = "16vw";
+    document.getElementById("title_border").style.marginLeft = "16vw";
   } else {
-    document.getElementById("title_border").style.left = "42.5vw";
+    document.getElementById("title_border").style.marginLeft = "42.5vw";
   }
 });
 orange3.addEventListener("mouseout", (event) => {
@@ -224,9 +224,9 @@ const orange4 = document.querySelector("#node_or4");
 orange4.addEventListener("mouseover", (event) => {
   document.getElementById("orange4").style.display = "block";
   if (document.getElementById("violetGroup").style.display === "none") {
-    document.getElementById("title_border").style.left = "21.5vw";
+    document.getElementById("title_border").style.marginLeft = "21.5vw";
   } else {
-    document.getElementById("title_border").style.left = "47.5vw";
+    document.getElementById("title_border").style.marginLeft = "47.5vw";
   }
 });
 orange4.addEventListener("mouseout", (event) => {
@@ -240,9 +240,9 @@ const red1 = document.querySelector("#node_r1");
 red1.addEventListener("mouseover", (event) => {
   document.getElementById("red1").style.display = "block";
   if (document.getElementById("orangeGroup").style.display === "none") {
-    document.getElementById("title_border").style.left = "5.5vw";
+    document.getElementById("title_border").style.marginLeft = "5.5vw";
   } else {
-    document.getElementById("title_border").style.left = "32vw";
+    document.getElementById("title_border").style.marginLeft = "32vw";
   }
 });
 red1.addEventListener("mouseout", (event) => {
@@ -253,9 +253,9 @@ const red2 = document.querySelector("#node_r2");
 red2.addEventListener("mouseover", (event) => {
   document.getElementById("red2").style.display = "block";
   if (document.getElementById("orangeGroup").style.display === "none") {
-    document.getElementById("title_border").style.left = "10.5vw";
+    document.getElementById("title_border").style.marginLeft = "10.5vw";
   } else {
-    document.getElementById("title_border").style.left = "37vw";
+    document.getElementById("title_border").style.marginLeft = "37vw";
   }
 });
 red2.addEventListener("mouseout", (event) => {
@@ -266,9 +266,9 @@ const red3 = document.querySelector("#node_r3");
 red3.addEventListener("mouseover", (event) => {
   document.getElementById("red3").style.display = "block";
   if (document.getElementById("orangeGroup").style.display === "none") {
-    document.getElementById("title_border").style.left = "16vw";
+    document.getElementById("title_border").style.marginLeft = "16vw";
   } else {
-    document.getElementById("title_border").style.left = "42.5vw";
+    document.getElementById("title_border").style.marginLeft = "42.5vw";
   }
 });
 red3.addEventListener("mouseout", (event) => {
@@ -279,9 +279,9 @@ const red4 = document.querySelector("#node_r4");
 red4.addEventListener("mouseover", (event) => {
   document.getElementById("red4").style.display = "block";
   if (document.getElementById("orangeGroup").style.display === "none") {
-    document.getElementById("title_border").style.left = "22vw";
+    document.getElementById("title_border").style.marginLeft = "22vw";
   } else {
-    document.getElementById("title_border").style.left = "48vw";
+    document.getElementById("title_border").style.marginLeft = "48vw";
   }
 });
 red4.addEventListener("mouseout", (event) => {
@@ -295,9 +295,9 @@ const green1 = document.querySelector("#node_gr1");
 green1.addEventListener("mouseover", (event) => {
   document.getElementById("green1").style.display = "block";
   if (document.getElementById("redGroup").style.display === "none") {
-    document.getElementById("title_border").style.left = "5.5vw";
+    document.getElementById("title_border").style.marginLeft = "5.5vw";
   } else {
-    document.getElementById("title_border").style.left = "37vw";
+    document.getElementById("title_border").style.marginLeft = "37vw";
   }
 });
 green1.addEventListener("mouseout", (event) => {
@@ -308,9 +308,9 @@ const green2 = document.querySelector("#node_gr2");
 green2.addEventListener("mouseover", (event) => {
   document.getElementById("green2").style.display = "block";
   if (document.getElementById("redGroup").style.display === "none") {
-    document.getElementById("title_border").style.left = "11vw";
+    document.getElementById("title_border").style.marginLeft = "11vw";
   } else {
-    document.getElementById("title_border").style.left = "42.5vw";
+    document.getElementById("title_border").style.marginLeft = "42.5vw";
   }
 });
 green2.addEventListener("mouseout", (event) => {
@@ -321,9 +321,9 @@ const green3 = document.querySelector("#node_gr3");
 green3.addEventListener("mouseover", (event) => {
   document.getElementById("green3").style.display = "block";
   if (document.getElementById("redGroup").style.display === "none") {
-    document.getElementById("title_border").style.left = "16vw";
+    document.getElementById("title_border").style.marginLeft = "16vw";
   } else {
-    document.getElementById("title_border").style.left = "48vw";
+    document.getElementById("title_border").style.marginLeft = "48vw";
   }
 });
 green3.addEventListener("mouseout", (event) => {
