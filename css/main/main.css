@@ -75,17 +75,17 @@
   width: 60%;
   height: 30vw;
   border-radius: 20px;
-  margin: 10% 20%;
-  padding-top: 10%;
-  padding-left: 8%;
+  margin: 30vh 20%;
+  padding-top: 5vw;
+  padding-left: 5%;
   background-color: rgba(255, 254, 254, 0.7);
 }
 .phonescreen span{
-  font-size: 3vw;
+  font-size: 3.5vw;
   font-family: "Titillium Web";
 }
 #secmessage{   
-  font-size: 1.8vw;
+  font-size: 3vw;
 }
 
 @media screen and (max-width:450px){
