@@ -46,6 +46,11 @@
 		<div id="ASN_RHIZO-NETWORK">
 			<span>ASN RHIZO-NETWORK</span>
 		</div>
+		<!--Message for phone sceens-->
+		<div class="phonescreen">
+			<span>Please flip your sceen to landscape</span>
+			<span id="secmessage"><br>...if you keep seeing this message please use a bigger screen</span>
+		</div>
 		<div id="menuBackg" onclick="closeMenu()">
 		</div>
 		<div id="menu" class="menu" onclick="closePopCapt(),openMenuBack()">
@@ -62,7 +67,8 @@
 					</ul>
 				</div>
 			</div>
-		</div>
+		</div>		
+		<!--3D ROOT MODEL-->
 		<div class="model">
 			<canvas id="renderCanvas"></canvas>
 		</div>
@@ -173,10 +179,10 @@
 
 	</div>
 	
-	<script>
+	<script>/*
 		document.addEventListener("contextmenu", function (e) {
 			e.preventDefault();
-		}, false);    
+		}, false); */   
 	</script>
 	<script src="js/script.js"></script>
 	<script src="js/rootmodel.js"></script>
