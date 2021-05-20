@@ -7,6 +7,7 @@
     <title>Virophilia</title>
     <link rel="icon" href="../../img/slider/Virophilia.png">
     <link rel="stylesheet" href="../../css/level_3/artworks_page.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -14,6 +15,11 @@
         <div onclick="closeVirophilia()" id="x">
             <div class="left"></div>
             <div class="right"></div>
+        </div>
+        <div>
+            <a onclick="enlarge()" >
+                <i id="compress" class="fas fa-compress-alt"></i>
+            </a>
         </div>
 
         <div class="containervid" id="vid">
@@ -62,12 +68,12 @@
 
         </div>
 
-        <!---->
+        <!---->       
 
         <div class="container" id="container">
             <!---->
             <div class="mySlides">
-                <img src="../../img/artworks/viroph/page1.png" >
+                <img src="../../img/artworks/viroph/page1.png">
             </div>
 
             <div class="mySlides">
@@ -172,7 +178,6 @@
             </a>
             <a class="fullsc" id="fullsc" onclick="enlarge()">
                 <i id="expand" class="fas fa-expand-alt"></i>
-                <i id="compress" class="fas fa-compress-alt"></i>
             </a>
         </div>
 
@@ -193,14 +198,15 @@
             margin-top: 15%;
             margin-left: 10%;
             width: 40%;
-            height: 22vw;            
+            height: 22vw;
         }
 
         /* Hide the images by default */
         .mySlides {
             display: none;
         }
-        .mySlides img{
+
+        .mySlides img {
             width: 85%;
             margin-left: 8%;
         }
@@ -222,30 +228,36 @@
             width: 2%;
             margin-top: 3%;
             color: white;
-            font-weight: bold;           
+            font-weight: bold;
             user-select: none;
             -webkit-user-select: none;
         }
 
         /* Position the "next button" to the right */
         .next {
-            right: 0;            
+            right: 0;
         }
 
         .fullsc {
             cursor: pointer;
             position: absolute;
-            top: 90%;
             right: 0;
             width: auto;
             padding: 16px;
-            margin-top: 3%;
+            margin-top: -2%;
             color: white;
             font-size: 1.1vw;
         }
 
         #compress {
-            display: none;
+            position: absolute;
+            font-size: 1.2vw;
+            color: white;   
+            width: auto;         
+            margin-left: 98.2%;  
+            margin-top: 1%;         
+            cursor: pointer;          
+            display: none;              
         }
     </style>
 
@@ -275,16 +287,14 @@
                 vid.style.display = "none";
                 x.style.display = "none";
                 next.style.width = "1%";
-                prev.style.width = "1%";
-                fullsc.style.fontSize = "0.5vw";
-                fullsc.style.top = "-6.8%";
-                fullsc.style.marginRight ="-2%";
+                prev.style.width = "1%";                            
                 compress.style.display = "block";
                 expand.style.display = "none";
                 cont.style.transition =
                     "transform 0.25s ease";
             }
             else {
+                console.log("close");
                 cont.style.transform = "scale(1)";
                 cont.style.position = "";
                 cont.style.zIndex = 0;
@@ -296,8 +306,8 @@
                 next.style.width = "2%";
                 prev.style.width = "2%";
                 fullsc.style.fontSize = "1.2vw";
-                fullsc.style.top = "90%";
-                fullsc.style.marginRight ="0";
+                fullsc.style.marginTop = "-2%";
+                fullsc.style.marginRight = "0";
                 compress.style.display = "none";
                 expand.style.display = "block";
                 cont.style.transition =
