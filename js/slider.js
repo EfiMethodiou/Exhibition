@@ -345,7 +345,10 @@ if(document.title === "Jill Scott   Marille Hahne" || document.title === "Anna 
 || document.title === "Joanna Hoffmann   Andre Bartetzki"){   
     document.getElementById("violetGroup").style.display = "none";
     document.getElementById("orangeGroup").style.display = "none";
-    document.getElementById("redGroup").style.display = "inline";
+    document.getElementById("redGroup").style.display = "none";
     document.getElementById("greenGroup").style.display = "inline";
+    document.getElementById("greenGroup").style.paddingLeft = "0px";
+    document.getElementById("violetGroup2").style.display = "inline";
+    document.getElementById("violetGroup2").style.paddingLeft = "10%";
     console.log("yes");
 }
