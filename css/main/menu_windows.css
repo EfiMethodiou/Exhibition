@@ -93,7 +93,7 @@ div::-webkit-scrollbar-thumb {
 
 #thelink {
   margin-left: 5%;
-  top: 80%; 
+  margin-top: 42%; 
   overflow: visible;
   width: 75px;
   white-space: nowrap;

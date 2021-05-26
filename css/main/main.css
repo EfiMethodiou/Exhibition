@@ -53,18 +53,86 @@
   overflow: hidden;
   /*border: 2px solid coral; */     
 }
-
-
-#deletelater {
+/*animated description*/
+.description{
   position: absolute;
-  left: 50%;
-  top: 55%;
-  overflow: visible;
-  cursor: pointer;
+  width: 20%;
+  height: 3vw; 
+  right: 0;
+  margin-top: 47%; 
+  padding: 0.5% 1%;  
 }
-#deletelater img {
-  width: 5vw;
+.description span{ 
+  position: absolute;
+  color: white;
+  font-family: "Titillium Web";
+  font-size: 1.3vw;
+  text-shadow: 5px 2px 5px #f6ebff;
 }
+#desc1{
+  opacity: 0;
+  animation: appear1 5s normal 0.8s forwards ; 
+}
+@keyframes appear1{
+  0%{
+    opacity: 0;
+  }
+  30%{
+    opacity: 0.7;
+  }
+  50%{
+    opacity: 1;
+  }
+  80%{
+    opacity: 0.5;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+#desc2{
+  opacity: 0;
+  animation: appear2 5s normal 5.8s forwards ; 
+}
+@keyframes appear2{
+  0%{
+    opacity: 0;
+  }
+  30%{
+    opacity: 0.7;
+  }
+  50%{
+    opacity: 1;
+  }
+  80%{
+    opacity: 0.5;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+#desc3{
+  opacity: 0;
+  animation: appear3 5s normal 10.8s forwards ; 
+}
+@keyframes appear3{
+  0%{
+    opacity: 0;
+  }
+  30%{
+    opacity: 0.7;
+  }
+  50%{
+    opacity: 1;
+  }
+  80%{
+    opacity: 0.5;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+
 
 
 /*phone screens message*/

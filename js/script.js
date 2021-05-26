@@ -107,7 +107,7 @@ Go to level2 page*/
 function gotoMariaSubc() {
   window.location.href = "artist/maria_subc.html";
 }
-function gotoAnna_Dum_Alex_May() { 
-    window.location.href = "artist/anna_dum_alex_may.html"; 
-  
+
+function gotoJill_Sc_Maril_Hah() {
+  window.location.href = "artist/jill_sc_maril_hah.html";
 }

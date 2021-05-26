@@ -5,47 +5,60 @@
   border: none;
 }
 
+#explore {
+  position: absolute;
+  left: 50%;
+  margin-top: 29%;
+  overflow: visible;
+  cursor: pointer;
+}
+#explore img {
+  width: 5vw;
+}
+
 #popup_captureBackg {
   top: 0;
   position: absolute;
   width: 100%;
-  height: 100%;
+  height: 50vw;
   overflow: hidden;
   display: none;
 }
 
 #popup_capture {
   -webkit-user-select: none;
-  display: none;
+  display: block;
   background-color: rgba(255, 255, 255, 0.7);
   position: absolute;
   width: 15%;
-  height: 15%;  
+  height: 8vw;  
   left: 54%;
-  top: 44%;
+  margin-top: 23%;
   border-radius: 10% / 20%;
   overflow: visible;
-  cursor: pointer;
+  cursor: pointer;  
 }
 .p_captureInside{
   position: absolute;
   width: 84%;
-  height: 80%;
+  height: 7vw;
   margin: 5% 8%;  
+  padding: 1%;
+  border: 2px solid cyan;
 }
 
 #Capture_the_Futures_OUR_BIO-TE {   
   position: absolute;
-  overflow: visible;
-  width: 80%;
+  overflow: visible;  
   margin-left: 2%;
   white-space: nowrap;
-  text-align: center;
+  text-align: left;
   font-family: "Titillium Web";
   font-style: normal;
+  line-height: 130%;
   font-weight: bold;
-  font-size: 1.2vw;
-  color: rgba(12, 11, 11, 1);
+  font-size: 1.1vw;
+  color: blue; /*rgba(12, 11, 11, 1)*/
 }
 #exhibition {
   margin-left: 2%;
@@ -62,25 +75,3 @@
   color: rgba(12, 11, 11, 1);
 }
 
-
-@media screen and (max-width: 1100px){
-  #popup_capture{
-    height: 15%;
-  }
-}
-@media screen and (max-width: 800px){
-  #popup_capture{
-    height: 12%;
-  }
-}
-@media screen and (max-width: 600px){
-  #popup_capture{
-    max-height: 40px;
-  }
-}
-
-@media screen and (max-width: 300px){  
-  #popup_capture{
-    max-height: 25px;
-  }
-}

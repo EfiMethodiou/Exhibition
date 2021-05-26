@@ -73,8 +73,9 @@ body{
 }
 
 #ENTER {
-  left: 15%;
-  top: 30%;
+  cursor: pointer;
+  left: 35%;
+  margin-top: 35%;
   position: absolute;
   overflow: visible;
   width: 59px;
@@ -83,11 +84,79 @@ body{
   font-family: "Titillium Web";
   font-style: normal;
   font-size: 1.2vw;
-  color: rgba(0, 0, 0, 1);
+  color: white;
+  animation: glow 5s ease-in 0s infinite ;
+}
+@-webkit-keyframes glow {
+  0% {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #f07338, 0 0 20px #f07338, 0 0 25px #f07338, 0 0 30px #f07338, 0 0 35px #f07338;
+  }  
+  50% {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff8868, 0 0 40px #ff8868, 0 0 50px #ff8868, 0 0 60px #ff8868, 0 0 70px #ff8868, 0 0 80px #ff8868;
+  }
+  100% {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #f07338, 0 0 20px #f07338, 0 0 25px #f07338, 0 0 30px #f07338, 0 0 35px #f07338;
+  }
+}
+/*animation description*/
+.description2{
+  position: absolute;
+  width: 18%;
+  margin-top: 25%;
+  left: 38%;
+  height: 2vw;  
+}
+.description2 span{ 
+  position: absolute;
+  color: white;
+  font-family: "Titillium Web";
+  font-size: 1.5vw;
+  text-shadow: 5px 2px 5px #f6ebff;
+}
+#desc2_1{
+  opacity: 0;
+  animation: appear1 5s normal 0.8s forwards ; 
+}
+@keyframes appear1{
+  0%{
+    opacity: 0;
+  }
+  30%{
+    opacity: 0.7;
+  }
+  50%{
+    opacity: 1;
+  }
+  80%{
+    opacity: 0.5;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+#desc2_2{
+  opacity: 0;
+  animation: appear2 5s normal 5.8s forwards ; 
+}
+@keyframes appear2{
+  0%{
+    opacity: 0;
+  }
+  30%{
+    opacity: 0.7;
+  }
+  50%{
+    opacity: 1;
+  }
+  80%{
+    opacity: 0.5;
+  }
+  100%{
+    opacity: 0;
+  }
 }
 
 /*
-
 EXTRA INFORMATION BUTTONS
 */
 #info_menu_btns {
