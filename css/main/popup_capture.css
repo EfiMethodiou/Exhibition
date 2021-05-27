@@ -27,10 +27,10 @@
 
 #popup_capture {
   -webkit-user-select: none;
-  display: block;
+  display: none;
   background-color: rgba(255, 255, 255, 0.7);
   position: absolute;
-  width: 15%;
+  width: 21%;
   height: 8vw;  
   left: 54%;
   margin-top: 23%;
@@ -40,11 +40,11 @@
 }
 .p_captureInside{
   position: absolute;
-  width: 84%;
+  width: 95%;
   height: 7vw;
-  margin: 5% 8%;  
-  padding: 1%;
-  border: 2px solid cyan;
+  margin: 4% 2%;  
+  padding: 0;
+  /*border: 2px solid cyan;*/
 }
 
 #Capture_the_Futures_OUR_BIO-TE {   
@@ -52,13 +52,13 @@
   overflow: visible;  
   margin-left: 2%;
   white-space: nowrap;
-  text-align: left;
+  text-align: center;
   font-family: "Titillium Web";
   font-style: normal;
-  line-height: 130%;
+  line-height: 1.4;
   font-weight: bold;
   font-size: 1.1vw;
-  color: blue; /*rgba(12, 11, 11, 1)*/
+  color: rgba(12, 11, 11, 1); 
 }
 #exhibition {
   margin-left: 2%;
