@@ -13,7 +13,27 @@
   cursor: pointer;
 }
 #explore img {
-  width: 5vw;
+  position: absolute;
+  width: 4vw;
+  z-index: 10;  
+}
+
+.glowbackground {
+  position: absolute;
+  border-radius: 20vw;
+  width: 2vw;
+  height: 2vw;
+  left: 51%;
+  margin-top: 30%;
+  animation: glow 3s infinite alternate;
+}
+@keyframes glow {
+  from {
+    box-shadow: 0 0 1.5vw -1.5vw #a09ea1;
+  }
+  to {
+    box-shadow: 0 0 1.5vw 1.5vw #a09ea1;
+  }
 }
 
 #popup_captureBackg {
@@ -31,25 +51,25 @@
   background-color: rgba(255, 255, 255, 0.7);
   position: absolute;
   width: 21%;
-  height: 8vw;  
-  left: 54%;
+  height: 8vw;
+  left: 56%;
   margin-top: 23%;
   border-radius: 10% / 20%;
   overflow: visible;
-  cursor: pointer;  
+  cursor: pointer;
 }
-.p_captureInside{
+.p_captureInside {
   position: absolute;
   width: 95%;
   height: 7vw;
-  margin: 4% 2%;  
+  margin: 4% 2%;
   padding: 0;
   /*border: 2px solid cyan;*/
 }
 
-#Capture_the_Futures_OUR_BIO-TE {   
+#Capture_the_Futures_OUR_BIO-TE {
   position: absolute;
-  overflow: visible;  
+  overflow: visible;
   margin-left: 2%;
   white-space: nowrap;
   text-align: center;
@@ -58,11 +78,11 @@
   line-height: 1.4;
   font-weight: bold;
   font-size: 1.1vw;
-  color: rgba(12, 11, 11, 1); 
+  color: rgba(12, 11, 11, 1);
 }
 #exhibition {
-  margin-left: 2%;
-  bottom: 0%;
+  margin-left: 3%;
+  bottom: 2%;
   position: absolute;
   overflow: visible;
   width: 66px;
@@ -74,4 +94,3 @@
   font-size: 1.1vw;
   color: rgba(12, 11, 11, 1);
 }
-

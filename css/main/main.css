@@ -58,9 +58,10 @@
   position: absolute;
   width: 20%;
   height: 3vw; 
-  right: 0;
+  right: 2%;
   margin-top: 47%; 
   padding: 0.5% 1%;  
+ /* border: 2px solid red;*/
 }
 .description span{ 
   position: absolute;
