@@ -48,49 +48,19 @@
 #popup_capture {
   -webkit-user-select: none;
   display: none;
-  background-color: rgba(255, 255, 255, 0.7);
+  /*background-color: rgba(255, 255, 255, 0.7);*/
   position: absolute;
   width: 21%;
   height: 8vw;
-  left: 56%;
-  margin-top: 23%;
+  left: 55%;
+  margin-top: 21%;
   border-radius: 10% / 20%;
   overflow: visible;
   cursor: pointer;
 }
-.p_captureInside {
-  position: absolute;
-  width: 95%;
-  height: 7vw;
-  margin: 4% 2%;
-  padding: 0;
-  /*border: 2px solid cyan;*/
+#popup_capture img{
+  width: 22vw;
 }
 
-#Capture_the_Futures_OUR_BIO-TE {
-  position: absolute;
-  overflow: visible;
-  margin-left: 2%;
-  white-space: nowrap;
-  text-align: center;
-  font-family: "Titillium Web";
-  font-style: normal;
-  line-height: 1.4;
-  font-weight: bold;
-  font-size: 1.1vw;
-  color: rgba(12, 11, 11, 1);
-}
-#exhibition {
-  margin-left: 3%;
-  bottom: 2%;
-  position: absolute;
-  overflow: visible;
-  width: 66px;
-  white-space: nowrap;
-  text-align: left;
-  font-family: "Titillium Web";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 1.1vw;
-  color: rgba(12, 11, 11, 1);
-}
+
+

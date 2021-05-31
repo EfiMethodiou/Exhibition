@@ -87,7 +87,7 @@ body{
   color: white;
   animation: glow 5s ease-in 0s infinite ;
 }
-@-webkit-keyframes glow {
+@keyframes glow {
   0% {
     text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #f07338, 0 0 20px #f07338, 0 0 25px #f07338, 0 0 30px #f07338, 0 0 35px #f07338;
   }  
