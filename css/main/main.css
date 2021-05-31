@@ -73,41 +73,29 @@
 
 #desc1{
   opacity: 0;
-  animation: appear1 5s normal 0.8s forwards ; 
+  animation: appear1 5s ease-in forwards; 
 }
 @keyframes appear1{
   0%{
     opacity: 0;
-  }
-  30%{
-    opacity: 0.7;
-  }
+  } 
   50%{
     opacity: 1;
-  }
-  80%{
-    opacity: 0.5;
-  }
+  } 
   100%{
-    opacity: 0;
+    opacity: 0;    
   }
 }
 #desc2{
   opacity: 0;
-  animation: appear2 5s normal 5.8s forwards ; 
+  animation: appear2 5s normal forwards ; 
 }
 @keyframes appear2{
   0%{
     opacity: 0;
   }
-  30%{
-    opacity: 0.7;
-  }
   50%{
     opacity: 1;
-  }
-  80%{
-    opacity: 0.5;
   }
   100%{
     opacity: 0;
@@ -115,20 +103,14 @@
 }
 #desc3{
   opacity: 0;
-  animation: appear3 5s normal 10.8s forwards ; 
+  animation: appear3 5s normal forwards ; 
 }
 @keyframes appear3{
   0%{
     opacity: 0;
   }
-  30%{
-    opacity: 0.7;
-  }
   50%{
     opacity: 1;
-  }
-  80%{
-    opacity: 0.5;
   }
   100%{
     opacity: 0;
