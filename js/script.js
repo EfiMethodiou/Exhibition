@@ -19,13 +19,6 @@ function firstLoad() {
 }
 window.onload = firstLoad();
 
-/* landspace mode
-var orientation = (screen.orientation || {}).type || screen.mozOrientation || screen.msOrientation;
-if(window.matchMedia("(max-width: 700px)")){
-    console.log("it runs ");
-    orientation = "landscape-primary";
-   
-} */
 
 /*________________MAIN_______PAGE__________*/
 /*Open popups from the menu*/
@@ -167,4 +160,21 @@ function gotoMariaSubc() {
 
 function gotoJill_Sc_Maril_Hah() {
   window.location.href = "artist/jill_sc_maril_hah.html";
+}
+
+
+
+/*function for safari
+if (navigator.userAgent.includes('Safari')) {
+  console.log("chrome");
+  document.getElementById("renderCanvas").style.pointerEvents = "none";
+}*/
+var ua = navigator.userAgent.toLowerCase(); 
+if (ua.indexOf('safari') != -1) { 
+  if (ua.indexOf('chrome') > -1) {
+  console.log("chrome");    
+  } else {
+  console.log("safari");
+    
+  }
 }
