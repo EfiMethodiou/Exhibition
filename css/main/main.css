@@ -62,7 +62,7 @@
   right: 2%;
   margin-top: 47vw; 
   padding: 0.5% 1%;  
- /* border: 2px solid red;*/
+ /*border: 2px solid red;*/
 }
 .description span{ 
   position: absolute;
@@ -146,7 +146,8 @@
   .phonescreen{
     display: block;
   }
-  .description{    
-    margin-top: 40%; 
+  .description{
+    margin-top: 35vw;
   }
+ 
 }
