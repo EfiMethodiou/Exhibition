@@ -161,7 +161,7 @@ function gotoJill_Sc_Maril_Hah() {
 
 
 
-/*function that blocks safari from reacting with the 3d model*/
+/*function that blocks safari from reacting with the 3d model
 
 var ua = navigator.userAgent.toLowerCase(); 
 if (ua.indexOf('safari') != -1) { 
@@ -172,4 +172,4 @@ if (ua.indexOf('safari') != -1) {
   document.getElementById("renderCanvas").style.pointerEvents = "none";
     
   }
-}
+}*/
