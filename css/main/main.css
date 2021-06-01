@@ -141,13 +141,13 @@
 #secmessage{   
   font-size: 3vw;
 }
-
-@media screen and (max-width:450px){
-  .phonescreen{
-    display: block;
-  }
+@media screen and (max-width:550px){
   .description{
     margin-top: 35vw;
   }
- 
+}
+@media screen and (max-width:450px){
+  .phonescreen{
+    display: block;
+  }  
 }
