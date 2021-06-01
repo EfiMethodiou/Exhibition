@@ -175,6 +175,7 @@ if (ua.indexOf('safari') != -1) {
   console.log("chrome");    
   } else {
   console.log("safari");
+  document.getElementById("renderCanvas").style.pointerEvents = "none";
     
   }
 }
