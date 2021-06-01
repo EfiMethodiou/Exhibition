@@ -141,9 +141,9 @@
 #secmessage{   
   font-size: 3vw;
 }
-@media screen and (max-width:550px){
+@media screen and (max-width:600px){
   .description{
-    margin-top: 35vw;
+    margin-top: 40vw;
   }
 }
 @media screen and (max-width:450px){
