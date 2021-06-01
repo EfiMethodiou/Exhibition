@@ -141,10 +141,10 @@ li .item img{
 @media screen and (max-width: 600px){  
   .slider_container{
     width: 78%;
-    margin-top: 38%;    
+    margin-top: 42%;    
   }
   .titles_container{ 
-    margin-top: 37%;   
+    margin-top: 38%;   
     width: 78%;
   }
   .slider{    
