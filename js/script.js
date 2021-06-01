@@ -80,7 +80,6 @@ if(document.title === "ASN RHIZO-NETWORK"){
     document.getElementById("desc1").style.animationDelay = opdesc1[i];
     document.getElementById("desc2").style.animationDelay = opdesc2[i];
     document.getElementById("desc3").style.animationDelay = opdesc3[i];
-    console.log(i);
   }
   animation1Loop();
 }
@@ -106,8 +105,6 @@ if(document.title === "OUR BIO-TECH PLANET"){
   function animation2Loop() {
     document.getElementById("desc2_1").style.animationDelay = opdesc2_1[x];
     document.getElementById("desc2_2").style.animationDelay = opdesc2_2[x];
-    
-    console.log(x);
   }
   animation2Loop();
 }
@@ -164,17 +161,14 @@ function gotoJill_Sc_Maril_Hah() {
 
 
 
-/*function for safari
-if (navigator.userAgent.includes('Safari')) {
-  console.log("chrome");
-  document.getElementById("renderCanvas").style.pointerEvents = "none";
-}*/
+/*function that blocks safari from reacting with the 3d model*/
+
 var ua = navigator.userAgent.toLowerCase(); 
 if (ua.indexOf('safari') != -1) { 
   if (ua.indexOf('chrome') > -1) {
-  console.log("chrome");    
+  console.log("You are using Chrome");    
   } else {
-  console.log("safari");
+  console.log("You are using Safari");
   document.getElementById("renderCanvas").style.pointerEvents = "none";
     
   }
