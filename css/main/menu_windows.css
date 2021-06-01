@@ -169,6 +169,7 @@ div::-webkit-scrollbar-thumb {
     font-size: 1.4vw;
   }
   #thelink {
+    margin-top: 40%;
     padding-top: 4%;
   }
 }

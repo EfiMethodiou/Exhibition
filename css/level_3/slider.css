@@ -159,6 +159,9 @@ li .item img{
   li .item img {
     width: 4vw;
   } 
+  .titles_container{ 
+    margin-top: 36.5%; 
+  }
 }
 
 #greenGroup{

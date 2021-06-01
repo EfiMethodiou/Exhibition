@@ -146,4 +146,7 @@
   .phonescreen{
     display: block;
   }
+  .description{    
+    margin-top: 40%; 
+  }
 }
