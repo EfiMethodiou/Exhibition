@@ -123,6 +123,11 @@
     height: 1px;
   }
 }
+@media screen and (max-width: 600px) {
+  #hamburger {
+    top:2%
+  }
+}
 
 @media screen and (max-width: 300px) {
   #menu_items {
