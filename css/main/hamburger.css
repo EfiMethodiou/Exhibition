@@ -12,7 +12,7 @@
   width: 296px;
   height: 419px;
   margin-left: 5%;
-  top: 16px;
+  top: 0.5vw;
   overflow: visible;
 }
 
@@ -128,7 +128,6 @@
     top:1%
   }
 }
-
 @media screen and (max-width: 300px) {
   #menu_items {
     top: 30%;
