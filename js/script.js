@@ -110,11 +110,25 @@ if(document.title === "OUR BIO-TECH PLANET"){
 }
 
 
-
 /*Go to level2 page*/
 function gotoLevel2() {
   window.location.href = "exhibition/our_bio_tech_planet.html";
 }
+
+
+/*FUNCTION THAT BLOCKS SAFARI USERS FROM REACTING WITH THE 3D ROOT
+
+var ua = navigator.userAgent.toLowerCase(); 
+if (ua.indexOf('safari') != -1) { 
+  if (ua.indexOf('chrome') > -1) {
+  console.log("You are using Chrome");    
+  } else {
+  console.log("You are using Safari");
+  document.getElementById("renderCanvas").style.pointerEvents = "none";
+    
+  }
+}*/
+
 
 /*________________LEVEL2_______PAGE____________*/
 /*Go back to main page*/
@@ -160,16 +174,3 @@ function gotoJill_Sc_Maril_Hah() {
 }
 
 
-
-/*function that blocks safari from reacting with the 3d model
-
-var ua = navigator.userAgent.toLowerCase(); 
-if (ua.indexOf('safari') != -1) { 
-  if (ua.indexOf('chrome') > -1) {
-  console.log("You are using Chrome");    
-  } else {
-  console.log("You are using Safari");
-  document.getElementById("renderCanvas").style.pointerEvents = "none";
-    
-  }
-}*/
