@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Broken Links</title>
+    <link rel="icon" href="../../img/slider/BrolenLinks.png">
+    <link rel="stylesheet" href="../../css/level_3/artworks_page.css">
+</head>
+
+<body>
+    <div class="artwork_page" onmousedown="return false">
+        <div onclick="closeBrokenLinks()" id="x" style="margin-right: 1%; z-index: 10;">
+            <div class="left"></div>
+            <div class="right"></div>
+        </div>
+        <iframe
+            src="https://player.vimeo.com/video/543148638?autoplay=1&amp;fullscreen=1&amp;loop=1&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+            frameborder="0" allow="autoplay; fullscreen" allowfullscreen
+            style="position: relative; margin-top:0; width:100%; height:50vw;" title="Broken Links by Maria Subczyńska">
+        </iframe>
+
+    </div>
+
+
+    <script>
+        document.addEventListener("contextmenu", function (e) {
+            e.preventDefault();
+        }, false);
+        var promise = document.querySelector('video').play();
+
+
+    </script>
+    <script src="../../js/level_3.js"></script>
+
+</body>
+
+</html>

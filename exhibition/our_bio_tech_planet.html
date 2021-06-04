@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OUR BIO-TECH PLANET</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/level_2/level_2.css">
+    <link rel="stylesheet" href="../css/level_2/menuPopups.css">
+    
+</head>
+
+<body>
+    <img src="../img/ourbiotechplanet.png" id="bg" alt="">
+    <div id="level_2_projects" onmousedown="return false"> 
+        <div id="CAPTURE_THE_FUTURES_OUR_BIO-TE">
+            <span>CAPTURE THE FUTURE(S): OUR BIO-TECH PLANET</span>
+        </div>
+        <div onclick="gotoJill_Sc_Maril_Hah()" >            
+            <div id="ENTER">
+                <span>Enter the Exhibition</span>
+            </div>
+        </div>
+        <div id="info_menu_btns">            
+            <u>
+                <li></li>
+                <li onclick="openAbExhib()">ABOUT THE EXHIBITION</li>
+                <li onclick="openArPop()">AUGMENTED REALITY</li>
+                <li onclick="openResearPop()">RESEARCH</li>
+            </u>          
+        </div>
+        <div class="description2">
+            <span id="desc2_1">Begin Your Journey</span>
+            <span id="desc2_2">Inside the Root Interface</span>
+        </div>
+        <div onclick="backToMain()" id="x">
+            <div class="left"></div>
+            <div class="right"></div>
+        </div>
+    </div>
+    <!--ABOUT THE EXHIBITION popup-->
+    <div id="menuPopupBackg" onclick="closePopupMenu()">
+    </div>
+    <div class="menuPopup" id="about__exhibition">        
+        <div id="title">
+            <span>Capture the Future(s): OUR BIO-TECH PLANET<br/>exhibition<br/>date: 27.06 - 01.07.2021<br/> </span>
+        </div>
+        <div onclick="closePopupMenu()" id="popup_x">
+            <div class="popup_left"></div>
+            <div class="popup_right"></div>            
+        </div>
+    </div>
+    <!--AUGMENTED REALITY popup-->    
+    <div class="menuPopup" id="augmented_reality">        
+        <div id="title">
+            <span>AUGMENTED REALITY</span>
+        </div>
+        <div onclick="closePopupMenu()" id="popup_x">
+            <div class="popup_left"></div>
+            <div class="popup_right"></div>            
+        </div>
+    </div>
+    <!--RESEARCH poppup-->
+    <div class="menuPopup" id="research">        
+        <div id="title">
+            <span>RESEARCH</span>
+        </div>
+        <div onclick="closePopupMenu()" id="popup_x">
+            <div class="popup_left"></div>
+            <div class="popup_right"></div>            
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener("contextmenu", function (e) {
+          e.preventDefault();
+        }, false);    
+      </script>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
