@@ -4,6 +4,19 @@
   box-sizing: border-box;
   border: none;
 }
+/*Scrollbar*/
+div::-webkit-scrollbar {
+  width: 0.5vw;
+}
+/*Track*/
+div::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+/*Handle*/
+div::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(120deg, #f6ebff, #aaa8ae, #f6ebff);
+  border-radius: 30px;
+}
 
 #menuPopupBackg{
   top: 0;
@@ -16,7 +29,7 @@
 
 .menuPopup {
   -webkit-user-select: none;
-  display: none;
+  display: block;
   position: absolute;
   overflow: visible;
   width: 73%;
@@ -26,10 +39,23 @@
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 20px;
 }
+#about__exhibition, #research{
+  display: none;
+}
+.menu_paragr{
+  -webkit-user-select: none;  
+  position: absolute;
+  max-width: 90%;
+  height: 90%;
+  margin:  3% 5%;
+  overflow: visible;
+  justify-items: center;
+  overflow-y: scroll;
+  /*border: 1px solid cyan;*/
+}
 
 #title {
-  left: 25%;
-  top: 7%;
+  left: 28%;  
   position: absolute;
   overflow: visible;
   white-space: nowrap;
@@ -40,11 +66,38 @@
   font-size: 1.3vw;
   color: rgba(7, 7, 7, 1);
 }
+
+#popup_paragr {
+  padding-top: 3%;
+  font-family: "Titillium Web";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.2vw;
+  color: rgba(7, 7, 7, 1);
+}
+#popup_paragr span{
+  font-size: 1.1vw;
+}
+#popup_paragr p {  
+  padding-top: 2%;
+  padding-right: 1%;
+  font-size: 1.1vw;
+}
+
+#popup_paragr img{
+  width: 60%;
+  margin-left: 20%;
+}
+#popup_paragr a{
+  color: #f07338;
+}
+
+
 /*CLOSE BUTTON*/
 #popup_x {
   position: relative;
   margin: auto;
-  left: 46%;
+  left: 47%;
   top: 5%;
   width: 2%;
   height: 3%;
