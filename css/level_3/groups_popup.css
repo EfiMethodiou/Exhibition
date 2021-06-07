@@ -21,7 +21,7 @@
   text-align: center;
   font-family: "Titillium Web";
   font-style: normal; 
-  font-size: 1.5vw;   
+  font-size: 1.15vw;   
   width: 69%;
   height: 40vw;
   left: 15%;
@@ -30,18 +30,17 @@
 }
 .group_tittle {
   font-weight: bold;
-  padding-top: 5%;  
+  padding-top: 3%;  
 }
 
 .groupPopup .paragraph{
   font-weight: normal;
   justify-items: center;
   text-align: left;
-  padding: 5% 8%;
-  
+  padding: 2% 9%;  
 }
 
-#violetPopup, #orangePopup, #redPopup, #greenPopup {
+ #violetPopup, #orangePopup, #redPopup , #greenPopup{
   display: none;  
 }
 
