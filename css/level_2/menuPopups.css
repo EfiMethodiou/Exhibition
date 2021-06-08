@@ -60,7 +60,7 @@ div::-webkit-scrollbar-thumb {
   text-align: left;
   font-family: "Titillium Web";
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 1.3vw;
   color: rgba(7, 7, 7, 1);
 }
