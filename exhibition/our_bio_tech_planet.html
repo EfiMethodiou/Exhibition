@@ -29,6 +29,7 @@
         <div id="info_menu_btns">
             <u>
                 <li></li>
+                <li onclick="openCurStat()">CURATORIAL STATEMENT</li>
                 <li onclick="openAbExhib()">ABOUT THE EXHIBITION</li>
                 <li onclick="openArPop()">AUGMENTED REALITY</li>
                 <li onclick="openResearPop()">NETWORKED PLANET</li>
@@ -43,9 +44,30 @@
             <div class="right"></div>
         </div>
     </div>
-    <!--ABOUT THE EXHIBITION popup-->
     <div id="menuPopupBackg" onclick="closePopupMenu()">
     </div>
+    <!--CURATORIAL STATEMENT-->
+    <div class="menuPopup" id="curat_stat">
+        <div class="menu_paragr">
+            <div id="title">
+                <span>Capture the Future(s): OUR BIO-TECH PLANET.<br>
+                    The Routes to Roots Networks and Beyond
+                    </span>
+            </div>
+            <div id="popup_paragr">
+                <p>
+                    Plants, fungi and bacteria can do something that we humans are not able to – they create networks that provide optimal living conditions. For millions of years, they have perfected the ability to build long-term relationships based on the distribution of goods. The forces of nature are willingly using network solutions. It is high time that we begin following their example.
+
+                </p>
+                
+            </div>
+        </div>
+        <div onclick="closePopupMenu()" id="popup_x">
+            <div class="popup_left"></div>
+            <div class="popup_right"></div>
+        </div>
+    </div>
+    <!--ABOUT THE EXHIBITION popup-->    
     <div class="menuPopup" id="about__exhibition">
         <div id="title">
             <span>Capture the Future(s): OUR BIO-TECH PLANET<br />exhibition<br />date: 27.06 - 01.07.2021<br /> </span>
@@ -129,7 +151,6 @@
             <div class="popup_right"></div>
         </div>
     </div>
-
     <!--RESEARCH poppup aka (The Rhizosphere Networks)-->
     <div class="menuPopup" id="research">
         <div class="menu_paragr">

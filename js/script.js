@@ -116,19 +116,6 @@ function gotoLevel2() {
 }
 
 
-/*FUNCTION THAT BLOCKS SAFARI USERS FROM REACTING WITH THE 3D ROOT
-
-var ua = navigator.userAgent.toLowerCase(); 
-if (ua.indexOf('safari') != -1) { 
-  if (ua.indexOf('chrome') > -1) {
-  console.log("You are using Chrome");    
-  } else {
-  console.log("You are using Safari");
-  document.getElementById("renderCanvas").style.pointerEvents = "none";
-    
-  }
-}*/
-
 
 /*________________LEVEL2_______PAGE____________*/
 /*Go back to main page*/
@@ -136,6 +123,12 @@ function backToMain() {
   window.location.href = "../index.html";
 }
 
+/*
+Open Curational Statement popup*/
+function openCurStat() {
+  document.getElementById("curat_stat").style.display = "block";
+  document.getElementById("menuPopupBackg").style.display = "block";
+}
 /*
 Open ABOUT THE EXHIBITION popup*/
 function openAbExhib() {
@@ -157,6 +150,7 @@ function openResearPop() {
 
 /*Close popup Menus*/
 function closePopupMenu() {
+  document.getElementById("curat_stat").style.display = "none";
   document.getElementById("about__exhibition").style.display = "none";
   document.getElementById("augmented_reality").style.display = "none";
   document.getElementById("research").style.display = "none";
