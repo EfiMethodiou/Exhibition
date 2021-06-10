@@ -6,7 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>ASN RHIZO-NETWORK</title>
-	<link rel="icon" href="img/logo.png">	
+	<link rel="icon" href="img/circleLogo.png">	
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;400&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/main/level_0.css">
@@ -52,8 +52,9 @@
 				<div id="menu_items">
 					<ul>
 						<li></li>
-						<li><a onclick="openAbout(), closeRhizo(), closeMenu()">ABOUT ASN</a></li>
-						<li><a onclick="openRhizonet(), closeAbout(), closeMenu()">RHIZOSPHERE NETWORK</a></li>
+						<li><a onclick="openAbout(), closeRhizo(), closeWebDe(), closeMenu()">ABOUT ASN</a></li>
+						<li><a onclick="openRhizonet(), closeAbout(), closeWebDe(), closeMenu()">RHIZOSPHERE NETWORK</a></li>
+						<li><a onclick="openWebDe(), closeAbout(), closeRhizo(),closeMenu()">WEB DESIGN</a></li>
 					</ul>
 				</div>
 			</div>
@@ -168,6 +169,26 @@
 		</div>
 
 	</div>
+		<!--_________WEB__DESIGN_________________-->
+		<div id="webdBackg" onclick="closeWebDe()">
+		</div>
+		<div id="webdes" class="menuwindow" onmousedown="return false">
+			<div id="title" style="position: absolute;">
+				<span>WEB DESIGN</span>
+			</div>
+			<div id="paragraph" style="position: absolute;">				
+				<p>
+					
+				</p>
+			</div>
+			<div id="thelink" style="position: absolute;">
+				<span><a href="https://artscience-node.com/" target="_blank">Homepage</a></span>
+			</div>
+			<div id="x" onclick="closeWebDe()">
+				<div class="left"></div>
+				<div class="right"></div>
+			</div>
+		</div>
 	
 	
 	<script>/*
