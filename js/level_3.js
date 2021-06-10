@@ -101,7 +101,7 @@ function closeBiotechnology(){
 function openPapilla(){
   window.location.href = "../artworks/rhizone_papilla.html";
 }
-function closeopenPapilla(){ 
+function closePapilla(){ 
   window.location.href = "../artist/joan_hof_andr_bart.html";
 }
 

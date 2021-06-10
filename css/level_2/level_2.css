@@ -152,7 +152,7 @@ EXTRA INFORMATION BUTTONS
   position: absolute;
   width: 14%;
   height: 19%;
-  left: 4%;
+  left: 3%;
  margin-top: 5%;
   overflow: visible;
 }
@@ -162,7 +162,7 @@ EXTRA INFORMATION BUTTONS
   list-style-type: none;
   color: white;
   padding: 2% 0;
-  font-size: 1.1vw;
+  font-size: 1vw;
   font-family: "Titillium Web";
   cursor: pointer;
   border-bottom: 1px solid white;

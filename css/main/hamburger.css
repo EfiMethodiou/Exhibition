@@ -13,7 +13,8 @@
   height: 419px;
   margin-left: 5%;
   top: 0.5vw;
-  overflow: visible;
+  overflow: visible; 
+  z-index: 100;
 }
 
 #hamburger {
@@ -38,6 +39,7 @@
   opacity: 0;
   z-index: 2;
   -webkit-touch-callout: none;
+
 }
 
 #hamburger span {
@@ -82,9 +84,9 @@
   width: 310px;
   height: 210px;
   margin: -100px -1000px;
-  padding: 40px;
+  padding: 40px;  
   padding-top: 125px;
-  background: rgba(12, 11, 11, 0.5); /*transparent background for the popups*/
+  background: rgba(12, 11, 11, 0.7); /*transparent background for the popups*/
   transform: translateX(0);
   transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
 }
