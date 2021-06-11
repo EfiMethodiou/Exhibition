@@ -99,14 +99,13 @@ div::-webkit-scrollbar-thumb {
   font-size: 1vw;
   padding-bottom: 5%;
 }
-/*
 #artist a {
   text-decoration: none;
   color: rgba(0, 0, 0, 1);
 }
 
 #artist a:link {
-  
+  /*link style*/
   text-decoration: underline;
   color: #f07338;
 }
@@ -121,7 +120,7 @@ div::-webkit-scrollbar-thumb {
 }
 
 #popup_subtitle a:link {
- 
+  /*link style*/
   text-decoration: none;
   color: #f07338;
 }
@@ -130,4 +129,3 @@ div::-webkit-scrollbar-thumb {
   color: #f07338;
 }
 
-*/
