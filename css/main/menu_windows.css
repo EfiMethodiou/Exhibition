@@ -19,7 +19,7 @@ div::-webkit-scrollbar-thumb {
   border-radius: 30px;
 }
 
-#aboutBackg, #rhizBackg , #webdBackg {
+#aboutBackg, #rhizBackg {
   top: 0;
   position: absolute;
   width: 100%;
@@ -74,7 +74,7 @@ div::-webkit-scrollbar-thumb {
   font-style: normal;
   font-weight: normal;
   font-size: 1.2vw;
-  color: rgba(0, 0, 0, 1);
+  color: rgba(0, 0, 0, 1); 
 }
 #paragraph img{
   float: left;
@@ -82,11 +82,11 @@ div::-webkit-scrollbar-thumb {
   margin-right: 1%;
   padding-top: 0%;
   width: 30%;
+  
 }
 
+
 #thelink {
-  margin-left: 5%;
-  margin-top: 9%; 
   overflow: visible;
   width: 75px;
   white-space: nowrap;
@@ -96,14 +96,14 @@ div::-webkit-scrollbar-thumb {
   font-weight: bold;
   font-size: 1.2vw;
   color: rgba(0, 0, 0, 1);
-  transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;   
 }
 
 
 #thelink a:link {
   /*link style*/
   text-decoration: none;
-  color: rgba(0, 0, 0, 1);
+  color: rgba(0, 0, 0, 1); 
 }
 #thelink a:visited, #paragraph a:visited  {
   text-decoration: none;
@@ -161,13 +161,12 @@ div::-webkit-scrollbar-thumb {
   }
   #paragraph {
     margin: 10% 5%;
-    font-size: 1.4vw;
+    font-size: 1.5vw;
   }
-  #thelink {
-    margin-top: -7%;
-    margin-left: 49%;
-    padding-top: 5%;
+  #thelink a{  
+    font-size: 1.5vw;   
   }
+
   #x {
     top: 4vw;
   }

@@ -30,10 +30,6 @@ function openRhizonet() {
   document.getElementById("rhizonet").style.display = "block";
   document.getElementById("rhizBackg").style.display = "block";
 }
-function openWebDe() {
-  document.getElementById("webdes").style.display = "block";
-  document.getElementById("webdBackg").style.display = "block";
-}
 /*Close about asn*/
 function closeAbout() {
   document.getElementById("about").style.display = "none";
@@ -42,10 +38,6 @@ function closeAbout() {
 function closeRhizo() {
   document.getElementById("rhizonet").style.display = "none";
   document.getElementById("rhizBackg").style.display = "none";
-}
-function closeWebDe() {
-  document.getElementById("webdes").style.display = "none";
-  document.getElementById("webdBackg").style.display = "none";
 }
 
 /*Close menu when category is clicked*/
