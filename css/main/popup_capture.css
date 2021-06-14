@@ -38,12 +38,12 @@
 
 @media screen and (max-width: 600px) {
   #explore img {
-    width: 7vw;
+    width:6vw;
     z-index: 100;
   }
   .glowbackground {
-    width: 5vw;
-    height: 5vw;
+    width: 4vw;
+    height: 4vw;
     
   }
 }
