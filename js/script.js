@@ -162,6 +162,16 @@ function closePopupMenu() {
 
 /*
 Go to level2 page*/
+var vid = document.getElementById("animation");
+function gotoArtist(){
+  document.getElementById("animBack").style.display = "block";
+  vid.play();
+  
+  setTimeout(function () {
+    window.location.href = "artist/jill_sc_maril_hah.html";
+  }, 5200);
+  
+}
 function gotoMariaSubc() {
   window.location.href = "artist/maria_subc.html";
 }

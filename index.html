@@ -71,7 +71,7 @@
 		<span id="desc3">Enter with the Node</span>
 	</div>
 	<!--EXPLORE NODE in popup_capture.css file-->
-	<div id="explore" onclick="openPopup(),closeMenu()">
+	<div id="explore" onclick="openPopup(),closeMenu()" onmousedown="return false">
 		<img src="img/explore.jpg">
 	</div>
 	<div class="glowbackground"></div>
@@ -79,7 +79,7 @@
 	<div id="popup_captureBackg" onclick="closePopCapt()">
 	</div>
 	<div id="popup_capture" onclick="gotoLevel2()">
-		<div class="p_captureInside">
+		<div class="p_captureInside" onmousedown="return false">
 			<img src="img/exhibition-title.png">
 		</div>
 
@@ -180,10 +180,10 @@
 	</div>	
 
 
-	<script>/*
+	<script>
 	   document.addEventListener("contextmenu", function (e) {
 		   e.preventDefault();
-	   }, false); */
+	   }, false); 
 	</script>
 	<script src="js/script.js"></script>
 	<script src="js/rootmodel.js"></script>

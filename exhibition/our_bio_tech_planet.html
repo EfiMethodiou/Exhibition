@@ -16,12 +16,18 @@
 </head>
 
 <body>
+    <div id="animBack">
+        <video id="animation">
+            <source src="../img/animationVid.mp4" type="video/mp4">
+        </video>
+    </div>
+
     <img src="../img/ourbiotechplanet.png" id="bg" alt="">
     <div id="level_2_projects" onmousedown="return false">
         <div id="CAPTURE_THE_FUTURES_OUR_BIO-TE">
             <span>CAPTURE THE FUTURE(S): OUR BIO-TECH PLANET</span>
         </div>
-        <div onclick="gotoJill_Sc_Maril_Hah()">
+        <div onclick="gotoArtist()">
             <div id="ENTER">
                 <span>Enter the Exhibition</span>
             </div>
@@ -450,7 +456,7 @@
     <script>
         document.addEventListener("contextmenu", function (e) {
             e.preventDefault();
-        }, false);    
+        }, false); 
     </script>
     <script src="../js/script.js"></script>
 </body>
