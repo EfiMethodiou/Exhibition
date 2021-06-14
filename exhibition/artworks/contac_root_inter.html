@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactless Root Interface</title>
+    <link rel="icon" href="../../img/slider/ContaclesRoot.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;400&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="../../css/level_3/artworks_page.css">
+    <script language="javascript" type="text/javascript" src="../../js/contactless/p5.min.js"></script>
+    <script language="javascript" type="text/javascript" src="../../js/contactless/contacRoot.js"></script>
+</head>
+
+<body>
+    <div class="artwork_page" onmousedown="return false">
+        <div onclick="closeContRootInt()" id="x">
+            <div class="left"></div>
+            <div class="right"></div>
+        </div>
+        <div class="explain">
+            <span>Interact with drawing</span>
+        </div>
+        <div id="root">
+        </div>
+        <style>
+            #root {
+                width: 90%;
+                height: 47vw;
+                margin: 2% 5%;
+                overflow: hidden;               
+            }
+
+            .explain {
+                position: absolute;
+                font-family: "Titillium Web";
+                color: white;
+                margin: -1% 30%;
+                font-size: 1.3vw;
+                opacity: 0;
+                text-shadow: 0 0 5px #fff, 0 0 10px #a09ea1, 0 0 15px #a09ea1, 0 0 20px #a09ea1;
+                animation: explain 15s normal forwards;
+            }
+
+            @keyframes explain {
+                0% {
+                    opacity: 0;
+                }
+
+                50% {
+                    opacity: 1;
+                }
+
+                100% {
+                    opacity: 0;
+                }
+            }
+        </style>
+
+    </div>
+    <script src="../../js/level_3.js"></script>
+    <script>
+         document.addEventListener("contextmenu", function (e) {
+		   e.preventDefault();
+	   }, false); 
+    </script>
+
+
+</body>
+
+</html>

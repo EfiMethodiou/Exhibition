@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pei-Ying Lin</title>
+    <link rel="icon" href="../../img/slider/Virophilia.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/level_3/level_3.css">
+    <link rel="stylesheet" href="../../css/level_3/artist_info_popup.css">
+    <link rel="stylesheet" href="../../css/level_3/slider.css">
+    <link rel="stylesheet" href="../../css/level_3/groups_popup.css">
+    <!---->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="../../css/level_3/transition.css">
+</head>
+
+<body>
+    <img src="../../img/backgrounds/scene_virophilia.png" id="bg" alt="">
+    <div class="ripple-open" id="ripple-open"></div>
+    <div class="ripple-close"></div>
+    <div id="level_3" onmousedown="return false">
+        <div id="artworkTitle">
+            <span>Virophilia</span>
+        </div>
+        <div id="sub_title">
+            <span>Pei-Ying Lin</span>
+        </div>
+        <div onclick="backToLevel2()" id="x">
+            <div class="left"></div>
+            <div class="right"></div>
+        </div>
+
+        <!--PLAY_BUTTON-->
+        <svg id="play_btn" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" onclick="openVirophilia()">
+            <g id="play_btn" transform="translate(-647 -377)">
+                <circle id="Ellipse_18" data-name="Ellipse 18" cx="20" cy="20" r="20" transform="translate(647 377)"
+                    fill="#fff" />
+                <g id="Polygon_1" data-name="Polygon 1" transform="translate(676.5 389.5) rotate(90)">
+                    <path
+                        d="M 15.16666507720947 14.5 L 0.83333420753479 14.5 L 7.999999523162842 1.062502503395081 L 15.16666507720947 14.5 Z"
+                        stroke="none" />
+                    <path
+                        d="M 7.999999523162842 2.124996185302734 L 1.666664123535156 14 L 14.33333492279053 14 L 7.999999523162842 2.124996185302734 M 7.999999523162842 0 L 16 15 L -9.5367431640625e-07 15 L 7.999999523162842 0 Z"
+                        stroke="none" fill="#090909" />
+                </g>
+            </g>
+        </svg>
+        <!--INFO_BUTTON-->
+        <svg id="info_btn" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" onclick="openMS_pop()">
+            <g id="info_btn" transform="translate(-647 -422)">
+                <circle id="Ellipse_19" data-name="Ellipse 19" cx="20" cy="20" r="20" transform="translate(647 422)"
+                    fill="#fff" />
+                <g id="Ellipse_20" data-name="Ellipse 20" transform="translate(650 425)" fill="#fff" stroke="#060606"
+                    stroke-width="1">
+                    <circle cx="17" cy="17" r="17" stroke="none" />
+                    <circle cx="17" cy="17" r="16.5" fill="none" />
+                </g>
+                <text id="i" transform="translate(664 448)" fill="#070707" font-size="18"
+                    font-family="SegoeUI-Bold, Segoe UI" font-weight="700">
+                    <tspan x="0" y="0">i</tspan>
+                </text>
+            </g>
+        </svg>
+        <!--LEFT_DIRECTION_ARROW-->
+        <svg id="left_direction" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 43.661 22.614"
+            style="transform: rotate(-35deg);" onclick="gotoLarys_lub()">
+            <g id="left_direction" transform="translate(1163.856 503.794) rotate(180)">
+                <g id="right_one" transform="translate(56 -233)">
+                    <path id="Path_3" data-name="Path 3"
+                        d="M.755.01l18.5.153a.864.864,0,0,1,.755.93.837.837,0,0,1-.745.917L.765,1.857A.864.864,0,0,1,.01.927.837.837,0,0,1,.755.01Z"
+                        transform="translate(1090.192 715.166) rotate(30)" fill="#fff" />
+                    <path id="Path_4" data-name="Path 4"
+                        d="M.745-.1l18.5-.153A.837.837,0,0,1,19.99.66a.864.864,0,0,1-.755.93l-18.5.153A.837.837,0,0,1-.01.826.864.864,0,0,1,.745-.1Z"
+                        transform="translate(1089.673 735.279) rotate(-30)" fill="#fff" />
+                </g>
+                <g id="right_two" transform="translate(44 -233)">
+                    <path id="Path_3-2" data-name="Path 3"
+                        d="M.755.01l18.5.153a.864.864,0,0,1,.755.93.837.837,0,0,1-.745.917L.765,1.857A.864.864,0,0,1,.01.927.837.837,0,0,1,.755.01Z"
+                        transform="translate(1090.192 715.166) rotate(30)" fill="#fff" />
+                    <path id="Path_4-2" data-name="Path 4"
+                        d="M.745-.1l18.5-.153A.837.837,0,0,1,19.99.66a.864.864,0,0,1-.755.93l-18.5.153A.837.837,0,0,1-.01.826.864.864,0,0,1,.745-.1Z"
+                        transform="translate(1089.673 735.279) rotate(-30)" fill="#fff" />
+                </g>
+                <g id="right_three" transform="translate(-25 -1)">
+                    <path id="Path_3-3" data-name="Path 3"
+                        d="M.755.01l18.5.153a.864.864,0,0,1,.755.93.837.837,0,0,1-.745.917L.765,1.857A.864.864,0,0,1,.01.927.837.837,0,0,1,.755.01Z"
+                        transform="translate(1146.192 482.166) rotate(30)" fill="#fff" />
+                    <path id="Path_4-3" data-name="Path 4"
+                        d="M.745-.1l18.5-.153A.837.837,0,0,1,19.99.66a.864.864,0,0,1-.755.93l-18.5.153A.837.837,0,0,1-.01.826.864.864,0,0,1,.745-.1Z"
+                        transform="translate(1145.673 502.279) rotate(-30)" fill="#fff" />
+                </g>
+            </g>
+        </svg>
+        <!--RIGHT_DIRECTION_ARROW-->
+        <svg id="right_direction" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 43.661 22.614"
+            style="left: 85%; margin-top: 22%; transform: rotate(-30deg);" onclick="gotoMalgo_Kaczm()">
+            <g id="right_direction" transform="translate(-1120.196 -481.18)">
+                <g id="right_one" transform="translate(56 -233)">
+                    <path id="Path_3" data-name="Path 3"
+                        d="M.755.01l18.5.153a.864.864,0,0,1,.755.93.837.837,0,0,1-.745.917L.765,1.857A.864.864,0,0,1,.01.927.837.837,0,0,1,.755.01Z"
+                        transform="translate(1090.192 715.166) rotate(30)" fill="#fff" />
+                    <path id="Path_4" data-name="Path 4"
+                        d="M.745-.1l18.5-.153A.837.837,0,0,1,19.99.66a.864.864,0,0,1-.755.93l-18.5.153A.837.837,0,0,1-.01.826.864.864,0,0,1,.745-.1Z"
+                        transform="translate(1089.673 735.279) rotate(-30)" fill="#fff" />
+                </g>
+                <g id="right_two" transform="translate(44 -233)">
+                    <path id="Path_3-2" data-name="Path 3"
+                        d="M.755.01l18.5.153a.864.864,0,0,1,.755.93.837.837,0,0,1-.745.917L.765,1.857A.864.864,0,0,1,.01.927.837.837,0,0,1,.755.01Z"
+                        transform="translate(1090.192 715.166) rotate(30)" fill="#fff" />
+                    <path id="Path_4-2" data-name="Path 4"
+                        d="M.745-.1l18.5-.153A.837.837,0,0,1,19.99.66a.864.864,0,0,1-.755.93l-18.5.153A.837.837,0,0,1-.01.826.864.864,0,0,1,.745-.1Z"
+                        transform="translate(1089.673 735.279) rotate(-30)" fill="#fff" />
+                </g>
+                <g id="right_three" transform="translate(-25 -1)">
+                    <path id="Path_3-3" data-name="Path 3"
+                        d="M.755.01l18.5.153a.864.864,0,0,1,.755.93.837.837,0,0,1-.745.917L.765,1.857A.864.864,0,0,1,.01.927.837.837,0,0,1,.755.01Z"
+                        transform="translate(1146.192 482.166) rotate(30)" fill="#fff" />
+                    <path id="Path_4-3" data-name="Path 4"
+                        d="M.745-.1l18.5-.153A.837.837,0,0,1,19.99.66a.864.864,0,0,1-.755.93l-18.5.153A.837.837,0,0,1-.01.826.864.864,0,0,1,.745-.1Z"
+                        transform="translate(1145.673 502.279) rotate(-30)" fill="#fff" />
+                </g>
+            </g>
+        </svg>
+
+        <!--POPUP_INFOMATION-->
+        <div id="infoBackg" onclick="closeMS_pop()">
+        </div>
+        <div id="info_popup">
+            <div class="info_paragr">
+                <div id="popup_title">
+                    <span>Virophilia</span>
+                </div>
+                <div id="popup_subtitle">
+                    <span>art concept containing cookbook, prints, video-art & performance<br>2018-2020</span>
+                    <p>
+                        <b>Full version:</b> <br><br>
+                        This project comes from a very simple question:<b> Can we start to see the connotation of viruses
+                            differently, especially those that cause infectious diseases?</b> The reason why such question is
+                        being asked has a very strong historical and scientific background. According to biological
+                        definition viruses, unlike bacteria, are not consider as ‘living’. It is due to the fact that
+                        viruses themselves are not equipped with essential components that can facilitate their
+                        replication. In other words, viruses cannot replicate themselves. They are doomed to be the
+                        ‘parasites’ of living creatures, and human is one of them. When viruses borrow our cells as
+                        their replication factories, our body system becomes unstable, our body immune system reacts,
+                        and at the macro scale we get sick, though the interaction is much more sophisticated than how
+                        we commonly understand.<br><br>
+                        The biological world is vast and evolving. Being one of the biological habitants that share the
+                        same basic building blocks with other living and semi-living things, we are born to be included
+                        in the evolution cycle. We share parts of the same genetic code with viruses, and for their
+                        semi-living status, we have not yet developed a medicine to cure them, but only merely stop them
+                        from further replicating. At the same time, not all viruses are pathogens. New discoveries of
+                        beneficial viruses are being revealed, some of them may be crucial for our survival. The amount
+                        of viruses surrounding us vastly outnumbers the portion that we have discovered so far. To make
+                        it short, humans and viruses depend on the existence of each other. Evolution is a continuous
+                        process of competition and collaboration.<br><br>
+                        <i>Virophilia</i> is a project aiming at investigating the possibilities of human-virus encounters in
+                        the realm of culture through completion of various events, performances and material objects.
+                        Virophilia creates new discourse and sensible understandings of the viruses. It consists of a
+                        speculative cookbook written in year 2068, examining in retrospective how humans have started to
+                        develop viral cuisines that extend our sensorial experience. It is a cookbook written for the
+                        22nd century human beings, for the consideration of incorporating the positive usage of viruses
+                        into people’s daily life. An additional long roll with a printed list of viruses is being
+                        constantly updated since the beginning of the project.<br><br>
+                        The complete work additionally includes a dinner performance where the participants can
+                        experience the dishes from the cookbook and videos demonstrating the moment of dining encounters
+                        between humans and viruses.<br>
+                        <a href="http://virophilia.peiyinglin.net" target="_blank">http://virophilia.peiyinglin.net</a><br>
+                    </p>
+                </div>
+                <div id="artist">
+                    <span>artist</span>
+                    <span id="name"> Pei-Ying Lin</span>
+                    <p><img src="../../img/artists/pei_ying_lin.jpg"></p>
+                    <p id="paragr">
+                        An artist / designer from Taiwan and based in Eindhoven, the Netherlands. She focuses on
+                        exploring science and human society through artistic methods and is particularly interested in
+                        building a common discussion ground for different cultural perspectives regarding elements that
+                        constructs our individual perception of the world. Recently she has been focusing on
+                        manipulating the boundary of invisible/visible, living/non-living and finding ways to build
+                        tools and methods that facilitate such explorations.
+                        <br>
+                        <a href="http://peiyinglin.net" target="_blank">Artist's website</a>
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+        <!------------------------------------SLIDER -------------------------->
+        <div class="titles_container">
+            <div class="title_border" id="title_border">
+                <span class="node_title" id="violet1">Broken Links</span>
+                <span class="node_title" id="violet2">Regnum animale</span>
+                <span class="node_title" id="violet3">Virophilia</span>
+                <span class="node_title" id="violet4">Law of Relationship & Interdependence</span>
+                <span class="node_title" id="orange1">Morphism</span>
+                <span class="node_title" id="orange2">Algorithmic Photography</span>
+                <span class="node_title" id="orange3">Contactless Root Interface</span>
+                <span class="node_title" id="orange4">defined_not</span>
+                <span class="node_title" id="red1">Drifting Particles</span>
+                <span class="node_title" id="red2">Call IN</span>
+                <span class="node_title" id="red3">Vitruvian Woman; Poem</span>
+                <span class="node_title" id="red4">Marsquakes</span>
+                <span class="node_title" id="green1">Aftertaste</span>
+                <span class="node_title" id="green2">Biotechnology from the Blue Flower</span>
+                <span class="node_title" id="green3">Rhizone: PapiLLa</span>
+            </div>
+        </div>
+
+        <div class="slider_container">
+            <div class="left_arrow" id="left_arrow" onclick="goLeft()">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30.406 55.406">
+                    <g transform="translate(-182.797 -711.297)">
+                        <rect id="Rectangle_22" data-name="Rectangle 22" width="38" height="3" rx="1"
+                            transform="translate(183.211 738.167) rotate(-45)" fill="#fff" />
+                        <rect id="Rectangle_23" data-name="Rectangle 23" width="40" height="3" rx="1.5"
+                            transform="translate(184.918 736.297) rotate(45)" fill="#fff" />
+                    </g>
+                </svg>
+            </div>
+            <div class="right_arrow" id="right_arrow" onclick="goRight()">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30.406 56.406">
+                    <g transform="translate(-1090.797 -711.297)">
+                        <rect id="Rectangle_24" data-name="Rectangle 24" width="40" height="3" rx="1.5"
+                            transform="translate(1092.918 711.297) rotate(45)" fill="#fff" />
+                        <rect id="Rectangle_25" data-name="Rectangle 25" width="40" height="3" rx="1.5"
+                            transform="translate(1090.797 765.581) rotate(-45)" fill="#fff" />
+                    </g>
+                </svg>
+            </div>
+            <div class="slider" id="slider">
+                <div class="slider_items" id="slider_items">
+                    <ul class="group" id="violetGroup">
+                        <li><a class="item" onclick="openViolet()"><img id="violetNode"
+                                    src="../../img/slider/Violet.png"></a></li>
+                        <li><a id="node_v1" class="item"><img id="node" onclick="gotoMaria_Subc()"
+                                    src="../../img/slider/BrolenLinks.png"></a></li>
+                        <li><a id="node_v2" class="item"><img id="node" onclick="gotoLarys_lub()"
+                                    src="../../img/slider/RegnumAnimale.png"></a>
+                        </li>
+                        <li><a id="node_v3" class="item"><img id="glow" src="../../img/slider/Virophilia.png"></a></li>
+                        <li><a id="node_v4" class="item"><img id="node" onclick="gotoMalgo_Kaczm()"
+                                    src="../../img/slider/LawofRelat.png"></a></li>
+                    </ul>
+                    <ul class="group" id="orangeGroup">
+                        <li><a class="item" onclick="openOrange()"><img id="orangeNode"
+                                    src="../../img/slider/Orange.png"></a></li>
+                        <li><a id="node_or1" class="item"><img id="node" onclick="gotoMarta_Baczyk()"
+                                    src="../../img/slider/Morphism.png"></a></li>
+                        <li><a id="node_or2" class="item"><img id="node" onclick="gotoAlex_May()"
+                                    src="../../img/slider/AlgorithmicPhot.png"></a>
+                        </li>
+                        <li><a id="node_or3" class="item"><img id="node" onclick="gotoPiotr_Slomc()"
+                                    src="../../img/slider/ContaclesRoot.png"></a>
+                        </li>
+                        <li><a id="node_or4" class="item"><img id="node" onclick="gotoDiana_Taukin()"
+                                    src="../../img/slider/DefinedNot.png"></a></li>
+                    </ul>
+                    <ul class="group" id="redGroup">
+                        <li><a class="item" onclick="openRed()"><img id="redNode" src="../../img/slider/Red.png"></a>
+                        </li>
+                        <li><a id="node_r1" class="item"><img id="node" onclick="gotoJadwSubc_Drif()"
+                                    src="../../img/slider/DriftingPart.png"></a>
+                        </li>
+                        <li><a id="node_r2" class="item"><img id="node" onclick="gotoPaulin_Misial()"
+                                    src="../../img/slider/CallIn.png"></a></li>
+                        <li><a id="node_r3" class="item"><img id="node" onclick="gotoJoan_Hoffm()"
+                                    src="../../img/slider/VitruvianWomand.png"></a></li>
+                        <li><a id="node_r4" class="item"><img id="node" onclick="gotoJadwSubc_Mars()"
+                                    src="../../img/slider/Marsquakes.png"></a></li>
+                    </ul>
+                    <ul class="group" id="greenGroup">
+                        <li><a class="item" onclick="openGreen()"><img id="greenNode"
+                                    src="../../img/slider/Green.png"></a>
+                        </li>
+                        <li><a id="node_gr1" class="item"><img id="node" onclick="gotoJill_Sc_Maril_Hah()"
+                                    src="../../img/slider/Aftertaste.png"></a></li>
+                        <li><a id="node_gr2" class="item"><img id="node" onclick="gotoAnna_Dum_Alex_May()"
+                                    src="../../img/slider/BiotechFromBlue.png"></a>
+                        </li>
+                        <li><a id="node_gr3" class="item"><img id="node" onclick="gotoJoan_Hof_Andr_Bart()"
+                                    src="../../img/slider/Papilla.png"></a>
+                        </li>
+                    </ul>
+                    <ul class="group" id="violetGroup2">
+                        <li><a class="item" onclick="openViolet()"><img id="violetNode"
+                                    src="../../img/slider/Violet.png"></a></li>
+                        <li><a id="node_v1_1" class="item"><img id="node" onclick="gotoMaria_Subc()"
+                                    src="../../img/slider/BrolenLinks.png"></a>
+                        </li>
+                        <li><a id="node_v2_1" class="item"><img id="node" onclick="gotoLarys_lub()"
+                                    src="../../img/slider/RegnumAnimale.png"></a>
+                        </li>
+                        <li><a id="node_v3_1" class="item"><img id="glow" src="../../img/slider/Virophilia.png"></a>
+                        </li>
+                        <li><a id="node_v4_1" class="item"><img id="node" onclick="gotoMalgo_Kaczm()"
+                                    src="../../img/slider/LawofRelat.png"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <!---->
+        <div id="groupBackg" onclick="closePopup()">
+        </div>
+        <div class="groupPopup" id="violetPopup">
+            <div class="groupParag">
+                <div class="group_tittle" id="violet">
+                    <span>Living Systems</span>
+                </div>
+                <div class="paragraph">
+                    <p>
+                        By exploring the richness of the relations in healthy ecosystems, we find abundance, great
+                        efficiency and resilience. At the same time, on many occasions we can clearly see the
+                        connections between man and its environment being fragmented, if not lost. ‘<b>Broken Links</b>’
+                        by
+                        Maria Subczyńska and ‘<b>Regnum animale</b>’ by Larys Lubowicki question the anthropocentric
+                        attitude
+                        and underline the importance of maintaining the ecosystems’ equilibrium and reconnecting with
+                        their networks. While the artists refer to fungi and wild animals, ‘<b>Virophilia</b>’ by
+                        Pei-Ying Lin
+                        explores the invisible world of viruses, which despite their importance and omnipresence, elude
+                        our perception. ‘<b>The Law of Relationship & Interdependence</b>’ – a performance by Małgorzata
+                        Kaczmarek, underlines the fact that the various forms of symbiotic relations and processes are
+                        indispensable for our habitat to exist.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        <!---->
+        <div class="groupPopup" id="orangePopup">
+            <div class="groupParag">
+                <div class="group_tittle" id="orange">
+                    <span>Tracing Links</span>
+                </div>
+                <div class="paragraph">
+                    <p>
+                        To express the complexity of our dynamic environment, artists experiment with various tools and
+                        strategies. In a short, elegant animation titled ‘<b>Morphism</b>’, Marta Bączyk retraces
+                        silhouettes
+                        of her own relatives, creating the mycelium-like entanglements, in which an individual being
+                        cannot be distinguished from the others. Retracing also relates to the passing time. In the
+                        ‘<b>Algorithmic Photography</b>’ series, Alex May captures the unnoticed patterns of movements
+                        in our
+                        environment. revealing them with the use of a specially designed algorithm. Similarly, an
+                        original code guides two other artworks – ‘<b>Contactless Root Interface</b>’ by Piotr
+                        Słomczewski and
+                        ‘<b>defined_not</b>’ by Diana Taukin. The former uses a metaphor of the root to draw connections
+                        between the virtual and physical realities. The latter underlines the importance of nature-based
+                        inspirations, using biomimicry as a tool for perfecting and diversifying human design.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        <!---->
+        <div class="groupPopup" id="redPopup">
+            <div class="groupParag">
+                <div class="group_tittle" id="red">
+                    <span>Shifting Horizons</span>
+                </div>
+                <div class="paragraph">
+                    <p>
+                        Speculation over the possible future(s) offers various perspectives. In one of them, after
+                        destroying the natural habitats, people drift away into oblivion. In ‘<b>Drifting Particles</b>’
+                        by
+                        Jadwiga Subczyńska an intelligent substance takes over the post-apocalyptic reality, often
+                        taking anthropomorphic shapes. In this gesture, the artist ironically comments on the condition
+                        of our connection to nature. In turn, Paulina Misiak, the author of ‘<b>CALL IN</b>’ series,
+                        presents
+                        different scales and viewpoints, inviting us to go beyond our daily, centrifugal
+                        perception.<br><br>
+                        Another perspective enforces the interconnectivity of various layers of reality, merging them in
+                        a vision of one, hybrid whole, that has the potential to function better than the sum of its
+                        elements. ‘<b>Vitruvian WoMan</b>’ by Joanna Hoffmann, with sound by Andre Bartetzki is a
+                        statement of
+                        such hybrid reality, offering the positive reflection over the growing common awareness of us as
+                        ‘creative participants of Nature’. In ‘<b>Marsquakes</b>’ by Jadwiga Subczyńska the idea of
+                        digital
+                        plants ‘living on Mars’ serves an optimistic vision of transferring human needs for existing
+                        with nature to another level. Artist envisions that the colonization of Mars may be viewed not
+                        necessarily as an escape or abandonment, but as a quest for new qualities.<br><br>
+                        The above visions and pathways enforce the necessity to actively take care of the present day,
+                        for the benefit of the future.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        <!---->
+        <div class="groupPopup" id="greenPopup">
+            <div class="groupParag">
+                <div class="group_tittle" id="green">
+                    <span>Hybrid Realities</span>
+                </div>
+                <div class="paragraph">
+                    <p>
+                        Our universe is built up out of an enormous number of linkages made on every possible scale,
+                        of dynamic, interactive networks of constantly exchanging data. From the Millenium
+                        Simulation of the universe's structure, through the inter-connection of global ecological
+                        systems, to the neural networks and world wide web – we can see that our digital and
+                        technological networks and strategies have more in common with the physical and biological
+                        evolutionary processes we can grasp.<br><br>
+                        Even by observing ourselves, we discover the complexity of data and structures interactions.
+                        Taking an example of a sensory perception system, '<b>Aftertaste</b>' by Jill Scott &
+                        Marille Hahne
+                        reveals how we are constantly and incessantly fusing with the outside world at the molecular
+                        level. Being one of the projects implemented as part of the CHIC ASN Artists-in-Residence
+                        Program, 'Aftertaste' shows how molecules obtained from the chicory root influence our
+                        gustatory and olfactory systems. The second work of CHIC ASN A-I-R Program –
+                        '<b>Biotechnology
+                            from the Blue Flower</b>' by Anna Dumitriu & Alex May refers to the chicory’s blue
+                        flower and
+                        its symbolic meaning. The human perspective of understanding the natural world is translated
+                        here into the cultural heritage that unites us with the environment. Recalling the time of
+                        Goethe and industrial revolution, the artwork takes upon the topic of the ongoing,
+                        biotechnological one. Today’s transformations and biotechnological trends are also a theme
+                        of '<b>Rhizone: PapiLLa</b>' by Joanna Hoffmann, with soundscape by Andre Bartetzki. The
+                        artwork,
+                        inspired by the rhizosphere and relation between plants and the symbiotic, nitrogen-fixing
+                        bacteria occurring in the root nodules, emphasizes the complexity and entanglement of
+                        biological and technological structures.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener("contextmenu", function (e) {
+            e.preventDefault();
+        }, false);    
+    </script>
+    <script src="../../js/level_3.js"></script>
+    <script src="../../js/slider.js"></script>
+    <script src="../../js/sliderScreens.js"></script>
+</body>
+
+</html>

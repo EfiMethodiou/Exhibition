@@ -1,0 +1,59 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+#level_0 {
+  -webkit-user-select: none;
+  display: none;  /*  <-- none*/
+  position: fixed;
+  z-index: 999999;
+  width: 100%;
+  height: 100%;
+  background: -webkit-linear-gradient(#14435f, #f07338);  
+  overflow: hidden; 
+}
+
+#logoim {
+  position: absolute;
+  width: 0%;
+  top: 20%;
+  left: 30%;
+  overflow: visible;  
+  animation: appear1 5.5s normal 0.8s forwards ; 
+}
+@keyframes appear1 {
+    from {
+      width: 0;
+    }
+    to{    
+      width: 40%;
+    }
+  }
+
+#ART__SCIENCE_NODE_presents {
+  top: 72%;
+  margin-left: 34%;
+  position: absolute;
+  overflow: visible;  
+  text-align: center;
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.3vw;
+  color: rgba(20, 67, 95, 1);
+  opacity: 0;
+  text-shadow: 0px 10px 10px rgba(0, 0, 0, 0.7);
+  animation: appear2 3s normal 2s forwards ;
+}
+@keyframes appear2 {
+	from{
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
