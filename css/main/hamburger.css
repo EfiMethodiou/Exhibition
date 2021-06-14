@@ -8,13 +8,11 @@
 }
 
 #menu {
-  position: relative;
-  width: 296px;
-  height: 419px;
+  position: relative; 
   margin-left: 5%;
   top: 0.5vw;
   overflow: visible; 
-  z-index: 100;  
+  z-index: 100;    
 }
 
 #hamburger {

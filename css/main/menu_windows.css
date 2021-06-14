@@ -39,6 +39,7 @@ div::-webkit-scrollbar-thumb {
   left: 7%;
   margin-top: 8%;
   border-radius: 20px;
+  border: 2px solid cyan;
 }
 
 .scrolPar{
@@ -156,12 +157,16 @@ div::-webkit-scrollbar-thumb {
 }
 
 @media screen and (max-width: 700px) {
+  .menuwindow {
+    z-index: 100;
+  }
   #title {
     top: 4vw;
   }
   #paragraph {
     margin: 10% 5%;
     font-size: 1.5vw;
+    
   }
   #thelink a{  
     font-size: 1.5vw;   

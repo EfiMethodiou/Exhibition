@@ -15,7 +15,7 @@
 #explore img {
   position: absolute;
   width: 4vw;
-  z-index: 10;  
+  z-index: 10;
 }
 
 .glowbackground {
@@ -33,6 +33,18 @@
   }
   to {
     box-shadow: 0 0 1.5vw 1.5vw #a09ea1;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #explore img {
+    width: 7vw;
+    z-index: 100;
+  }
+  .glowbackground {
+    width: 5vw;
+    height: 5vw;
+    
   }
 }
 
@@ -58,9 +70,6 @@
   overflow: visible;
   cursor: pointer;
 }
-#popup_capture img{
+#popup_capture img {
   width: 22vw;
 }
-
-
-

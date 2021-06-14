@@ -44,9 +44,12 @@ function closeRhizo() {
 function closeMenu() {
   document.getElementById("menuCheck").checked = false;
   document.getElementById("menuBackg").style.display = "none";
+  document.getElementById("menu").style.zIndex = 0;
+  
 }
 function openMenuBack() {
   document.getElementById("menuBackg").style.display = "block";
+  document.getElementById("menu").style.zIndex = 1000;
 }
 function openPopup() {
   document.getElementById("popup_capture").style.display = "block";
