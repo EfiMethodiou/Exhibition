@@ -17,7 +17,7 @@
             <div class="right"></div>
         </div>
         <div>
-            <a onclick="enlarge()" >
+            <a onclick="enlarge()">
                 <i id="compress" class="fas fa-compress-alt"></i>
             </a>
         </div>
@@ -68,7 +68,7 @@
 
         </div>
 
-        <!---->       
+        <!---->
 
         <div class="container" id="container">
             <!---->
@@ -192,7 +192,6 @@
             height: 22vw;
             /*border: 2px solid coral;*/
         }
-
         .containervid {
             position: absolute;
             margin-top: 15%;
@@ -200,7 +199,6 @@
             width: 40%;
             height: 22vw;
         }
-
         /* Hide the images by default */
         .mySlides {
             display: none;
@@ -210,15 +208,12 @@
             width: 85%;
             margin-left: 8%;
         }
-
         .mySlidesvid {
             display: none;
         }
-
         .cursor {
             cursor: pointer;
         }
-
         /* Next & previous buttons */
         .prev,
         .next {
@@ -232,8 +227,6 @@
             user-select: none;
             -webkit-user-select: none;
         }
-
-        /* Position the "next button" to the right */
         .next {
             right: -1%;
         }
@@ -252,12 +245,26 @@
         #compress {
             position: absolute;
             font-size: 1.2vw;
-            color: white;   
-            width: auto;         
-            margin-left: 98.2%;  
-            margin-top: 1%;         
-            cursor: pointer;          
-            display: none;              
+            color: white;
+            width: auto;
+            margin-left: 98.2%;
+            margin-top: 1%;
+            cursor: pointer;
+            display: none;
+        }
+
+        @media screen and (max-width:700px) {
+            #compress {               
+                font-size: 2.5vw;
+                margin-left: 95%;  
+                z-index: 100;
+            }
+            .fullsc {
+                font-size: 2vw;
+            }
+            .prev, .next{
+                width: 3%;
+            }
         }
     </style>
 
@@ -287,7 +294,7 @@
                 vid.style.display = "none";
                 x.style.display = "none";
                 next.style.width = "1%";
-                prev.style.width = "1%";                            
+                prev.style.width = "1%";
                 compress.style.display = "block";
                 expand.style.display = "none";
                 cont.style.transition =

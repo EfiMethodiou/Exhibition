@@ -213,3 +213,11 @@ EXTRA INFORMATION BUTTONS
 }
 
 
+@media screen and (max-width:700px){
+  #level_2_projects {
+    min-height: 55vw;
+  } 
+  #x  {
+    width: 2.5%;    
+  }     
+}

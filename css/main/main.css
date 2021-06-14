@@ -70,7 +70,7 @@ body {
   padding: 0.5% 1%;
   /*border: 2px solid red;*/
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .description {
     margin-top: 38vw;
   }

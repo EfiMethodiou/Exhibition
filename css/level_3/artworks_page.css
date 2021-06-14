@@ -13,6 +13,11 @@
   height: 100%;
   overflow: hidden;
 }
+@media screen and (max-width:700px){
+  .artwork_page  {
+    min-height: 55vw;
+  }    
+}
 
 /*GO BACK BUTTON*/
 #x {
@@ -55,4 +60,10 @@
 #x:hover .right {
   transform: rotate(45deg);
   background-color: #f07338;
+}
+@media screen and (max-width:700px){
+  #x  {
+    width: 2.5%;
+    top: 10px;
+  }    
 }

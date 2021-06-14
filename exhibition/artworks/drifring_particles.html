@@ -259,9 +259,21 @@
             color: white;
             font-size: 1.1vw;
         }
-
         #compress {
             display: none;
+        }
+        @media screen and (max-width:700px) {
+            #compress {               
+                font-size: 1vw;
+                margin-top: -50%; 
+                z-index: 100;
+            }
+            .fullsc {
+                font-size: 2vw;
+            }
+            .prev, .next{
+                width: 4%;
+            }
         }
     </style>
 
