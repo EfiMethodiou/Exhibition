@@ -12,18 +12,9 @@
   z-index: 999999;
   width: 100%;
   height: 100%;
-  background: black; /*-webkit-linear-gradient(#14435f, #f07338); */ 
+  background: -webkit-linear-gradient(#14435f, #f07338);  
   overflow: hidden; 
 }
-
-#trailer{
-  position: absolute;
-  z-index: 1000; 
-  min-width: 100%;
-  height: 53vw; 
-  /*border: 2px solid cadetblue;   */
-}
-
 
 #logoim {
   position: absolute;
