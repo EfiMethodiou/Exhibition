@@ -6,13 +6,14 @@
 */
 
 //the loader will appear only the first time that the user opens the page
-
+//var trailerVid = document.getElementById("trailer");
 function firstLoad() { 
   var loadedProgress = sessionStorage.getItem('loadedProgress') || false; 
   if(loadedProgress){
     document.getElementById("level_0").style.display = "none";    
   }else{
-    document.getElementById("level_0").style.display = "block";       
+    document.getElementById("level_0").style.display = "block";
+   // trailerVid.play();       
     setTimeout(function () {
       $(".level_0").fadeToggle();  
       document.body.style.overflow = "visible";
