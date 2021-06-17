@@ -19,14 +19,16 @@ function firstLoad() {
 }
 window.onload = firstLoad();
 
-function startTrailer(){
-  trailerVid.play();   
-  document.getElementById("playTrailer").style.display = "none"; 
-  myTimeOut =setTimeout(function () {
-    $(".level_0").fadeToggle();  
-    trailerVid.pause();
-    document.body.style.overflow = "visible";
-  }, 47000);
+function startTrailer() {
+  trailerVid.play();
+  document.getElementById("playTrailer").style.display = "none";
+  trailerVid.onended = function () {
+    myTimeOut = setTimeout(function () {
+      $(".level_0").fadeToggle();
+      trailerVid.pause();
+      document.body.style.overflow = "visible";
+    }, 150);
+  };
 }
 
 function endTrailer(){
