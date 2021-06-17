@@ -14,6 +14,7 @@ body{
   width: 100%;
   height: 100%;  
   overflow: hidden;
+  display: block;
 }
 #bg {
   position: fixed;
@@ -226,7 +227,7 @@ EXTRA INFORMATION BUTTONS
 }
 
 
-@media screen and (max-width:700px){
+@media screen and (max-width:900px){
   #level_2_projects {
     min-height: 55vw;
   } 

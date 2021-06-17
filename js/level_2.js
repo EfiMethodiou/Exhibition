@@ -39,9 +39,10 @@ function closePopupMenu() {
 }
 
 /*
-  Go to level2 page*/
+  Go to level3 page*/
 var vid = document.getElementById("animation");
 function gotoArtist() {
+  document.getElementById("level_2_projects").style.display = "none";
   document.getElementById("animBack").style.display = "block";
   vid.play();
 
