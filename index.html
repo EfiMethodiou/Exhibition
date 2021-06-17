@@ -23,19 +23,18 @@
 </head>
 
 <body>
-	<!--Loader-->
-	<div class="level_0" id="level_0">
-		<img id="logoim" src="img/logo.png">
-		<h2>
-			<a id="ART__SCIENCE_NODE_presents">ART & SCIENCE NODE presents</a>
-		</h2>
-		<!--
-			<video id="trailer" controls title="trailer" preload="metadata" playsinline="true"
-		autoplay="true" muted>
-		<source src="img/test.mp4" type="video/mp4">						
-		</video>
-		-->
-	</div>
+<!--Loader-->
+<div class="level_0" id="level_0">
+	<h2 id="skipTrailer" onclick="endTrailer()">
+		SKIP 
+	</h2>
+	<h2 id="playTrailer" onclick="startTrailer()">
+		PLAY 
+	</h2>
+	<video id="trailer" preload="metadata" playsinline="true">
+	<source src="img/trailer10.mp4#t=1.5" type="video/mp4">						
+	</video>				
+</div>
 
 	<!--________________________________-->
 	<div id="main" onmousedown="return false">

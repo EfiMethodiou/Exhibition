@@ -12,7 +12,7 @@
   z-index: 999999;
   width: 100%;
   height: 100%;
-  background: -webkit-linear-gradient(#14435f, #f07338); 
+  background: black; 
   overflow: hidden; 
 }
 
@@ -20,49 +20,39 @@
   position: absolute;
   z-index: 1000; 
   min-width: 100%;
-  height: 53vw; 
-  border: 2px solid cadetblue;  
+  height: 53vw;    
 }
 
 
-#logoim {
-  position: absolute;
-  width: 0%;
-  top: 20%;
-  left: 30%;
-  overflow: visible;  
-  animation: appear1 5.5s normal 0.8s forwards ; 
-}
-@keyframes appear1 {
-    from {
-      width: 0;
-    }
-    to{    
-      width: 40%;
-    }
-  }
-
-#ART__SCIENCE_NODE_presents {
-  top: 72%;
-  margin-left: 34%;
+#playTrailer {
+  margin-top: 26%;
+  margin-left: 49vw;
   position: absolute;
   overflow: visible;  
   text-align: center;
-  font-family: 'Titillium Web';
-  font-style: normal;
-  font-weight: bold;
-  font-size: 2.3vw;
-  color: rgba(20, 67, 95, 1);
-  opacity: 0;
-  text-shadow: 0px 10px 10px rgba(0, 0, 0, 0.7);
-  animation: appear2 3s normal 2s forwards ;
+  font-family: 'Titillium Web';  
+  font-size: 1.5vw;
+  font-weight: 500;
+  color: white; 
+  text-shadow: 0 0 5px #fff, 0 0 10px #a09ea1, 0 0 15px #a09ea1, 0 0 20px #a09ea1;
+  z-index: 10000;
+  cursor: pointer;
 }
-@keyframes appear2 {
-	from{
-		opacity: 0;
-	}
-	to {
-		opacity: 1;
-	}
+
+
+#skipTrailer {
+  margin-top: 45%;
+  margin-left: 95%;
+  position: absolute;
+  overflow: visible;  
+  text-align: center;
+  font-family: 'Titillium Web';  
+  font-size: 1.5vw;
+  font-weight: 500;
+  color: white; 
+  text-shadow: 0 0 5px #fff, 0 0 10px #a09ea1, 0 0 15px #a09ea1, 0 0 20px #a09ea1;
+  z-index: 10000;
+  cursor: pointer;
 }
+
 

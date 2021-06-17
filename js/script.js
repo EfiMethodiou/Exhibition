@@ -6,23 +6,36 @@
 */
 
 //the loader will appear only the first time that the user opens the page
-//var trailerVid = document.getElementById("trailer");
+var myTimeOut;
+var trailerVid = document.getElementById("trailer");  
 function firstLoad() { 
   var loadedProgress = sessionStorage.getItem('loadedProgress') || false; 
   if(loadedProgress){
     document.getElementById("level_0").style.display = "none";    
   }else{
-    document.getElementById("level_0").style.display = "block";
-   // trailerVid.play();       
-    setTimeout(function () {
-      $(".level_0").fadeToggle();  
-      document.body.style.overflow = "visible";
-    }, 7000);
+    document.getElementById("level_0").style.display = "block";    
     sessionStorage.setItem('loadedProgress', true);
   }  
 }
 window.onload = firstLoad();
 
+function startTrailer(){
+  trailerVid.play();   
+  document.getElementById("playTrailer").style.display = "none"; 
+  myTimeOut =setTimeout(function () {
+    $(".level_0").fadeToggle();  
+    trailerVid.pause();
+    document.body.style.overflow = "visible";
+  }, 47000);
+}
+
+function endTrailer(){
+  console.log("yes");
+  trailerVid.pause();
+  myTimeOut =setTimeout(function () {
+    $(".level_0").fadeToggle();     
+  },250);
+}
 
 /*________________MAIN_______PAGE__________*/
 /*Open popups from the menu*/
