@@ -49,7 +49,7 @@ function gotoArtist() {
   vid.onended = function(){
     setTimeout(function () {     
     window.location.href = "artist/jill_sc_maril_hah.html";  
-  }, 150);
+  }, 100);
   }
 }
 function gotoMariaSubc() {
