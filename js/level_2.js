@@ -46,9 +46,11 @@ function gotoArtist() {
   document.getElementById("animBack").style.display = "block";
   vid.play();
 
-  setTimeout(function () {
-    window.location.href = "artist/jill_sc_maril_hah.html";
-  }, 5500);
+  vid.onended = function(){
+    setTimeout(function () {     
+    window.location.href = "artist/jill_sc_maril_hah.html";  
+  }, 150);
+  }
 }
 function gotoMariaSubc() {
   window.location.href = "artist/maria_subc.html";
