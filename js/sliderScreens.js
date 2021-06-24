@@ -2,7 +2,7 @@
 HOVER OVER THE PICTURES TO SHOW TITLES OF ARTWORKS
 */
 var screenSize = window.innerWidth;
-console.log(screenSize);
+//console.log(screenSize);
 
 if (screenSize <= 500) {
   

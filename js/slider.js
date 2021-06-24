@@ -3,29 +3,27 @@ function openViolet() {
   document.getElementById("violetPopup").style.display = "block";
   document.getElementById("groupBackg").style.display = "block";
   document.getElementById("infoBackg").style.display = "none";
-  document.getElementById("info_popup_M_S").style.display = "none";
+  //document.getElementById("info_popup_M_S").style.display = "none";
 }
 
 function openOrange() {
   document.getElementById("orangePopup").style.display = "block";
   document.getElementById("groupBackg").style.display = "block";
-  document.getElementById("infoBackg").style.display = "none";
-  document.getElementById("info_popup_M_S").style.display = "none";
+  document.getElementById("infoBackg").style.display = "none";  
 }
 
 function openRed() {
   document.getElementById("redPopup").style.display = "block";
   document.getElementById("groupBackg").style.display = "block";
   document.getElementById("infoBackg").style.display = "none";
-  document.getElementById("info_popup_M_S").style.display = "none";
 }
 
 function openGreen() {
   document.getElementById("greenPopup").style.display = "block";
   document.getElementById("groupBackg").style.display = "block";
   document.getElementById("infoBackg").style.display = "none";
-  document.getElementById("info_popup_M_S").style.display = "none";
 }
+
 function closePopup() {
   document.getElementById("violetPopup").style.display = "none";
   document.getElementById("orangePopup").style.display = "none";
