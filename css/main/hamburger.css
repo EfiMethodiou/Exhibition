@@ -64,7 +64,7 @@
 
 #hamburger input:checked ~ span {
   opacity: 1;
-  transform: rotate(45deg) translate(-2px, 2px);
+  transform: rotate(45deg) translate(-2px, 2.2px);
   background: white;
 }
 
