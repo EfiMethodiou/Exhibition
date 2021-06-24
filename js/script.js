@@ -77,6 +77,7 @@ function openPopup() {
 function closePopCapt() {
   document.getElementById("popup_capture").style.display = "none";
   document.getElementById("popup_captureBackg").style.display = "none";
+ document.getElementById("menu").style.zIndex = 1000;
 }
 
 /*Description animation loops*/
