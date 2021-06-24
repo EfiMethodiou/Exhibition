@@ -90,6 +90,17 @@ div::-webkit-scrollbar-thumb {
 #popup_paragr a{
   color: #f07338;
 }
+#storeIm a{
+  text-decoration: none;    
+}
+#storeIm  a:visited{
+  text-decoration: none;
+  color: black;
+}
+#storeIm img{
+  width: 16%;
+  cursor: pointer;
+}
 
 
 /*CLOSE BUTTON*/
