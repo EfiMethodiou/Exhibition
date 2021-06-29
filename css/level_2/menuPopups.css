@@ -96,6 +96,7 @@ div::-webkit-scrollbar-thumb {
 }
 
 .horizImg{
+  width: 99%;
   height: 25vw;
   padding-left: -30%;
   margin: 0;  
