@@ -40,10 +40,8 @@ div::-webkit-scrollbar-thumb {
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 20px; 
 }
-/*
-#curat_stat, #about__exhibition, #augmented_reality{
-  display: none;
-}*/
+
+
 
 .menu_paragr{
   -webkit-user-select: none;  
@@ -102,7 +100,7 @@ div::-webkit-scrollbar-thumb {
   margin: 0;  
   overflow-x: auto;
   overflow-y: hidden;
-  white-space: nowrap;
+  white-space: nowrap;  
 }
 
 
