@@ -12,38 +12,51 @@
 	<link rel="stylesheet" href="css/main/level_0.css">
 	<link rel="stylesheet" href="css/main/main.css">
 	<link rel="stylesheet" href="css/main/hamburger.css">
-	<link rel="stylesheet" href="css/main/menu_windows.css">	
+	<link rel="stylesheet" href="css/main/menu_windows.css">
 	<!--Loader scripts-->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<!-- Babylon.js -->
 	<script src="https://cdn.babylonjs.com/babylon.js"></script>
 	<script src="https://cdn.babylonjs.com/loaders/babylonjs.loaders.js"></script>
+	<!-- Google Analytics -->
+	<script>
+		(function (i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date(); a = s.createElement(o),
+				m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+		})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+		ga('create', 'G-EGSC5Z0PBZ', 'auto');
+		ga('send', 'pageview');
+	</script>
+	<!-- End Google Analytics -->
 
 </head>
 
 <body>
-<!--Loader-->
-<div class="level_0" id="level_0">
+	<!--Loader-->
+	<div class="level_0" id="level_0">
 		<!--Message for phone sceens (css in level_0)-->
 		<div class="phonescreen">
 			<img src="img/icon_phone.png">
 		</div>
-	<h2 id="skipTrailer" onclick="endTrailer()">
-		SKIP 
-	</h2>
-	<h2 id="playTrailer" onclick="startTrailer()">
-		PLAY 
-	</h2>
-	<video id="trailer"  preload="none" playsinline="true" poster="img/posterTrail.png">
-	<source src="img/trailer.mp4#t=1" type="video/mp4">						
-	</video>				
-</div>
+		<h2 id="skipTrailer" onclick="endTrailer()">
+			SKIP
+		</h2>
+		<h2 id="playTrailer" onclick="startTrailer()">
+			PLAY
+		</h2>
+		<video id="trailer" preload="none" playsinline="true" poster="img/posterTrail.png">
+			<source src="img/trailer.mp4#t=1" type="video/mp4">
+		</video>
+	</div>
 
 	<!--________________________________-->
 	<div id="main" onmousedown="return false">
 		<div id="ASN_RHIZO-NETWORK">
 			<span>ASN RHIZO-NETWORK</span>
-		</div>	
+		</div>
 		<div id="menuBackg" onclick="closeMenu()">
 		</div>
 		<div id="menu" class="menu" onclick="closePopCapt(),openMenuBack()">
@@ -189,9 +202,9 @@
 
 
 	<script>/*
-	  document.addEventListener("contextmenu", function (e) {
-		  e.preventDefault();
-	  }, false); */
+	 document.addEventListener("contextmenu", function (e) {
+		 e.preventDefault();
+	 }, false); */
 	</script>
 	<script src="js/script.js"></script>
 	<script src="js/rootmodel.js"></script>
